@@ -1,0 +1,346 @@
+Sample Level II CFA Program  
+Item -Set Questions  
+ 
+TOPIC: ETHICAL AND PROFESSIONAL STANDARDS  
+TOTAL POINT VALUE OF THIS QUESTION SET IS 12 POINTS  
+ 
+Edgar Somer, CFA, was recently hired as a portfolio manager at Karibe Investment 
+Management. Somer previously worked at a rival firm where he produced an average annual 
+return of 11% using a small -cap value strategy.  
+On his first day at Karibe, the firm asks Somer to approve marketing materials that present the 
+following performance disclosures.  
+• Text wh ich states:  “Somer has generated average annual returns of 11%”  
+• The 3 -year performance of a composite of Karibe client accounts that follow a similar 
+small -cap value strategy  
+• A disclosure that the assumptions and calculations underlying the returns presented are 
+publicly available on Karibe’s public website  
+To maintain relationships with clients and to attract prospective clients, Somer is active on 
+social media. He posts a lin k to a news story about a famous athlete who recently paid 
+substantial tax penalties after failing to properly report investment gains. In addition to the link 
+Somer writes the comment: “A client of mine had similar gains, but because I kept proper 
+records  he faced no penalties. #HireAProfessional”. Some responses to the post suggest that 
+readers mistakenly believe the athlete is Somer’s client. Somer does not post a clarifying 
+comment.  
+Somer develops a new quantitative investment strategy that he describes  in marketing 
+materials. The description states that “the strategy is based on eight proven fundamental and 
+technical factors, including well -known factors such as value and momentum as well as certain 
+proprietary factors that have been back -tested. The st rategy includes a dynamic weighting 
+component to adjust the amount allocated to each factor based on prevailing market 
+conditions.” The materials also highlight risks such as “the possibility that the model or its 
+underlying factors may not work out of sam ple,” and “because the weight placed on various 
+factors is dynamic, it may not be suitable for clients who seek steady exposure to certain 
+factors.” One of Somer’s clients agrees to use this strategy. When preparing the first 
+performance report for this cl ient, Somer discovers a coding error that reversed the client’s 
+weightings assigned to the value and momentum factors.  
+Prior to joining Karibe, Somer purchased shares in a small -cap technology firm for his personal 
+portfolio. When he started his new role S omers disclosed the position, which had quadrupled in 
+value since the initial purchase and represented more than 5% of his personal holdings. He had no intention to sell the shares and he recommended them to clients at Karibe, to whom he 
+disclosed his owne rship. After the successful launch of a new product resulted in additional 
+large gains in the shares, Somer now recommends that clients place limit orders when 
+purchasing the shares. Though he remains bullish on the stock he is concerned about the size of 
+his personal position, which is now more than 15% of his portfolio. One of his clients recently 
+placed a limit order at $50 per share, which represents the highest bid in the market. The 
+lowest offer is $52. Somer considers filling the client’s order with some of his own shares at the 
+$50 bid price.  
+ 
+1. To best comply with the CFA Institute Standards of Professional Conduct (the Standards) 
+related to performance presentation, Somer should modify the:  
+ 
+A. text regarding Somer’s investment returns.  
+B. presentation of the performance for Karibe’s representative composite.  
+C. content of the disclosure statement related to assumptions and calculations.  
+2. Does Somer’s social media post result in a violation of the Standards?  
+ 
+A. No. 
+B. Yes, he violates the standard re lated to preservation of confidentiality . 
+C. Yes, he violates the standard related to communication with clients and prospective 
+clients . 
+3. When preparing the marketing materials for the quantitative strategy, did Somer comply 
+with the standard related to commu nication with clients and prospective clients?  
+ 
+A. Yes. 
+B. No, because he did not identify the risk of coding errors . 
+C. No, because he did not describe the investment process in detail . 
+4. If he fills the client’s order for shares of the technology firm, would Somer violate the 
+standard related to priority of transactions?  
+ 
+A. No. 
+B. Yes, because the client would be disadvantaged by the trade . 
+C. Yes, because he would benefit personally from a trade undertaken for a client . 
+ 
+ 
+ 
+ 
+ TOPIC: FINANCIAL STATEMENT ANALYSIS  
+TOTAL POINT VALUE OF THIS QUESTION SET IS 12 POINTS  
+ 
+Paris Rousseau, a wealth manager at a US -based investment management firm, is meeting with 
+a new client. The client has asked Rousseau to make recommendations regarding his portfolio’s 
+exposure to liquid  alternative investments, specifically publicly traded real estate investments 
+and commodity futures.  
+Publicly Traded Real Estate  
+Rousseau believes that the client should increase his portfolio's allocation to publicly traded 
+real estate through equity REI Ts. She collects financial information for the three office REITs 
+presented in Exhibit 1.  
+Exhibit 1  
+ Autier REIT  Bissorte REIT  Chambon 
+REIT  
+Current market price per share ($)  161.58  137.86  42.20  
+Last 12 -months net operating income (NOI  in $ millions)  1,085.80  1,826.12  431.79  
+Last 12 -months funds from operations (FFO in $ millions)  877.42  1,085.84  328.79  
+Cash and equivalents ($ millions)  80.38  140.63  4.25  
+Accounts receivable and prepaid/other assets ($ millions)  109.30  504.32  11.35  
+Non -cash (straight -line) rent adjustment ($ millions)  20.55  0.00  5.45  
+Recurring maintenance -type capital expenditures ($ millions)  54.52  75.85  8.75  
+Leasing costs & tenant improvement allowances ($ millions)  19.34  29.23  13.34  
+Total debt outstanding and other liabilities ($ millions)  7,049.29  12,236.03  2,222.97  
+Shares outstanding (millions)  115.15  154.62  146.76  
+Office sub -sector forecast 12 -month growth in NOI and FFO  1.50%  
+Office sub -sector average capitalization rate  5.75%  
+Office sub -sector average P/FFO multiple  20x 
+ 
+Rousseau computes adjusted funds from operations (AFFO) per share and net asset value per 
+share (NAVPS) for each REIT in Exhibit 1.  
+Rousseau also considers recommending OceanFront Partners, a condominium devel oper 
+operating as a publicly -traded real estate operating company (REOC), for inclusion in the 
+client’s portfolio. In a recent analyst conference call, the CEO of OceanFront announced plans to significantly increase the firm’s retention ratio to fund sever al new acquisitions and 
+development projects. Specifically, the CEO explained that OceanFront recently purchased 
+several vacant lots in a popular beach -front community following a zoning change which allows 
+for construction of high -rise condominiums.  
+Commo dity Futures  
+Rousseau notes that the client’s portfolio currently has a futures position in gold. The client’s 
+gold futures contracts are nearing expiration. Rousseau notes that gold futures are currently in 
+contango, and she recommends rolling forward the  client’s position while maintaining the same 
+dollar exposure in gold futures.  
+ 
+5. The AFFO per share for Autier REIT over the last 12 -months is closest to: 
+A. $6.80.  
+B. $7.16.  
+C. $8.43 . 
+ 
+6. The NAVPS for Bissorte REIT is closest  to: 
+ 
+A. $129.34.  
+B. $130.43.  
+C. $133.51.  
+ 
+7. The most  appropriate method for estimating the intrinsic value of  OceanFront  is based on:  
+ 
+A. P/AFFO.  
+B. net asset value.  
+C. discounted cash flow.  
+ 
+8. If the client implements Rousseau’s recommendation, the number of gold futures contracts 
+in his portfolio  will most l ikely : 
+ 
+A. decrease.  
+B. stay the same.  
+C. increase.  
+  Answers to Sample Level II Item -Set Questions  
+ 
+1. To best comply with the CFA Institute Standards of Professional Conduct (the Standards) 
+related to performance presentation, Somer should modify the:  
+ 
+A. text regarding Somer’s investment returns.  
+B. presentation of the performance for Karibe’s representative composite.  
+C. content of the disclosure statement related to assumptions and calculations.  
+ 
+Answer: A  
+ 
+A is correct because Somer’s returns are not clearly explained as being generated at his prior 
+firm. If a firm is not claiming GIPS compliance, “Members and candidates can also meet their 
+obligations under Standard III(D) b y including disclosures that fully explain the performance 
+being reported .” 
+ 
+B is incorrect because the marketing materials present the performance of a composite of 
+similar portfolios.  
+ 
+C is incorrect because the materials direct prospective clients to the website where a full 
+disclosure of the assumptions and calculations are ava ilable  
+ 
+2. Does Somer’s social media post result in a violation of the Standards?  
+ 
+A. No. 
+B. Yes, he violates the standard related to preservation of confidentiality . 
+C. Yes, he violates the standard related to communication with clients and prospective clients . 
+ 
+Answer: A  
+ 
+A is correct because Somer did not reveal the identity of his client (Standard III(E)). The context 
+of the comment (he helped his client avoid penalties) contradicts the mistaken conclusion of 
+the readers of the social media post (the athlete in  question had to pay penalties so obviously 
+was not his client). He also does not violate the standard related to communication (Standard 
+V(B)) because it applies to 1) disclosure of the format and general principles of the investment 
+process; 2) significa nt limitations and risks of the investment process; 3) identifying important 
+factors for their analysis and recommendations; and 4) distinguishing between fact and opinion 
+in investment analyses and recommendations. His post did not relate to any of these and thus 
+is not a potential violation of the standard.  
+ 
+B is incorrect because Somer does not violate the standard related to confidentiality because 
+the athlete in the news story is not his client, and the information that he helped his own client avoid t ax penalties by keeping good records does not provide enough information to disclose 
+the client’s identity.  
+ 
+C is incorrect because Somer does not violate the standard related to communication (Standard 
+V(B)) because it applies to 1) disclosure of the form at and general principles of the investment 
+process; 2) significant limitations and risks of the investment process; 3) identifying important 
+factors for their analysis and recommendations; and 4) distinguishing between fact and opinion 
+in investment analy ses and recommendations. His post did not relate to any of these and thus 
+is not a potential violation of the standard, but certain candidates and/or exam team writers 
+who think that communications with clients includes a duty to correct everyone who 
+misun derstands you may choose this answer.  
+3. When preparing the marketing materials for the quantitative strategy, did Somer comply 
+with the standard related to communication with clients and prospective clients?  
+ 
+A. Yes. 
+B. No, because he did not identify the risk of coding errors . 
+C. No, because he did not describe the investment process in detail . 
+ 
+Answer: A  
+ 
+A is correct because he did not violate Standard V(B). With respect to informing clients of the 
+investment process, the guidance stipulates that when explaining th e process one “need not 
+describe the investment system in detail… but must inform clients of (the) basic process and 
+logic.” The explanation of Somer’s process as factor -based with weights dynamically allocated 
+meets this criterion. Regarding risk identifi cation, “members and candidates cannot be 
+expected to disclose risks they are unaware of at the time…. Having no knowledge of a risk or 
+limitation that subsequently triggers a loss may reveal a deficiency in the diligence and 
+reasonable basis… but may not reveal a breach of Standard V(B).”  
+ 
+B is incorrect because “members and candidates cannot be expected to disclose risks they are 
+unaware of at the time…. Having no knowledge of a risk or limitation that subsequently triggers 
+a loss may reveal a deficiency in the diligence and reasonable basis… but may not reveal a 
+breach of Standard V(B).”  
+ 
+C is incorrect because when explaining the process one “need not describe the investment 
+system in detail… but must inform clients of (the) basic process and logic.” (Example 1 p. 141) 
+The explanation of Somer’s process as factor -based with weights dynamically allocated meets 
+this criterion.  
+4. If he fills the client’s order for shares of the technology firm, would Somer violate the 
+standard related to priority of  transactions?  
+ 
+A. No. B. Yes, because the client would be disadvantaged by the trade . 
+C. Yes, because he would benefit personally from a trade undertaken for a client . 
+ 
+Answer: C  
+ 
+C is correct because the guidance for Standard VI(B) specifies that “nothing is inherently 
+unethical about… making money from personal investments as long as (1) the client is not 
+disadvantaged by the trade, (2) the investment professional does not persona lly benefit from 
+trades undertaken for clients, and (3) the investment professional complies with applicable 
+regulatory requirements.” In this case, Somer would personally benefit from a trade 
+undertaken for a client by realizing a large gain and reducing the portfolio risk arising from his 
+large position, which results in several potential conflicts of interest. At a minimum he would 
+need to disclose to the client that he was filling the order from his own account and seek 
+permission from Karibe to do so.  
+ 
+A is incorrect because Somer would personally benefit from a trade undertaken for a client by 
+realizing a large gain and reducing the portfolio risk arising from his large position, which results 
+in several potential conflicts of interest. At a minimum h e would need to disclose to the client 
+that he was filling the order from his own account and seek permission from Karibe to do so.  
+ 
+B is incorrect because the client is not disadvantaged by the trade (and in fact gets the order 
+filled at a discount to th e prevailing market price ). 
+ 
+ 
+ 
+5. The AFFO per share for Autier REIT over the last 12 -months is closest to: 
+A. $6.80.  
+B. $7.16.  
+C. $8.43  
+ 
+Answer: A  
+  
+A is correct because "AFFO is most often defined as FFO adjusted to remove any non -cash rent 
+and to subtract maintenance -type capital expenditures and leasing costs (including leasing 
+agent's commissions and tenants' improvement allowances)" The computation for Autier REIT 
+is as follows:  
+Last 12 -Months Funds From Operations (FFO)  $877.42 million  
+     Less: Non -Cash Rents  20.55 million  
+     Less:  Recurring CapEx (Maintenance)  54.52 million  
+     Less:  Leasing Cost & Tenant Allowances  19.34 million  Adjusted Funds From Operations (AFFO)  $783.01 million  
+To arrive at Adjusted Funds From  Operations (AFFO) per share, divide AFFO by the number of 
+shares outstanding (115.15 million).  
+Correct AFFO per share  = $783.01 / 115.15 = $6.7999 ≈ $6.80  
+B is incorrect . In this case non -cash rents get added to FFO instead of subtracting them . 
+C is incorrect . In this case the adjustments are added instead of subtracted .  
+6. The NAVPS for Bissorte REIT is closest to:  
+ 
+A. $129.34.  
+B. $130.43.  
+C. $133.51.  
+ 
+Answer: C  
+ 
+C is correct because "NAVPS is the difference between a real estate company’s assets and its 
+liabil ities, all taken at current market values instead of accounting book values, divided by the 
+number of shares outstanding" The Net Asset Value (NAV) for Bissorte REIT is correctly 
+computed as:  
+Net Operating Income (Last 12 Months)  $1,826.12 million  
+     Less: Non -Cash Rents  0.00 million  
+     Times: (1+ Forecast growth in NOI)  x 1.015  
+Estimated Next 12 -Months Cash NOI  $1,853.51 million  
+     Divide: Capitalization Rate  / 0.0575  
+Estimated Value of Operating Real Estate  $32,234.99 million  
+     Plus: Cash and Equivalents  140.63 million  
+     Plus: A/R and Prepaids/Other Assets  504.32 million  
+     Less: Total Debt & Other Liabilities  12,236.03 million  
+Net Asset Value (NAV)  $20,643.91 million  
+The candidate then divides the NAV computed above by the number of shares Bissorte REIT has 
+outstanding (154.62) to arrive at the correct NAVPS.  
+Correct NAVPS = $20,643.91 / 154.62 = $133.51  A is incorrect .  In this case the current assets of "Cash and Equivalents" and "Accounts 
+Receivable and Prepaid/Other Assets" in the computation of NAV  are not added back.  
+B is incorrect . In this case NAV is computed using the next 12 -months forecast  NOI, not last 12 -
+months NOI as presented in the exhibit.  
+7. The most appropriate method for estimating the int rinsic value of  OceanFront  is based on:  
+ 
+A. P/AFFO.  
+B. net asset value.  
+C. Discounted cash flow.  
+ 
+Answer: B  
+ 
+B is correct because net asset value (NAV) explicitly considers "land held for future 
+development" and is not affected by changes in dividends. As noted in the case,  "In a recent 
+analyst conference call the CEO of OceanFront announced plans to increase the firm’s retention 
+ratio to fund several new acquisitions and development projects. Specifically, he explained that 
+OceanFront recently acquired sev eral vacant lots in a popular beach -front  community following 
+a zoning change which allows for construction of high -rise condominiums." Thus, OceanFront 
+has recently acquired "land held for future development" and the transactions are recent. This 
+combined  with the fact that dividends are being lowered to begin development of these 
+properties makes NAV the best choice for estimating OceanFront's intrinsic value.   
+ 
+A is incorrect because "applying a multiple to FFO or AFFO may not capture the intrinsic value  of 
+all real estate assets held by the REIT or REOC; for example, land parcels and empty buildings may 
+not currently produce income and hence do not contribute to FFO (and AFFO ) but  have value ”. 
+C is incorrect because the discounted cash flow (DCF) approac h is most appropriate and 
+applicable when REITs and REOCs "return a significant portion of their income to their investors." 
+In this case, "In a recent analyst conference call the CEO of OceanFront announced plans to 
+significantly increase the firm’s reten tion ratio to fund several new acquisitions and development 
+projects ”. 
+ 
+8. If the client implements Rousseau’s recommendation, the number of gold futures contracts 
+in his portfolio  will most likely:  
+ 
+A. decrease.  
+B. stay the same.  
+C. increase.  
+ 
+Answer: A  
+ A is correct because "gold futures are currently in contango" and will require buying  fewer 
+contracts to meet Rousseau's goal of "maintaining the  same dollar exposure in gold futures." In 
+the readings: "A portfolio may require buying more far contracts tha n the near contracts being 
+sold. Investors can observe this scenario if backwardation is driving the shape of the commodity 
+futures price curve." In the opposite case, if the futures price curve shape is being driven by 
+contango –with a higher futures price  in the far contract –this scenario will require the purchase 
+of fewer commodity contracts than in the near position.  
+B is incorrect  because "gold futures are current ly in contango" and will require buying  fewer 
+contracts to meet Rousseau's goal of "mainta ining the  same dollar exposure in gold futures." The 
+number of required contracts would only remain the same if the price of the expiring near 
+contract is equal to the price of the far contract the investor is rolling into.  
+ 
+C is incorrect  because "gold f utures are current ly in contango" and will require buying  fewer 
+contracts to meet Rousseau's goal of "maintaining the  same dollar exposure in gold futures," not 
+more contracts. The number of required contracts would only increase if the futures market was 
+in backwardation.  
+ 
+ 

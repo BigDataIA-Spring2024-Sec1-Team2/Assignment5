@@ -1,0 +1,316 @@
+Sample Level I II Item -Set Questions  
+ 
+TOPIC: ETHICAL AND PROFESSIONAL STANDARDS  
+TOTAL POINT VALUE OF THIS QUESTION SET IS 12 POINTS  
+Edgar Somer, CFA, was recently hired as a portfolio manager at Karibe Investment 
+Management. Somer previously worked at a rival firm where he produced an average annual 
+return of 11% using a small -cap value strategy.  
+On his first day at Karibe, the firm asks Somer to approve marketing materials that present the 
+following performance disclosures.  
+• Text which states:  “Somer has generated average annual returns of 11%”  
+• The 3 -year performance of a composite of Karibe client accounts that follow a similar 
+small -cap value strategy  
+• A disclosure that the assumptions and calculations underlying the returns presented are 
+publicly availab le on Karibe’s public website  
+To maintain relationships with clients and to attract prospective clients, Somer is active on 
+social media. He posts a link to a news story about a famous athlete who recently paid 
+substantial tax penalties after failing to pr operly report investment gains. In addition to the link 
+Somer writes the comment: “A client of mine had similar gains, but because I kept proper 
+records he faced no penalties. #HireAProfessional”. Some responses to the post suggest that 
+readers mistakenly believe the athlete is Somer’s client. Somer does not post a clarifying 
+comment.  
+Somer develops a new quantitative investment strategy that he describes in marketing 
+materials. The description states that “the strategy is based on eight proven fundamental and 
+technical factors, including well -known factors such as value and momentum as well as certain 
+proprietary factors that have been back -tested. The strategy includes a dynamic weighting 
+component to adjust the amount allocated to each factor based on pre vailing market 
+conditions.” The materials also highlight risks such as “the possibility that the model or its 
+underlying factors may not work out of sample,” and “because the weight placed on various 
+factors is dynamic, it may not be suitable for clients w ho seek steady exposure to certain 
+factors.” One of Somer’s clients agrees to use this strategy. When preparing the first 
+performance report for this client, Somer discovers a coding error that reversed the client’s 
+weightings assigned to the value and mom entum factors.  
+Prior to joining Karibe, Somer purchased shares in a small -cap technology firm for his personal 
+portfolio. When he started his new role Somers disclosed the position, which had quadrupled in 
+value since the initial purchase and represented m ore than 5% of his personal holdings. He had 
+no intention to sell the shares and he recommended them to clients at Karibe, to whom he 
+disclosed his ownership. After the successful launch of a new product resulted in additional 
+large gains in the shares, So mer now recommends that clients place limit orders when purchasing the shares. Though he remains bullish on the stock he is concerned about the size of 
+his personal position, which is now more than 15% of his portfolio. One of his clients recently 
+placed a  limit order at $50 per share, which represents the highest bid in the market. The 
+lowest offer is $52. Somer considers filling the client’s order with some of his own shares at the 
+$50 bid price.  
+ 
+1. To best comply with the CFA Institute Standards of Professional Conduct (the Standards) 
+related to performance presentation, Somer should modify the:  
+ 
+A. text regarding Somer’s investment returns.  
+B. presentation of the performance for Karibe’s representative composite.  
+C. content of the disclosure statement related to assumptions and calculations.  
+2. Does Somer’s social media post result in a violation of the Standards?  
+ 
+A. No 
+B. Yes, he violates the standard related to preservation of confidentiality  
+C. Yes, he violates the standard related to communication wi th clients and prospective 
+clients  
+3. When preparing the marketing materials for the quantitative strategy, did Somer comply 
+with the standard related to communication with clients and prospective clients?  
+ 
+A. Yes 
+B. No, because he did not identify the risk of codi ng errors  
+C. No, because he did not describe the investment process in detail  
+4. If he fills the client’s order for shares of the technology firm, would Somer violate the 
+standard related to priority of transactions?  
+ 
+A. No 
+B. Yes, because the client would be disadvan taged by the trade  
+C. Yes, because he would benefit personally from a trade undertaken for a client  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ TOPIC: FIXED INCOME  
+TOTAL POINT VALUE OF THIS QUESTION SET IS 12 POINTS  
+Alexander Apollo manages bond portfolios for high -net-worth clients. He is reviewing the 
+corporate bond holdings in the following three portfolios:  
+Portfolio 1: Investment -grade, non -callable, fixed -rate bonds  
+Portfolio 2: Investment -grade, floating -rate bonds  
+Portfolio 3: High -yield bonds with diversified call and coupon feature s 
+Apollo calculates the expected 6 -month excess return for corporate Bond A using information 
+from Exhibit 1. He assumes the current spread duration will not change.  
+Exhibit 1  
+Current OAS  120 bps  
+Expected OAS in 6 months  130 bps  
+Expected annual credit loss  0.30%  
+Spread duration  2.0 
+Apollo invests globally in the high -yield credit markets. He can hedge clients' foreign exchange 
+exposure into their domestic currency at minimal cost. He compares the credit markets shown 
+in Exhibit 2 to evaluate ex pected performance in a near -term bullish global environment.  
+Exhibit 2  
+ Market 1  Market 2  Market 3  
+Credit quality of outstanding 
+high -yield bonds  High concentration of 
+CCC-rated bonds  High concentration of 
+BB-rated bonds  High concentration of 
+CCC-rated bonds  
+Expected supply of newly issued 
+high -yield bonds  High  Low Low 
+One of Apollo's clients prefers to invest in a structured product that offers exposure to financial 
+sector debt and has more than one source of credit protection. He evaluates the 
+appropriateness of the following three structured financial instruments: covered bonds, asset -
+backed securities, and collateralized debt obligations.  
+ 
+ 
+ 5. For which portfolio is the spread duration likely to be closest to the modified duration?  
+A. Portfolio 1  
+B. Portfolio 2  
+C. Portfolio 3  
+ 
+6. The expected 6 -month excess return for Bond A is closest to:  
+ 
+A. −0.05%.  
+B. 0.25%.  
+C. 0.65%.  
+ 
+7. Which high -yield credit market in Exhibit 2  would be expected to perform best in the near 
+term?  
+ 
+A. Market 1  
+B. Market 2  
+C. Market 3  
+ 
+8. Which of the following structured financial instruments would best  address  the preferences 
+of Apollo's client?  
+ 
+A. Covered bonds  
+B. Asset -backed securities  
+C. Collatera lized debt obligations  
+  Answers to Sample Level I II Item -Set Questions  
+ 
+1. To best comply with the CFA Institute Standards of Professional Conduct (the Standards) 
+related to performance presentation, Somer should modify the:  
+ 
+A. text regarding Somer’s investment returns.  
+B. presentation of the performance for Karibe’s representative composite.  
+C. content of the disclosure statement related to assumptions and calculations.  
+ 
+Answer: A  
+ 
+A is correct because Somer’s returns are not clearly explained as being generated at his prior 
+firm. If a firm is not claiming GIPS compliance, “Members and candidates  can also meet their 
+obligations under Standard III(D) by including disclosures that fully explain the performance 
+being reported.”  
+ 
+B is incorrect because the marketing materials present the performance of a composite of 
+similar portfolios.  
+ 
+C is incorre ct because the materials direct prospective clients to the website where a full 
+disclosure of the assumptions and calculations are available  
+ 
+2. Does Somer’s social media post result in a violation of the Standards?  
+ 
+A. No 
+B. Yes, he violates the standard related t o preservation of confidentiality  
+C. Yes, he violates the standard related to communication with clients and prospective 
+clients  
+ 
+Answer: A  
+ 
+A is correct because Somer did not reveal the identity of his client (Standard III(E)). The context 
+of the comment (he helped his client avoid penalties) contradicts the mistaken conclusion of 
+the readers of the social media post (the athlete in question had to pay penalties so obviously 
+was not his client). He also does not violate the standard related to comm unication (Standard 
+V(B)) because it applies to 1) disclosure of the format and general principles of the investment 
+process; 2) significant limitations and risks of the investment process; 3) identifying important 
+factors for their analysis and recommenda tions; and 4) distinguishing between fact and opinion 
+in investment analyses and recommendations. His post did not relate to any of these and thus 
+is not a potential violation of the standard.  
+ 
+B is incorrect because Somer does not violate the standard rel ated to confidentiality because 
+the athlete in the news story is not his client, and the information that he helped his own client avoid tax penalties by keeping good records does not provide enough information to disclose 
+the client’s identity.  
+ 
+C is inco rrect because Somer does not violate the standard related to communication (Standard 
+V(B)) because it applies to 1) disclosure of the format and general principles of the investment 
+process; 2) significant limitations and risks of the investment process; 3 ) identifying important 
+factors for their analysis and recommendations; and 4) distinguishing between fact and opinion 
+in investment analyses and recommendations. His post did not relate to any of these and thus 
+is not a potential violation of the standard , but certain candidates and/or exam team writers 
+who think that communications with clients includes a duty to correct everyone who 
+misunderstands you may choose this answer.  
+3. When preparing the marketing materials for the quantitative strategy, did Somer comply 
+with the standard related to communication with clients and prospective clients?  
+ 
+A. Yes 
+B. No, because he did not identify the risk of coding errors  
+C. No, because he did not describe the investment process in detail  
+ 
+Answer: A  
+ 
+A is correct because he did not violate Standard V(B). With respect to informing clients of the 
+investment process, the guidance stipulates that when explaining the process one “need not 
+describe the investment system in detail… but must inform clients of (the) basic process and 
+logic.” The explanation of Somer’s process as factor -based with weights dynamically allocated 
+meets this criterion. Regarding risk identification, “members and candidates cannot be 
+expected to disclose risks they are unaware of at the time…. Having no knowledg e of a risk or 
+limitation that subsequently triggers a loss may reveal a deficiency in the diligence and 
+reasonable basis… but may not reveal a breach of Standard V(B).”  
+ 
+B is incorrect because “members and candidates cannot be expected to disclose risks t hey are 
+unaware of at the time…. Having no knowledge of a risk or limitation that subsequently triggers 
+a loss may reveal a deficiency in the diligence and reasonable basis… but may not reveal a 
+breach of Standard V(B).”  
+ 
+C is incorrect because when expla ining the process one “need not describe the investment 
+system in detail… but must inform clients of (the) basic process and logic.” (Example 1 p. 141) 
+The explanation of Somer’s process as factor -based with weights dynamically allocated meets 
+this criteri on. 
+4. If he fills the client’s order for shares of the technology firm, would Somer violate the 
+standard related to priority of transactions?  
+ 
+A. No B. Yes, because the client would be disadvantaged by the trade  
+C. Yes, because he would benefit personally from a trade undertaken for a client  
+ 
+Answer: C  
+ 
+C is correct because the guidance for Standard VI(B) specifies that “nothing is inherently 
+unethical about… making money from personal investments as long as (1) the client is not 
+disadvantaged by the trade, (2) th e investment professional does not personally benefit from 
+trades undertaken for clients, and (3) the investment professional complies with applicable 
+regulatory requirements.” In this case, Somer would personally benefit from a trade 
+undertaken for a clie nt by realizing a large gain and reducing the portfolio risk arising from his 
+large position, which results in several potential conflicts of interest. At a minimum he would 
+need to disclose to the client that he was filling the order from his own account and seek 
+permission from Karibe to do so.  
+ 
+A is incorrect because Somer would personally benefit from a trade undertaken for a client by 
+realizing a large gain and reducing the portfolio risk arising from his large position, which results 
+in several poten tial conflicts of interest. At a minimum he would need to disclose to the client 
+that he was filling the order from his own account and seek permission from Karibe to do so.  
+ 
+B is incorrect because the client is not disadvantaged by the trade (and in fact  gets the order 
+filled at a discount to the prevailing market price).  
+ 
+ 
+ 
+ 
+ 
+5. For which portfolio is the spread duration likely to be closest to the modified duration?  
+A. Portfolio 1  
+B. Portfolio 2  
+C. Portfolio 3  
+ 
+Answer: A  
+  
+A is correct because interest rate changes and credit spread changes have almost identical 
+effects on non -callable, fixed -rate corporate bonds. For non -callable,  fixed -rate corporate 
+bonds, spread duration is generally very  close to modified duration.  
+B is incorrect because Portfolio 2 cont ains floating rate bonds. "For floating -rate bonds (also 
+called floaters) and some other types of bonds, however, the spread  duration can differ 
+substantially from the modified duration."  C is incorrect  because Portfolio 3  has a diversified set of callabi lity and coupons features which 
+includes callable and floating rate bonds with lower sensitivity to interest rate changes.  The 
+much higher credit loss rate experienced on high -yield  bonds compared with  investment -
+grade  bonds results in higher credit spread  changes.    
+6. The expected 6 -month excess return for Bond A is closest  to: 
+ 
+A. −0.05% . 
+B. 0.25% . 
+C. 0.65% . 
+ 
+Answer: B 
+ 
+B is correct based on calculations below  
+EXR ≈ ( s × t) - (Δs × SD) - (t × p × L) 
+EXR = expected  excess return  
+s = spread at the beginning of the holding period  
+t = the holding period expressed in fractions of a year  
+Δs = the change in the credit spread during the holding period determined by expected OAS in 6 
+months minus current OAS in bps  
+SD = the spread durati on of the bond  
+p × L = expected annual credit loss where  p = the annualized expected probability of default and  
+L = the expected loss severity  
+(1.2% ×  0.5) - ((1.3% - 1.2%) ×  2) - (0.5 × 0.3%) = 0.25%  
+A is incorrect  because the calculation swaps the spread duration and holding period in the 2nd 
+and 3rd parts of the equation.  
+C is incorrect because the calculation  reverses expected OAS and current OAS in change in 
+credit spread calculation.  
+7. Which high -yield credit market in Exhibit 2  would be expected to perform best  in the near 
+term?  
+ 
+A. Market 1  
+B. Market 2  
+C. Market 3   
+Answer: C 
+ 
+C is correct because Market 3 has a high concentration in lower -rated HY bonds, as well as a 
+lower expected supply of HY Bonds. Markets with a higher concentration in lower -rated bonds 
+and/or  lower bond supply would likely outperform  in an expected bullish global environment.    
+A is incorrect because Market 1  has a high expected supply of HY bonds.  Markets with a higher 
+concentration in lower -rated bonds and/or  lower bo nd supply would likely outperform  in an 
+expected bullish global environment.   
+B is incorrect because Market 2 has a high concentration in higher -rated HY bonds.  Markets with 
+a higher concentration in lower -rated bonds and/or  lower bond supply would likely 
+outperform  in an expected bullish global environment.   
+8. Which of the following structured financial instruments would best  address  the preferences 
+of Apollo's client?  
+ 
+A. Covered bonds  
+B. Asset -backed securities  
+C. Collateralized debt obligations  
+ 
+Answer: A  
+ 
+A is correct because covered bonds provide more than one source of credit protection.  “In the 
+event of default, bondholders have recourse against both the financial institution and the 
+assets in the cover pool. Because of this dual protection for creditors , covered bonds usually 
+carry lower credit risks and offer lower yields than otherwise similar corporate bonds or ABS.”  
+B is incorrect  because asset -backed securities do not provide more than one source of credit 
+protection.   
+ 
+C is incorrect  because collat eralized debt obligations do not offer more than one source of credit 
+protection. Also, CDOs do not offer exposure to financial sector,  “CDOs do not provide much 
+diversification benefit compared with corporate bonds, and they do not offer unique exposure 
+to a sector or market factor.”  

@@ -1,0 +1,704 @@
+Sample Level I Multiple Choice  Questions  
+ 
+ 
+ 
+1. Sammy Sneadle, CFA, is the founder and portfolio manager of the Everglades Fund.  In 
+its first year the fund generated a return of 30 percent. Building on the fund’s 
+performance, Sneadle created new marketing materials that showed the fund’s gross 1 - 
+year return as well as the 3 and 5 -year returns which he calculated by using back -tested 
+performance information. As the marketing material is used only for presentations to 
+institutional clients, Sneadle does not mention the inclusion of back -tested data. 
+Acco rding to the Standards of Practice Handbook , how did Sneadle violate CFA Institute 
+Standards of Professional  Conduct?  
+ 
+A. He did not disclose the use of back -tested  data.  
+B. He failed to deduct all fees and expenses before calculating the fund’s track  record.  
+C. The marketing materials only include the Everglades Fund’s performance and are not 
+a weighted composite of similar  portfolios.  
+ 
+ 
+2. Roberto Vargas, CFA, is in charge of the compliance program at his investment firm. 
+According to the Standards of Practice Handbo ok, as a supervisor, Vargas is least likely 
+required  to: 
+ 
+A. respond promptly to all  violations.  
+B. disseminate the contents of the program to all  personnel.  
+C. incorporate a professional conduct evaluation as part of an employee’s performance 
+review.  
+ 
+ 
+3. Regarding the definition of the firm, the GIPS Standards require all of the  following  
+except : 
+ 
+A. firms must be defined as an investment  firm.  
+B. a firm’s organization alters historical composite  results.  
+C. total firm assets must be the aggregate of the market value of all discretionary and 
+nondiscretionary assets under  management.  
+ 
+ 
+4. Under which measurement scale is data categorized, but not  ranked?  
+ 
+A. An ordinal  scale.  
+B. A nominal  scale.  
+C. An interval  scale.  5. The joint probability of events A and B is 32 perc ent with the probability of event A 
+being 60 percent and the probability of event B being 50 percent. Based on this 
+information, the conditional probability of event A given event B has occurred is closest 
+to: 
+ 
+A.  30.0%.  
+B.  53.3%.  
+C.  64.0%.  
+ 
+ 
+6. If a firm’s long -run average cost of production increases by 15 percent as a result of an 8 percent 
+increase in production the firm is most likely  experiencing:  
+ 
+A. economies of  scale.  
+B. diseconomies of  scale.  
+C. constant returns to  scale.  
+ 
+ 
+7. A company currently ha s a debt -to-equity ratio of 1.25.  Common shareholder’s equity  is 
+$4,000,000, consisting of 1.5 million shares outstanding with a current price of $28/share. 
+Part of the company’s debt currently outstanding is $1,000,000 of convertible  bonds.  
+Each $1,000 p ar value bond can be converted into 50 common shares at any time during 
+the next three years. The coupon rate on the bonds is 6 percent with interest paid 
+annually. If all convertible bonds are converted, the company’s debt -capital ratio is 
+closest  to: 
+ 
+A.  42.5%.  
+B.  44.4%.  
+C.  80.0%.  
+ 
+ 
+8. A company has just issued $5 million of mandatory redeemable preferred shares with a 
+par value of $100 per share and a 7 percent dividend. The issue matures in 5 years. 
+Which of the following statements is least likely correct?  The  company’s:  
+ 
+A. Debt/Total capital ratio will  improve.  
+B. interest coverage ratio will  deteriorate.  
+C. preferred shareholders will rank below debt holders should the company file for 
+bankruptcy.  9. The following selected information is from a company’s most recent financial  statements:  
+ 
+ (£ millions)  
+ 2008  2007  
+Sales  2,801  2,885  
+Cost of Goods  Sold 1,969  2,071  
+Interest  Expense  123 110 
+   
+Cash & Marketable  Securities  108 105 
+Accounts  Receivable  318 286 
+Inventories  248 285 
+   
+Accounts  Payable  361 346 
+Notes  Payable  50 99 
+ 
+The 2008 cash conversion cycle, in days, is closest  to: 
+ 
+A.  23. 
+B.  26. 
+C.  28. 
+ 
+ 
+10. An analyst has calculated the following ratios for a  company:  
+ 
+Number of days of  receivables  48 
+Number of days of  inventory  37 
+Number of days of  payables  28 
+ 
+The cash conversion cycle for the company is closest  to: 
+ 
+A. 57 days.  
+B. 85 days.  
+C. 113 days.  
+ 
+ 
+11. An analyst is developing net present value (NPV) profiles for two investment projects. 
+The only difference between the two projects is that Project 1 is expected to receive 
+larger cash flows early in the life of the project, while Project 2 is expected to receive 
+larger cash flows late in the life of the project. The slope of the NPV profile for Project 1 
+when compared to the slope of the NPV profile for Project 2 is most  likely : 
+ 
+A. equal.  
+B. flatter.  
+C. steeper.  12. A company wants to determine the cost of equity to use in the calculation of its weighted 
+average cost of capital.  The CFO has gathered the following  information:  
+ 
+Rate of return on 3 -month Treasury  bills 3.0%  
+Rate of return on 10 -year Treasury  bonds  3.5%  
+Market equity risk  premium  6.0%  
+The c ompany’s estimated  beta 1.6 
+The company’s after -tax cost of  debt 8.0%  
+Risk premium of equity over  debt 4.0%  
+Corporate tax  rate 35% 
+ 
+Using the bond -yield -plus-risk-premium approach, the cost of equity for the company  is 
+closest  to: 
+ 
+A.  10.6%.  
+B.  12.0%.  
+C.  16.3%.  
+ 
+ 
+13. A company’s $100 par perpetual preferred stock has a dividend rate of 7 percent and a 
+required rate of return of 11 percent. The company’s earnings are expected to grow at a 
+constant rate of 3 percent per year.  If the market price per share for the preferred stock  is 
+$75, the preferred stock is most appropriately described as  being:  
+ 
+A. overvalued by  $11.36.  
+B. undervalued by  $15.13.  
+C. undervalued by  $36.36.  
+ 
+ 
+14. An analyst gathers the following information about two companies for the year ending 31 
+December  2008:  
+ 
+ Company  1 Company  2 
+Dividend payout  ratio 37.5%  40.0%  
+Return on  assets  12% 10.0%  
+Financial  leverage  1.6 2.0 
+ 
+Which of the following best describes the expected growth rate of Company 1? The 
+expected growth rate of Company 1 compared  to Company 2  is: 
+ 
+A. lower.  
+B. greater.  
+C. the same.  15. An equity analyst working for a growth oriented mutual fund has a tendency to misvalue 
+the stocks of popular companies that she has previously recommended and the fund 
+already owns.  Her behavior is most likely consistent with which of the following  biases?  
+ 
+A. Escalation  bias 
+B. Prospect  theory  
+C. Confirmation  bias 
+ 
+ 
+16. A portfolio manager is evaluating investments in mortgage securities as part of a 
+portfolio to fund long term liabilities. If she wants to minimize prepayment risk in her 
+portfolio she is most likely to invest  in: 
+ 
+A. mortgage  loans.  
+B. mortgage passthrough  securities.  
+C. collateralized mortgage  obligations.  
+ 
+ 
+17. An investor purchases a 1 -month out -of-the-money American call option on a stock. A 
+week later, the stock price is less than the call option strike price. The time value of the 
+option is most  likely : 
+ 
+A. Zero . 
+B. A positive  amount.  
+C. A negative  amount.  
+ 
+ 
+18. Compared to investors with long investment time horizons, investors with short 
+investment time horizons most likely  require:  
+ 
+A. less liquidity and less emphasis on capital  appreciation.  
+B. more liquidity and less emphas is on capital  appreciation.  
+C. less liquidity and greater emphasis on capital  appreciation.  
+ 
+ 
+19. A primary motivation for investment in commodities is most likely  the: 
+ 
+A. positive correlation of commodities with unexpected  inflation.  
+B. positive correlation of commod ities with stock and bond  investments.  
+C. positive volatility of commodities relative to stock and bond  investments.  20. Which of the following statements regarding the Markowitz efficient frontier is least 
+likely to be correct?  The optimal portfolio  for: 
+ 
+A. an investor is the portfolio that lies on the efficient frontier and provides her with the 
+greatest level of  utility.  
+B. an investor is found at the point of tangency between the efficient frontier and an 
+investor’s highest utility  curve.  
+C. a more risk-averse investor will lie inside the efficient frontier but will lie outside the 
+efficient frontier for a less risk -averse  investor.  
+ 
+ 
+ 
+Answers are provided beginning on the next  page.  Answers to Sample Level I Multiple Choice  Questions  
+ 
+1. Samm y Sneadle, CFA, is the founder and portfolio manager of the Everglades Fund.  In 
+its first year the fund generated a return of 30 percent. Building on the fund’s 
+performance, Sneadle created new marketing materials that showed the fund’s gross 1 - 
+year retu rn as well as the 3 and 5 -year returns which he calculated by using back -tested 
+performance information. As the marketing material is used only for presentations to 
+institutional clients, Sneadle does not mention the inclusion of back -tested data. 
+Accordin g to the Standards of Practice Handbook , how did Sneadle violate CFA Institute 
+Standards of Professional  Conduct?  
+ 
+A. He did not disclose the use of back -tested  data.  
+B. He failed to deduct all fees and expenses before calculating the fund’s track  record.  
+C. The marketing materials only include the Everglades Fund’s performance and are not 
+a weighted composite of similar  portfolios.  
+ 
+ANSWER:  A 
+“Guidance for Standards I -VII,” CFA Institute 
+2009 Modular Level I, Vol. 1, pp. 64 -65 
+Study Sessions  1-2-a 
+Demonstrate a t horough knowledge of the Code of Ethics and Standards of Professional 
+Conduct by applying the Code and Standards to situations involving issues of 
+professional  integrity.  
+ 
+The CFA Institute Standard on Duties to Clients, Standard III (D), prohibits 
+members /candidates from making any statements that misrepresent the performance 
+achieved by them or their firms and requires every reasonable effort to be made to ensure 
+that performance information is fair, accurate, and complete.  By failing to clearly 
+identify  the simulated performance results, Snead violated the standard. Snead should 
+have disclosed the fact that the returns were generated only in one year of the fund’s 
+operation and the other performance information was  back -tested.  
+Standard III (D) Duties to  Clients: Performance  Presentation.  
+ 
+ 
+2. Roberto Vargas, CFA, is in charge of the compliance program at his investment firm. 
+According to the Standards of Practice Handbook , as a supervisor, Vargas is least likely 
+required  to: 
+ 
+A. respond promptly to all  violati ons. 
+B. disseminate the contents of the program to all  personnel.  
+C. incorporate a professional conduct evaluation as part of an employee’s performance 
+review.  
+ 
+ANSWER:  B 
+“Guidance for Standards I -VII,” CFA Institute 
+2009 Modular Level I, Vol. 1, pp.  76-78 Study Sessions  1-2-a 
+Demonstrate a thorough knowledge of the Code of Ethics and Standards of Professional 
+Conduct by applying the Code and Standards to situations involving issues of 
+professional  integrity.  
+ 
+According to Standard IV (C) Duties t o Employers: Responsibilities of Supervisors, 
+members must make reasonable efforts to detect and prevent violations of applicable 
+laws, rules, regulations, and the Code and Standards. Supervisors must disseminate the 
+contents of the program to appropriate personnel. It is unnecessary to disseminate the 
+contents of the program to all  employees.  
+ 
+ 
+3. Regarding the definition of the firm, the GIPS Standards require all of the  following  
+except : 
+ 
+A. firms must be defined as an investment  firm.  
+B. a firm’s organization al ters historical composite  results.  
+C. total firm assets must be the aggregate of the market value of all discretionary and 
+nondiscretionary assets under  management.  
+ 
+ANSWER:  B 
+“Global Investment Performance Standards,” CFA Institute, 2005 
+2009 Modular Level I, Vol. 1, p. 134  
+Study Session  1–4–b 
+Describe the scope of the GIPS standards with respect to an investment firm’s definition 
+and historical performance  record.  
+ 
+A reorganization of a firm does not permit any alteration of historical composite results. 
+A firm is defined as a distinct business entity and does not include fund sponsors or 
+consultants.  
+Total firm assets must be the aggregate of the market value of all discretionary and 
+nondiscretionary assets under management within the defined firm. This inc ludes both 
+fee-paying and non -fee-paying  assets.  
+ 
+ 
+4. Under which measurement scale is data categorized, but not  ranked?  
+ 
+A. An ordinal  scale.  
+B. A nominal  scale.  
+C. An interval  scale.  
+ 
+ANSWER:  B 
+“Statistical Concepts and Market Returns,” Richard A. Defusco, Dennis W.  McLeavey, 
+Jerald E. Pinto, and David E.  Runkle  
+2009 Modular Level I, Vol. 1, page 242 
+Study Session  2-7-a Differentiate between descriptive statistics and inferential statistics, between a population 
+and a sample, and among the types of measurement  scales.  
+ 
+Data is categorized, but not ranked under a nominal scale. Under an ordinal scale data is 
+ranked, while under an interval scale, data is ranked and separated by equal  intervals.  
+ 
+ 
+5. The joint probability of events A and B is 32 percent with the probability of event A 
+being 60 percent and the probability of event B being 50 percent. Based on this 
+information, the conditional probability of event A given event B has occurred is closest 
+to: 
+ 
+A.  30.0%.  
+B.  53.3%.  
+C.  64.0%.  
+ 
+ANSWER:  C 
+“Prob ability Concepts,” Richard A. Defusco, Dennis W. McLeavey, Jerald E. Pinto, and 
+David E.  Runkle  
+2009 Modular Level I, Vol. 1, p. 325 
+Study Session 2 -8-d, e 
+Distinguish between unconditional and conditional  probability.  
+Calculate and interpret 1) the joint probability of two events, 2) the probability that at 
+least one of the two events will occur, given the probability of each and the joint 
+probability of the two events, and 3) a joint probability of any number of independent 
+events.  
+ 
+The conditional probab ility of A given that B has occurred is equal to the joint 
+probability of A and B divided by the probability of B. In this case, P(A|B) = 
+P(AB)/P(B) = 32%/50% =  64.0%.  
+ 
+ 
+6. If a firm’s long -run average cost of production increases by 15 percent as a result of an 8 percent 
+increase in production the firm is most likely  experiencing:  
+ 
+A. economies of  scale.  
+B. diseconomies of  scale.  
+C. constant returns to  scale.  
+ 
+ANSWER:  B 
+“Output and Costs,” Michael Parkin 
+2009 Modular Level I, Vol. 2, p. 143 
+Study Session  4-17-d 
+Explain the firm’s production function, its properties of diminishing returns and diminishing 
+marginal product of capital, the relation between short -run and long -run costs, a nd how 
+economies and diseconomies of scale affect long -run costs.  As a company faces diseconomies of scale when long -term average production costs rise faster 
+than increases in production. When diseconomies of scale are present, the LRAC curve sl opes 
+upward. The main source of diseconomies of scale is the difficulty of managing a very large 
+enterprise.  
+ 
+ 
+7. A company currently has a debt -to-equity ratio of 1.25.  Common shareholder’s equity  is 
+$4,000,000, consisting of 1.5 million shares outstanding with a current price of $28/share. 
+Part of the company’s debt currently outstanding is $1,000,000 of convertible  bonds.  
+Each $1,000 par value bond can be converted into 50 common shares at any time during 
+the next three years. The coupon rate on the bonds is 6 percent with interest paid 
+annually. If all convertible bonds are converted, the company’s debt -capital ratio is 
+closest  to: 
+ 
+A.  42.5%.  
+B.  44.4%.  
+C.  80.0%.  
+ 
+ANSWER:  B 
+“Long -term Liabilities and Leases,” Elizabeth Gordon and R. Elaine Henry, CFA 
+2009 Modular Level I, Vol. 3, pp.438 -440, 
+“Financial Analysis Techniques,” Thomas R. Robinson, CFA, Jan Hendrik van Greuning, 
+CFA, R. Elaine Henry, CFA, and Michael A.  Broihahn  
+2009 Modular Level I, Vol. 3, p. 511 
+Study Session 9 -38-e, 10-39-d 
+Describe two  types of debt with equity features (convertible debt and debt with warrants) 
+and calculate the effect of issuance of such instruments on a company’s debt  ratios.  
+Demonstrate how ratios are related and how to evaluate a company using a combination 
+of diffe rent ratios.  
+ 
+Under U.S. GAAP, if the bonds are converted, liabilities are decreased by the book value 
+of the bonds, and the equity is increased by the same  amount.  
+Debt/Equity = 1.25; Equity = $4,000,000 
+Debt = 1.25 x $4,000,000 =  $5,000,000  
+Shares issued  on conversion: $1,000,000/$1,000/bond x 50 shares/bond = 50,000 shares 
+Equity Issued:  $1,000,000  
+Debt Reduction: $1,000,000 resulting in $4,000,000  outstanding  
+New Debt/Capital ratio: Debt/(Debt + Equity) = $4,000,000/($4,000,000+$5,000,000) = 
+44.4%  8. A company has just issued $5 million of mandatory redeemable preferred shares with a 
+par value of $100 per share and a 7 percent dividend. The issue matures in 5 years. 
+Which of the following statements is least likely correct?  The  company’s:  
+ 
+A. Debt/Total capital ratio will  improve.  
+B. interest coverage ratio will  deteriorate.  
+C. preferred shareholders will rank below debt holders should the company file for 
+bankruptcy.  
+ 
+ANSWER:  A 
+“Understanding the Balance Sheet,” Thomas R. Robinson, CFA, Jan Hendrik van 
+Greuning, CFA, R. Elaine Henry, CFA, and Michael A. Broihahn,  CFA  
+2009 Modular Level I, Vol. 3, p.220  
+"Long -term Liabilities and Leases,” Elizabeth Gordon and R. Elaine Henry, CFA 
+2009 Modular Level I, Vol. 3 pp.  442-445 
+Study Session 8 -33-h, 9-38-c, 
+Describe the presentation of, and disclosures relating to, financing liabilities. 
+List and explain the components of owners’  equity.  
+ 
+SFAS 150 require that issuers report as liabilities any financial instruments that will 
+require repayment of principal in t he future. Mandatory redeemable preferred shares 
+(which used to be reported as equity) now must be reported as debt; dividends on such 
+stock must be reported as interest expense (consistent with the view that the preferred 
+stock is  debt).  
+ 
+In the Debt/(De bt + Equity) ratio, the Debt will increase making the debt/total capital 
+increase, (the numerator will increase more than the denominator), thus the ratio will 
+increase (deteriorate), not decrease  (improve).  
+ 
+ 
+9. The following selected information is from a c ompany’s most recent financial  statements:  
+ 
+ (£ millions)  
+ 2008  2007  
+Sales  2,801  2,885  
+Cost of Goods  Sold 1,969  2,071  
+Interest  Expense  123 110 
+   
+Cash & Marketable  Securities  108 105 
+Accounts  Receivable  318 286 
+Inventories  248 285 
+   
+Accounts  Payable  361 346 
+Notes  Payable  50 99 
+ 
+The 2008 cash conversion cycle, in days, is closest  to:  
+A.  23. 
+B.  26. 
+C.  28. 
+ 
+ANSWER:  A 
+“Financial Analysis Techniques,” Thomas R. Robinson, CFA, Hennie van Greuning, 
+CFA, Elaine Henry, CFA, and Michael A. Broihahn,  CFA  
+2009 Modular Level I, Vol. 3, pp.  507-509 
+“Working Capital Management,” Edgar A. Norton, Jr., CFA, Kenneth L. Parkinson, and 
+Pamela P. Peterson,  CFA  
+2009 Modular Level I, Vol. 4, pp.89 -93 
+Study Session 10 -39-c, 11-46-a 
+Calculate, classify and interpret activity, liquidity, solvency, profitability, and valuation 
+ratios.  
+Calculate and interpret liquidity measures using selected financial ratios for a company 
+and compare it with peer  companies.  
+ 
+Inventory  Turnover  7.39 COGS/Average  Inventory  1969/(248+285)/2  
+DOH (days on  hand)  49.4 365/Inventory  Turnover  365/7.39  
+Receivable  Turnover  9.27 Sales/Average  Receivables  2801/(318+286)/2  
+DSO (days sales  o/s) 39.4 365/Receivables  Turnover  365/9.27  
+Payables  Turnover  5.57 COGS/Average  Payables  1969/(361+346)/2  
+Days in  Payables  65.5 365/Payables  Turnover  365/5.57  
+Cash Conversion  Cycle  23.3 DOH + DSO – Days  In 
+  Payables   49.4 + 39.4 – 65.5 
+ 
+ 
+10. An analyst has calculated the following ratios for a  company:  
+ 
+Number of days of  receivables  48 
+Number  of days of  inventory  37 
+Number of days of  payables  28 
+ 
+The cash conversion cycle for the company is closest  to: 
+ 
+A. 57 days.  
+B. 85 days.  
+C. 113 days.  
+ 
+ANSWER:  A 
+“Financial Analysis Techniques,” Thomas R. Robinson, CFA, Jan Hendrik van Greuning, 
+CFA, R. Elaine Henry, CFA, and Michael A.  Broihahn  2009 Modular Level I, Vol. 3, p. 508  
+“Working Capital Management,” Edgar A. Norton, Jr., Kenneth L. Parkinson, and 
+Pamela P.  Peterson  
+2009 Modular Level I, Vol. 4, p. 93 
+Study Session 10 -39-c, 11-46-b 
+Calculate , classify, and interpret activity, liquidity, solvency, profitability and valuation 
+ratios.  
+Evaluate overall working capital effectiveness of a company, using the operating and 
+cash conversion cycles, and compare its effectiveness with other peer  companie s. 
+ 
+The cash conversion cycle = number of days of inventory + number of days of 
+receivables – number of days of payables = 48 + 37 – 28 = 57. 
+ 
+ 
+11. An analyst is developing net present value (NPV) profiles for two investment projects. 
+The only difference between the two projects is that Project 1 is expected to receive 
+larger cash flows early in the life of the project, while Project 2 is expected to receive 
+larger cash flows late in the life of the project. The slope of the NPV profile for Project 1 
+when compared to the slope of the NPV profile for Project 2 is most  likely : 
+ 
+A. equal.  
+B. flatter.  
+C. steeper.  
+ 
+ANSWER:  B 
+“Capital Budgeting,” John D. Stowe and Ja cques R. Gagné 
+2009 Modular Level I, Vol. 4, pp.  19-21 
+Study Session  11-44-e 
+Explain the NPV profile, compare and contrast the NPV and IRR methods when 
+evaluating independent and mutually -exclusive projects, and describe the problems that 
+can arise when us ing an  IRR.  
+A delay in the receipt of cash flows (as in Project 2) will make a project’s net present 
+value more sensitive to changes in the discount rate; the increased sensitivity is illustrated 
+by a steeper slope in the net present value  profile.  
+ 
+ 
+12. A com pany wants to determine the cost of equity to use in the calculation of its weighted 
+average cost of capital.  The CFO has gathered the following  information:  
+ 
+Rate of return on 3 -month Treasury  bills 3.0%  
+Rate of return on 10 -year Treasury  bonds  3.5%  
+Market equity risk  premium  6.0%  
+The company’s estimated  beta 1.6 
+The company’s after -tax cost of  debt 8.0%  
+Risk premium of equity over  debt 4.0%  
+Corporate tax  rate 35%  
+Using the bond -yield -plus-risk-premium approach, the cost of equity for the company  is 
+closest  to: 
+ 
+A.  10.6%.  
+B.  12.0%.  
+C.  16.3%.  
+ 
+ANSWER:  C 
+“Cost of Capital,” Yves Courtois, Gene C. Lai, and Pamela P. Peterson 
+2009 Modular Level I, Vol. 4, p. 53  
+Study Session  11-45-h 
+Calculate and interpret the cost of equity capital using  the capital asset pricing model 
+approach, the dividend discount model approach, and the bond -yield -plus risk -premium 
+approach.  
+ 
+The cost of equity using bond -yield -plus-risk-premium approach is the before -tax cost of 
+debt plus the risk premium of equity o ver debt. The before -tax cost of debt is the after - 
+tax cost divided by 1 minus the tax rate. 8.0%/(1 – 0.35) = 12.3%. Adding the risk 
+premium results in 12.3% + 4% =  16.3%.  
+ 
+ 
+13. A company’s $100 par perpetual preferred stock has a dividend rate of 7 percent and a 
+required rate of return of 11 percent. The company’s earnings are expected to grow at a 
+constant rate of 3 percent per year.  If the market price per share for the preferred stock  is 
+$75, the preferred stock is most appropriately described as  being:  
+ 
+A. overvalued by  $11.36.  
+B. undervalued by  $15.13.  
+C. undervalued by  $36.36.  
+ 
+ANSWER:  A 
+“An Introduction to Security Valuation,” Frank K. Reilly and Keith C. Brown 
+2009 Modular Level I, Vol. 5, pp.  122-123 
+Study Session  14-56-c 
+Calculate and interpret the value both of a preferred stock and a common stock using the 
+dividend discount model  (DDM).  
+ 
+Value of perpetual preferred stock = Dividend / Investor’s required rate of  return  
+$7/ 0.11 = $63.64. The stock is overvalued by $75.00 – 63.64 =  $11.36.  14. An analyst gathers the following information about two companies for the year ending 31 
+December  2008:  
+ 
+ Company  1 Company  2 
+Dividend payout  ratio 37.5%  40.0%  
+Return on  assets  12% 10.0%  
+Financial  leverage  1.6 2.0 
+ 
+Which of the following best describes the  expected growth rate of Company 1? The 
+expected growth rate of Company 1 compared to Company 2  is: 
+ 
+A. lower.  
+B. greater.  
+C. the same.  
+ 
+ANSWER:  C 
+“An Introduction to Security Valuation,” Frank K. Reilly and Keith C. Brown 
+2008 Modular Level I, Vol. 5, pp.  146-147 
+Study Session 14 -56-f, g 
+Estimate the dividend growth rate, given the components of the required return on equity 
+and incorporating the earnings retention rate and current stock  price;  
+Describe a process for developing estimated inputs to be used in the DD M, including the 
+required rate of return and expected growth rate of  dividends.  
+ 
+ROE = Return on assets x Financial leverage; 
+Retention rate = 1 – (Payout  ratio);  
+g = Retention rate x Return on  equity  
+Company 1: ROE = 12% x 1.6 = 19.2%; g = (1 – 0.375) =  12% 
+Company 2: ROE = 10% x 2.0 = 20.0%; g = (1 – 0.400) =  12% 
+ 
+ 
+ 
+15. An equity analyst working for a growth oriented mutual fund has a tendency to misvalue 
+the stocks of popular companies that she has previously recommended and the fund 
+already owns.  Her beha vior is most likely consistent with which of the following  biases?  
+ 
+A. Escalation  bias 
+B. Prospect  theory  
+C. Confirmation  bias 
+ 
+ANSWER:  C 
+“Efficient Capital Markets,” Frank K. Reilly and Keith C. Brown 
+2009 Modular Level I, Vol. 5, pp.  83-84 
+Study Session  13-54-d 
+Define behavioral finance and describe overconfidence bias, confirmation bias, and 
+escalation  bias.  
+Confirmation bias refers to the bias of looking for information that supports prior 
+opinions and decisions, which leads to a tendency to misvalue  the stocks of popular 
+companies.  
+ 
+ 
+16. A portfolio manager is evaluating investments in mortgage securities as part of a 
+portfolio to fund long term liabilities. If she wants to minimize prepayment risk in her 
+portfolio she is most likely to invest  in: 
+ 
+A. mortg age loans.  
+B. mortgage passthrough  securities.  
+C. collateralized mortgage  obligations.  
+ 
+ANSWER:  C 
+“Overview of Bond Sectors and Instruments,” Frank J. Fabozzi 
+2009 Modular Level I, Vol. 5, pp. 281 -288. 
+Study Session  15-62-e 
+Describe the types and characteristics  of mortgage -backed securities and explain the cash 
+flow, prepayments, and prepayment risk for each  type.  
+ 
+Collateralized mortgage obligations or CMOs are structured using tranches that 
+redistribute prepayment risk. Certain tranches are protected from rece iving early 
+principal  repayments.  
+ 
+ 
+ 
+17. An investor purchases a 1 -month out -of-the-money American call option on a stock. A 
+week later, the stock price is less than the call option strike price. The time value of the 
+option is most  likely : 
+ 
+A. Zero.  
+B. A positive  amount.  
+C. A negative  amount.  
+ 
+ANSWER:  B 
+“Option Markets and Contracts,” Don M. Chance 
+2009 Modular Level I, Vol. 6, pp.  95-96 
+Study Session  17-70-f 
+Define intrinsic value and time value, and explain their  relationship  
+ 
+An American option will sell for more than its intrinsic value, implying a positive time 
+value.   
+18. Compared to investors with long investment time horizons, investors with short 
+investment time horizons most likely  require:  
+ 
+A. less liquidity and less emphasis on capital  appreciation.  
+B. more liquidity and less emphasis on capital  appreciation.  
+C. less liquidity and greater emphasis on capital  appreciation.  
+ 
+ANSWER:  B 
+“The Asset Allocation Decision,” Frank K. Reilly and Keith C. Brown 
+2009 Modular Level I, Vol. 4, pp. 207  
+Study Session  12-49-d 
+Describe the investment constraints of liquidity, time horizon, tax concerns, legal and 
+regulatory factors, and unique needs and  preferences  
+ 
+Investors with short time horizons generally have a greater need for liquidity and lower 
+risk tolerance because they have less time to recover from any performance shortfalls. 
+Capital appreciation is an aggressive strategy that would not be  appropriate.  
+ 
+ 
+19. A primary motivation for investment in commodities is most likely  the: 
+ 
+A. positive correlation of commodities with  unexpected  inflation.  
+B. positive correlation of commodities with stock and bond  investments.  
+C. positive volatility of commodities relative to stock and bond  investments.  
+ 
+ANSWER:  A 
+“Alternative Investments,” Bruno Solnik and Dennis McLeavey 
+2009 Modular Level  I, Volume 6, pp.  222-223 
+Study Session  18-73-q 
+Explain the motivation for investing in commodities, commodities derivatives, 
+and commodity -linked  securities  
+ 
+A primary motivation for an investment in commodities, commodity derivatives, 
+commodity -linked bo nds, and commodity -linked equity are the diversification benefits 
+provided due to the negative return correlation with other assets and the positive 
+correlation with unexpected  inflation.   
+20. Which of the following statements regarding the Markowitz  efficient frontier is least 
+likely to be correct?  The optimal portfolio  for: 
+ 
+A. an investor is the portfolio that lies on the efficient frontier and provides her with the 
+greatest level of  utility.  
+B. an investor is found at the point of tangency between the efficient frontier and an 
+investor’s highest utility  curve.  
+C. a more risk -averse investor will lie inside the efficient frontier but will lie outside the 
+efficient frontier for a less risk -averse  investor.  
+ 
+ANSWER:  C 
+“An Introduction to Portfolio Management,” Frank K. Reilly and Keith C. Brown 
+2009 Modular Level I, Vol. 4, pp.  244-245 
+Study Session  12-50-g 
+Explain the concept of an optimal portfolio, and show how each investor may have a 
+different optimal  portfolio  
+ 
+The optimal portfolio will be di fferent for investors with different levels of risk aversion, 
+yet it will always lie on the efficient frontier, not inside or outside the  curve.  
+ 
