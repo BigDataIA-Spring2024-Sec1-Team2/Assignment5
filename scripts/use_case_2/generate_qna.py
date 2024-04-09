@@ -6,7 +6,7 @@ import re
 import sys
 import snowflake_setup 
 
-load_dotenv('./config/.env',override=True)
+load_dotenv('config/.env',override=True)
 
 current_directory = os.getcwd()
 sys.path.append(current_directory)
@@ -77,40 +77,44 @@ def generate_set_a(openai_api_key, topic, context):
     history.append(conv)
 
     conv['role'] = "user"
-    conv['content'] = "Generate another set of 10 question and answers. Make sure that there are no duplicates and these questions are different than the previously generated questions. Also, number these questions starting from 11."
+    conv['content'] = "Generate another set of 10 question and their detailed answers. Make sure that there are no duplicates and these questions are different than the previously generated questions. Also, number these questions starting from 11."
     history.append(conv)
 
     response = generate_25_qna(openai_api_key, history)
     print(response)
     qna_set.extend(parse_response(response))
 
-    # conv['role'] = "user"
-    # conv['content'] = "Generate another set of 10 questions. Make sure that there are no duplicates and these questions are different than the previously generated questions. Also, number these questions starting from 21."
-    # history.append(conv)
+    conv['role'] = "user"
+    conv['content'] = "Generate another set of 10 question and their detailed answers. Make sure that there are no duplicates and these questions are different than the previously generated questions. Also, number these questions starting from 11."
+    history.append(conv)
 
-    # response = generate_25_qna(openai_api_key, history)
-    # qna_set.append([s for s in parse_output(response)])
+    response = generate_25_qna(openai_api_key, history)
+    print(response)
+    qna_set.extend(parse_response(response))
 
-    # conv['role'] = "user"
-    # conv['content'] = "Generate another set of 10 questions. Make sure that there are no duplicates and these questions are different than the previously generated questions. Also, number these questions starting from 31."
-    # history.append(conv)
+    conv['role'] = "user"
+    conv['content'] = "Generate another set of 10 question and their detailed answers. Make sure that there are no duplicates and these questions are different than the previously generated questions. Also, number these questions starting from 11."
+    history.append(conv)
 
-    # response = generate_25_qna(openai_api_key, history)
-    # qna_set.append([s for s in parse_output(response)])
+    response = generate_25_qna(openai_api_key, history)
+    print(response)
+    qna_set.extend(parse_response(response))
 
-    # conv['role'] = "user"
-    # conv['content'] = "Generate another set of 10 questions. Make sure that there are no duplicates and these questions are different than the previously generated questions. Also, number these questions starting from 41."
-    # history.append(conv)
+    conv['role'] = "user"
+    conv['content'] = "Generate another set of 10 question and their detailed answers. Make sure that there are no duplicates and these questions are different than the previously generated questions. Also, number these questions starting from 11."
+    history.append(conv)
 
-    # response = generate_25_qna(openai_api_key, history)
-    # qna_set.append([s for s in parse_output(response)])
+    response = generate_25_qna(openai_api_key, history)
+    print(response)
+    qna_set.extend(parse_response(response))
+
+
     return qna_set
 
 
-def generate_25_qna(openai_api_key, history):
+def generate_25_qna(client, history):
     # initialize openai API key
-
-    client = OpenAI(api_key=openai_api_key,)
+    
 
     response = client.chat.completions.create(
         model="gpt-3.5-turbo",
@@ -126,7 +130,7 @@ def parse_response(response):
     next_ques = re.split(r"(?:\d+\.|Question(?:\s+\d+)?:)", questions[1])
     ques["answer"] = next_ques[0].strip()
     res.append(ques)
-
+    print("\n")
     print(ques)
     for i in range(2,len(questions)):
         ques = {}
@@ -134,8 +138,9 @@ def parse_response(response):
         next_ques = re.split(r"(?:\d+\.|Question(?:\s+\d+)?:)", questions[i])
         ques["answer"] = next_ques[0].strip()
         res.append(ques)
-        # print(ques)
-    print(res)  
+        print("\n")
+        print(ques)
+    print("Parsed ", len(res) ) 
     return res
 
 import csv
@@ -143,10 +148,12 @@ import csv
 def save_to_csv(data, file_path):
     print("saving to csv")
     with open(file_path, 'w', newline='', encoding='utf-8') as file:
-        writer = csv.DictWriter(file, fieldnames=['question', 'answer'])
+        fieldnames = ['id', 'question', 'answer']  # Added 'id' to the fieldnames
+        writer = csv.DictWriter(file, fieldnames=fieldnames)
         writer.writeheader()
-        for item in data:
-            writer.writerow({'question': item['question'], 'answer': item['answer']})
+        for idx, item in enumerate(data, start=1):  # Enumerate data to generate ids starting from 1
+            writer.writerow({'id': idx, 'question': item['question'], 'answer': item['answer']})
+        print("Saved the csv to path ", file_path)
 
 
 def main(knowledge_base):
@@ -154,14 +161,22 @@ def main(knowledge_base):
     folder_path = os.getenv("DIR_CFA_WEB")
     openai_api_key = os.getenv("OPENAI_API_KEY")
     context = read_text_files_in_folder(folder_path)
+    client = OpenAI(api_key=openai_api_key,)
     
     print(len(context), len(knowledge_base))
-    ques_ans_set = []
+    ques_ans_set_a = []
     for topic in knowledge_base:
-        print("Processing ")
-        ques_ans_set.extend(generate_set_a(openai_api_key, topic, context))
-        print(len(ques_ans_set))
-    save_to_csv(ques_ans_set, folder_path+"output.csv")
+        print("Processing Set A")
+        ques_ans_set_a.extend(generate_set_a(client, topic, context))
+        print(len(ques_ans_set_a))
+    save_to_csv(ques_ans_set_a, folder_path+"set_a.csv")
+
+    ques_ans_set_b = []
+    for topic in knowledge_base:
+        print("Processing Set B")
+        ques_ans_set_b.extend(generate_set_a(client, topic, context))
+        print(len(ques_ans_set_b))
+    save_to_csv(ques_ans_set_b, folder_path+"set_b.csv")
   
 
 if __name__ == "__main__":

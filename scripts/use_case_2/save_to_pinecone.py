@@ -37,30 +37,32 @@ def generate_embeddings(texts, embed_model, openai_api_key):
 def process_csv(csv_file):
     questions = []
     answers = []
+    vector_id = []
     with open(csv_file, 'r', newline='', encoding='utf-8') as file:
         reader = csv.DictReader(file)
         for row in reader:
+            vector_id.append(row['id'])
             questions.append(row['question'])
             answers.append(row['answer'])
-    return questions, answers
+    return vector_id, questions, answers
 
 
 
 def main():
     folder_name = os.getenv("DIR_CFA_WEB")
-    csv_file = folder_name + 'output.csv'
+    csv_file = folder_name + 'set_a.csv'
     index_name = os.getenv("PINECONE_INDEX_NAME")
     embed_model = os.getenv("EMBEDDING_MODEL")
     openai_api_key = os.getenv("OPENAI_API_KEY")
     pinecone_api_key = os.getenv("PINECONE_API_KEY")
 
     # Get question and answers as list from csv
-    questions, answers = process_csv(csv_file)
+    vector_id, questions, answers = process_csv(csv_file)
 
     # Generate embeddings for questions and answers
     question_embeddings = generate_embeddings(questions, embed_model, openai_api_key)
     answer_embeddings = generate_embeddings(answers, embed_model, openai_api_key)
-    vector_id = [str(i) for i in range(len(question_embeddings))]
+    # vector_id = [str(i) for i in range(len(question_embeddings))]
     print(len(question_embeddings), len(answer_embeddings), len(answer_embeddings[0]))
 
     # Create pinecone index
