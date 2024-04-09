@@ -19,8 +19,6 @@ def get_question_bank(file_path):
     return df
 
 def query_article(ques, ques_mapped, answer_mapped, namespace, client,index, top_k=3):
-    '''Queries an article using its title in the specified
-     namespace and prints results.'''
     
     EMBEDDING_MODEL = os.getenv("EMBEDDING_MODEL")
 
@@ -104,28 +102,44 @@ def save_to_csv(data, file_path):
         print("Saved the csv to path ", file_path)
 
 
-def main():
+def main(part, file_name):
     folder_path = os.getenv("DIR_CFA_WEB")
-    file_path = folder_path + 'set_b.csv'
+    file_path_b = folder_path + 'set_b.csv'
+    file_path_a = folder_path + 'set_a.csv'
+    file_path_summary = folder_path + 'los_summary.csv'
     openai_api_key = os.getenv("OPENAI_API_KEY")
-    api_key = os.getenv("PINECONE_API_KEY")
-    index_name = os.getenv("PINECONE_INDEX_NAME")
     
     # 1. get set b questions
-    set_b = get_question_bank(file_path)
-
-    # First we'll create dictionaries mapping vector IDs to their outputs so we can retrieve the text for our search results
-    ques_mapped = dict(zip(set_b.id,set_b.question))
-    answer_mapped = dict(zip(set_b.id,set_b.answer))
-    print(len(ques_mapped), len(answer_mapped))
-
+    set_a = get_question_bank(file_path_a)
+    set_b = get_question_bank(file_path_b)
+    summary = get_question_bank(file_path_summary)
     
     openai_client = OpenAI(api_key=openai_api_key,)
 
     # Get pinecone index
+    if part == 'set_a':
+        api_key = os.getenv("PINECONE_API_KEY")
+        index_name = os.getenv("PINECONE_INDEX_NAME")
+        namespace = 'questions'
+
+        # First we'll create dictionaries mapping vector IDs to their outputs so we can retrieve the text for our search results
+        ques_mapped = dict(zip(set_a.id,set_a.question))
+        answer_mapped = dict(zip(set_a.id,set_a.answer))
+        print(len(ques_mapped), len(answer_mapped))
+
+    else:
+        api_key = os.getenv("PINECONE_API_KEY_2")
+        index_name = os.getenv("PINECONE_INDEX_NAME_2")
+        namespace = 'los'
+
+        # First we'll create dictionaries mapping vector IDs to their outputs so we can retrieve the text for our search results
+        ques_mapped = dict(zip(summary.id,summary.summary))
+        answer_mapped = dict(zip(summary.id,summary.summary))
+        print(len(ques_mapped), len(answer_mapped))
+    
+    print("Pinecone index = ", index_name)
     pinecone = Pinecone(api_key=api_key)
     pine_index = pinecone.Index(name=index_name)
-    namespace = 'questions'
     final_df = []
 
     # 2. find 3 questions in Set A that are most similar
@@ -152,9 +166,10 @@ def main():
         final_df.append(obj)
         # print(query1, query2, relatedness)
         # break
-    save_to_csv(final_df, folder_path + 'report.csv')
+    save_to_csv(final_df, folder_path + file_name +'.csv')
 
 
 if __name__ == "__main__":
-    main()
+    main("set_a", "report_part_3")
+    main("summary", "report_part_4")
 
