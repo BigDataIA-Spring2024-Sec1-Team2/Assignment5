@@ -1,0 +1,30 @@
+id,level,topic
+1,Level I,Quantitative Methods
+2,Level I,Economics
+3,Level I,Portfolio Management
+4,Level I,Corporate Issuers
+5,Level I,Financial Statement Analysis
+6,Level I,Equity Investments
+7,Level I,Fixed Income
+8,Level I,Derivatives
+9,Level I,Alternative Investments
+10,Level I,Ethical and Professional Standards
+11,Level II,Quantitative Methods
+12,Level II,Economics
+13,Level II,Financial Statement Analysis
+14,Level II,Integration of Financial Statement Analysis Techniques
+15,Level II,Corporate Issuers
+16,Level II,Equity Valuation
+17,Level II,Fixed Income
+18,Level II,Derivatives
+19,Level II,Alternative Investments
+20,Level II,Portfolio Management
+21,Level II,Ethical and Professional Standards
+22,Level III,Quantitative Methods
+23,Level III,Portfolio Management
+24,Level III,Derivatives
+25,Level III,"Swaps, Forwards, and Futures Strategies"
+26,Level III,Fixed Income
+27,Level III,Equity Investments
+28,Level III,Alternative Investments
+29,Level III,Ethical and Professional Standards

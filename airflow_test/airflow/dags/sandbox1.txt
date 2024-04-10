@@ -1,0 +1,63 @@
+import os
+from airflow.models import DAG
+from airflow.operators.bash_operator import BashOperator
+from airflow.operators.python_operator import PythonOperator
+from airflow.decorators import task
+from airflow.utils.dates import days_ago
+from datetime import timedelta
+# from ...airflow.scripts.welcome import welcome
+
+dag = DAG(
+    dag_id="sandbox",
+    schedule="0 0 * * *",   # https://crontab.guru/
+    start_date=days_ago(0),
+    catchup=False,
+    dagrun_timeout=timedelta(minutes=60),
+    tags=["labs", "damg7245"],
+    # params=user_input,
+)
+
+def print_keys():
+    print("-----------------------------")
+    print(f"{os.getcwd()}") # Donot print this anywhere, this is just for demo
+    print("-----------------------------")
+
+    
+
+with dag:
+    hello_world = BashOperator(
+        task_id="hello_world",
+        bash_command='echo "Hello from airflow"'
+    )
+
+    fetch_keys = PythonOperator(
+        task_id='fetch_keys',
+        python_callable=print_keys,
+        provide_context=True,
+        dag=dag,
+    )
+    # def hello_world_inside():
+    #     @task.virtualenv(requirements='/opt/airflow/scripts/requirements.txt')
+    #     def myTask(): 
+    hello_world_inside = BashOperator(
+            task_id="hello_world_inside",
+            bash_command='cd /opt/airflow/scripts/; python driver.py'
+            )   
+
+    fetch_keys1 = PythonOperator(
+        task_id='fetch_keys1',
+        python_callable=print_keys,
+        provide_context=True,
+        dag=dag,
+    )
+
+    # hello_world_inside = hello_world_inside()
+    # hello_world_inside = PythonOperator(
+    #     task_id="hello_world_inside",
+    #     python_callable=welcome.welcome(),
+    #     provide_context=True,
+    #     dag=dag,
+    # )
+
+
+hello_world >> fetch_keys >> hello_world_inside >> fetch_keys1
