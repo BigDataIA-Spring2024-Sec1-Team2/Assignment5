@@ -11,6 +11,7 @@ import PyPDF2
 from dotenv import load_dotenv
 import warnings
 warnings.filterwarnings("ignore")
+import time
 
 from sqlalchemy import Boolean, Column, Integer, String
 
@@ -123,7 +124,18 @@ def connect_snowflake():
         print("error", e)
     finally:
         connection.close()
+def upsert_retry(pine_index,vectors,namespace,retry=15):
+    retry = 15
+    retryIndicator = True
+    while retry>0 and retryIndicator :
+        try :
+            pine_index.upsert(vectors, namespace)
+            retryIndicator = False
+        except Exception as e: 
 
+            time.sleep(5)
+            retry -=1
+            print('error in' +  str(retry))
 
 def read_text_files_in_folder(folder_path):
     text_files = ''
@@ -363,11 +375,17 @@ def save_to_pinecone_main_block():
 
     # Upsert question vectors in questions namespace 
     print("Uploading vectors to questions namespace..")
-    pine_index.upsert(vectors=zip(vector_id, question_embeddings), namespace='questions')
+    vectors=zip(vector_id, question_embeddings)
+    namespace='questions'
+    upsert_retry(pine_index,vectors,namespace,retry=15)
 
     # Upsert answer vectors in answers namespace 
     print("Uploading vectors to answers namespace..")
-    pine_index.upsert(vectors=zip(vector_id, answer_embeddings), namespace='answers')
+
+    vectors=zip(vector_id, answer_embeddings)
+    namespace='answers'
+    upsert_retry(pine_index,vectors,namespace,retry=15)
+
 
     print("Embeddings stored successfully.")
 
@@ -652,7 +670,6 @@ def process_los_collection(los_collection):
     return "".join(markdown_LOsummaries),markdown_LOsummaries
 
 def create_pine_index(api_key, index_name, dimension):
-    print(api_key)
     # pinecone = Pinecone(api_key=api_key)
     pinecone = PineconeGRPC(api_key=api_key)
     # Check whether the index with the same name already exists - if so, delete it
@@ -725,7 +742,10 @@ def create_los_embeddings_pinecone_main_block():
     # Upsert question vectors in los namespace 
     print("Uploading vectors to los namespace..")
     print(pinecone_api_key, index_name)
-    pine_index.upsert(vectors=zip(vector_id, los_embeddings), namespace='los')
+
+    vectors=zip(vector_id, los_embeddings)
+    namespace='los'
+    upsert_retry(pine_index,vectors,namespace,retry=15)
 
 
     print("Embeddings stored successfully.")
