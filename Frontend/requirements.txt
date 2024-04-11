@@ -1,0 +1,6 @@
+python-dotenv
+streamlit
+streamlit-lottie
+# time
+streamlit-authenticator
+boto3

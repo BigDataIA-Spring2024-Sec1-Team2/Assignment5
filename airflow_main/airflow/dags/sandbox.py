@@ -771,12 +771,12 @@ with dag:
         bash_command='echo "Triggering airflow pipeline!!"'
     )
 
-    # create_los_embeddings_pinecone_main_block = PythonOperator(
-    #     task_id='create_los_embeddings_pinecone_main_block',
-    #     python_callable=create_los_embeddings_pinecone_main_block,
-    #     provide_context=True,
-    #     dag=dag,
-    # )
+    create_los_embeddings_pinecone_main_block = PythonOperator(
+        task_id='create_los_embeddings_pinecone_main_block',
+        python_callable=create_los_embeddings_pinecone_main_block,
+        provide_context=True,
+        dag=dag,
+    )
     
     parse_pdf = PythonOperator(
         task_id='parse_pdf',
@@ -809,5 +809,5 @@ with dag:
 
 # hello_world >> grobid_extraction >> push_extracted_files_to_s3 >> create_snowflake_schema
 # hello_world >> create_los_embeddings_pinecone_main_block >> parse_pdf >> qna_main_block >> save_to_pinecone_main_block >> use_case_3_final_block
-# start >> create_los_embeddings_pinecone_main_block >> parse_pdf >> qna_main_block >> save_to_pinecone_main_block >> use_case_3_final_block
-start >> parse_pdf >> qna_main_block >> save_to_pinecone_main_block >> use_case_3_final_block
+start >> create_los_embeddings_pinecone_main_block >> parse_pdf >> qna_main_block >> save_to_pinecone_main_block >> use_case_3_final_block
+# start >> parse_pdf >> qna_main_block >> save_to_pinecone_main_block >> use_case_3_final_block

@@ -52,7 +52,7 @@ x-airflow-common:
   # image: ${AIRFLOW_IMAGE_NAME:-apache/airflow:2.8.3}
   &airflow-common
   build:
-    context: airflow
+    context: ./airflow_main/airflow
     dockerfile: Dockerfile
   environment: &airflow-common-env
     AIRFLOW__CORE__EXECUTOR: CeleryExecutor
@@ -88,17 +88,17 @@ x-airflow-common:
 
 services:
 
-  grobid:
-    image: lfoppiano/grobid:0.8.0
-    ports:
-      - "8078:8070"
-    ulimits:
-      core: 0
-    # networks:
-    #   - my_network
-    environment:
-      GROBID_HOST: "host.docker.internal"  # Use host.docker.internal to refer to the host machine
-      GROBID_PORT: 8078
+  # grobid:
+  #   image: lfoppiano/grobid:0.8.0
+  #   ports:
+  #     - "8078:8070"
+  #   ulimits:
+  #     core: 0
+  #   # networks:
+  #   #   - my_network
+  #   environment:
+  #     GROBID_HOST: "host.docker.internal"  # Use host.docker.internal to refer to the host machine
+  #     GROBID_PORT: 8078
 
 
   postgres:
@@ -317,7 +317,7 @@ services:
   streamlit:
     container_name: streamlit
     build:
-        context: streamlit
+        context: Frontend
         dockerfile: Dockerfile
     restart: always
     ports:
@@ -325,16 +325,16 @@ services:
     env_file:
       - .env
 
-  fastapi:
-    container_name: fastapi
-    build: 
-      context: fastapi
-      dockerfile: Dockerfile
-    restart: always
-    ports:
-        - "8095:8095"
-    env_file:
-      - .env
+  # fastapi:
+  #   container_name: fastapi
+  #   build: 
+  #     context: fastapi
+  #     dockerfile: Dockerfile
+  #   restart: always
+  #   ports:
+  #       - "8095:8095"
+  #   env_file:
+  #     - .env
 
 volumes:
   postgres-db-volume:
