@@ -35,7 +35,7 @@ import openai
 
 from tqdm import tqdm 
 
-from pinecone.grpc import PineconeGRPC
+# from pinecone.grpc import PineconeGRPC
 
 openai.api_key = os.getenv("OPENAI_API_KEY")
 
@@ -124,15 +124,17 @@ def connect_snowflake():
         print("error", e)
     finally:
         connection.close()
+
 def upsert_retry(pine_index,vectors,namespace,retry=15):
+    print('................................in upsert retry')
     retry = 15
     retryIndicator = True
-    while retry>0 and retryIndicator :
+    while retry > 0 and retryIndicator :
         try :
-            pine_index.upsert(vectors, namespace)
+            pine_index.upsert(vectors=vectors, namespace=namespace)
             retryIndicator = False
         except Exception as e: 
-
+            print( 'error in upsert retry for '+namespace + "   ---> " + str(e) )
             time.sleep(5)
             retry -=1
             print('error in' +  str(retry))
@@ -317,8 +319,8 @@ def qna_main_block():
 
 
 def create_pine_index(api_key, index_name, dimension):
-    # pinecone = Pinecone(api_key=api_key)
-    pinecone = PineconeGRPC(api_key=api_key)
+    pinecone = Pinecone(api_key=api_key)
+    # pinecone = PineconeGRPC(api_key=api_key)
     # Check whether the index with the same name already exists - if so, delete it
     if index_name in pinecone.list_indexes().names():
         pinecone.delete_index(index_name)
@@ -371,18 +373,36 @@ def save_to_pinecone_main_block():
     print(len(question_embeddings), len(answer_embeddings), len(answer_embeddings[0]))
 
     # Create pinecone index
-    pine_index = create_pine_index(pinecone_api_key, index_name, len(answer_embeddings[0]))
+    retry = 15
+    retryIndicator = True
+    while retry>0 and retryIndicator :
+        try :
+            print(' retry pine index ---------------yoloooooo')
+            pine_index = create_pine_index(pinecone_api_key, index_name, len(answer_embeddings[0]))
+            
 
+            print(' retry pine index---------------yoloooooo----------------holoooooo')
+            retryIndicator = False
+        except Exception as e: 
+            print( 'error in create pine index retry for '+namespace + "   ---> " + str(e) )
+            time.sleep(1)
+            retry -=1
+            print('error in' +  str(retry))
+
+
+
+    # pine_index = create_pine_index(pinecone_api_key, index_name, len(answer_embeddings[0]))
     # Upsert question vectors in questions namespace 
     print("Uploading vectors to questions namespace..")
-    vectors=zip(vector_id, question_embeddings)
+    print(vector_id)
+    vectors=list(zip(vector_id, question_embeddings))
     namespace='questions'
     upsert_retry(pine_index,vectors,namespace,retry=15)
 
     # Upsert answer vectors in answers namespace 
     print("Uploading vectors to answers namespace..")
 
-    vectors=zip(vector_id, answer_embeddings)
+    vectors=list(zip(vector_id, answer_embeddings))
     namespace='answers'
     upsert_retry(pine_index,vectors,namespace,retry=15)
 
@@ -518,8 +538,8 @@ def use_case_3_main_block(part, file_name):
         print(len(ques_mapped), len(answer_mapped))
     
     print("Pinecone index = ", index_name)
-    # pinecone = Pinecone(api_key=api_key)
-    pinecone = PineconeGRPC(api_key=api_key)
+    pinecone = Pinecone(api_key=api_key)
+    # pinecone = PineconeGRPC(api_key=api_key)
     pine_index = pinecone.Index(name=index_name)
     final_df = []
 
@@ -659,7 +679,7 @@ def process_los_collection(los_collection):
     los_statements = los_statements1.split(';')
     summaries = []
     markdown_LOsummaries = []
-    for los in tqdm(los_statements):
+    for los in tqdm(los_statements[:]):
         
         if los.strip():  # Ensure the LOS is not just whitespace
             summary = summarize_los(los.strip())
@@ -669,19 +689,19 @@ def process_los_collection(los_collection):
     
     return "".join(markdown_LOsummaries),markdown_LOsummaries
 
-def create_pine_index(api_key, index_name, dimension):
-    # pinecone = Pinecone(api_key=api_key)
-    pinecone = PineconeGRPC(api_key=api_key)
-    # Check whether the index with the same name already exists - if so, delete it
-    if index_name in pinecone.list_indexes().names():
-        pinecone.delete_index(index_name)
+# def create_pine_index(api_key, index_name, dimension):
+#     # pinecone = Pinecone(api_key=api_key)
+#     pinecone = PineconeGRPC(api_key=api_key)
+#     # Check whether the index with the same name already exists - if so, delete it
+#     if index_name in pinecone.list_indexes().names():
+#         pinecone.delete_index(index_name)
         
-    pinecone.create_index(name=index_name, dimension=dimension, spec=PodSpec(environment="gcp-starter"))
-    index = pinecone.Index(name=index_name)
+#     pinecone.create_index(name=index_name, dimension=dimension, spec=PodSpec(environment="gcp-starter"))
+#     index = pinecone.Index(name=index_name)
 
-    # Confirm our index was created
-    print(pinecone.list_indexes())
-    return index
+#     # Confirm our index was created
+#     print(pinecone.list_indexes())
+#     return index
 
 # # Define function to generate embeddings using OpenAI
 # def generate_embeddings(texts, embed_model):
@@ -737,15 +757,32 @@ def create_los_embeddings_pinecone_main_block():
     pinecone_api_key = os.getenv("PINECONE_API_KEY_2")
     index_name = os.getenv("PINECONE_INDEX_NAME_2")
     # Create pinecone index
-    pine_index = create_pine_index(pinecone_api_key, index_name, len(los_embeddings[0]))
 
+    retry = 15
+    retryIndicator = True
+    while retry>0 and retryIndicator :
+        try :
+            pine_index = create_pine_index(pinecone_api_key, index_name, len(los_embeddings[0]))
+            retryIndicator = False
+        except Exception as e: 
+            print( 'error in create pine index retry for '+namespace + "   ---> " + str(e) )
+            time.sleep(1)
+            retry -=1
+            print('error in' +  str(retry))
+
+    # print(pine_index.describe_index_stats())
+          
     # Upsert question vectors in los namespace 
     print("Uploading vectors to los namespace..")
     print(pinecone_api_key, index_name)
 
-    vectors=zip(vector_id, los_embeddings)
+
+    vectors=list(zip(vector_id, los_embeddings))
+    print(los_embeddings,)
+    print(vector_id)
     namespace='los'
     upsert_retry(pine_index,vectors,namespace,retry=15)
+    # print(pine_index.describe_index_stats())
 
 
     print("Embeddings stored successfully.")

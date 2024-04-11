@@ -7,14 +7,14 @@ from openai import OpenAI
 from tqdm import tqdm 
 from pinecone import Pinecone, PodSpec
 import os
-from pinecone.grpc import PineconeGRPC
+from pinecone import Pinecone
 import time 
 
 
 # Load environment variables from .env file
 load_dotenv("config/.part1.env")
 openai.api_key = os.getenv("OPENAI_API_KEY")
-pc = PineconeGRPC(api_key=os.environ.get('PINECONE_API_KEY'))
+# pc = Pinecone(api_key=os.environ.get('PINECONE_API_KEY'))
 
 # Function to fetch summary data based on topic names
 def fetch_LO_data(topic_names):
@@ -71,7 +71,7 @@ def process_los_collection(los_collection):
     los_statements = los_statements1.split(';')
     summaries = []
     markdown_LOsummaries = []
-    for los in tqdm(los_statements[:2]):
+    for los in tqdm(los_statements[:]):
         
         if los.strip():  # Ensure the LOS is not just whitespace
             summary = summarize_los(los.strip())
@@ -83,7 +83,7 @@ def process_los_collection(los_collection):
 
 def create_pine_index(api_key, index_name, dimension):
     print(api_key)
-    pc = PineconeGRPC(api_key=os.environ.get('PINECONE_API_KEY'))
+    pc = Pinecone(api_key=os.environ.get('PINECONE_API_KEY'))
 
 
     # Check whether the index with the same name already exists - if so, delete it
@@ -95,7 +95,7 @@ def create_pine_index(api_key, index_name, dimension):
 
     # Confirm our index was created
     print(pc.list_indexes())
-    return index
+    return index,pc
 
 # Define function to generate embeddings using OpenAI
 def generate_embeddings(texts, embed_model):
@@ -117,38 +117,41 @@ if __name__ == "__main__":
     ]
     
     los_data = fetch_LO_data(topic_names)
+    count = 0
+    summaries_all = []
     for idx,los in enumerate(los_data):
         markdown_los_summaries, summaries = process_los_collection(los)
+        count +=len(summaries)
         save_markdown_document(markdown_los_summaries, "output/" + str(topic_names[idx] )+ 'LOS_Summary.md')
+        summaries_all += summaries
+
 
     embed_model = os.getenv('EMBEDDING_MODEL')
-    los_embeddings = generate_embeddings(markdown_los_summaries, embed_model)
+    los_embeddings = []
+    for i in summaries_all:
+        los_embeddings.append(generate_embeddings(i,embed_model))
 
-    vector_id = [str(i) for i in range(len(los_embeddings))]
-    print( len(los_embeddings), len(los_embeddings[0]))
+    print(len(los_data), len(los_embeddings))
+    vector_id = [str(i) for i in range(len(summaries_all))]
+    print( len(los_embeddings),count)
 
     pinecone_api_key = os.getenv("PINECONE_API_KEY")
     index_name = os.getenv("PINECONE_INDEX_NAME")
     # Create pinecone index
-    pine_index = create_pine_index(pinecone_api_key, index_name, len(los_embeddings[0]))
-
-
+    pine_index, pc = create_pine_index(pinecone_api_key, index_name, len(los_embeddings[0]))
     # Upsert question vectors in questions namespace 
     print("Uploading vectors to questions namespace..")
     retry = 15
     retryIndicator = True
     while retry>0 and retryIndicator :
         try :
+            print(vector_id)
             pine_index.upsert(vectors=zip(vector_id, los_embeddings), namespace='los')
             retryIndicator = False
         except Exception as e: 
-
             time.sleep(5)
             retry -=1
-            print('error in' +  str(retry))
-
-
-
+            print('error in ' +  str(retry)+ str(e))
     print("Embeddings stored successfully.")
 
 
