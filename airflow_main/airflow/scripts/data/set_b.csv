@@ -1,0 +1,136 @@
+id,question,answer
+1,"1. A financial analyst uses back-tested data to calculate the historical performance of a fund but fails to disclose it in marketing materials. According to the Standards of Professional Conduct, how did the analyst violate the standards?
+
+A. He did not disclose the use of back-tested data.
+B. He failed to deduct all fees and expenses before calculating the fund’s track record.
+C. The marketing materials only include the Everglades Fund’s performance and are not a weighted composite of similar portfolios.","wer: A
+
+Explanation: The analyst violated the CFA Institute Standards by not disclosing the use of back-tested data in the marketing materials, which is essential to provide accurate and transparent information to clients. Disclosing such details is crucial for maintaining integrity and compliance with professional conduct standards."
+2,"As a supervisor responsible for a compliance program, which of the following is least likely required according to the Standards of Practice Handbook?
+
+A. Respond promptly to violations.
+B. Disseminate the contents of the program to all personnel.
+C. Incorporate a professional conduct evaluation as part of an employee’s performance review.","wer: B
+
+Explanation: While it is important for supervisors to respond promptly to violations and incorporate professional conduct evaluations, disseminating the compliance program to all personnel may not be a mandatory requirement as per the Standards of Practice Handbook, making it the least likely required action."
+3,"Which of the following is NOT required by GIPS Standards regarding the definition of a firm?
+
+A. Firms must be defined as an investment firm.
+B. A firm’s organizational changes alter historical composite results.
+C. Total firm assets must be the aggregate of the market value of all discretionary and nondiscretionary assets under management.","wer: B
+
+Explanation: GIPS Standards do not allow for historical composite results to be altered due to organizational changes within a firm. This requirement ensures consistency in reporting historical performance data without subjective modifications."
+4,"Under which measurement scale is data categorized but not ranked?
+
+A. An ordinal scale.
+B. A nominal scale.
+C. An interval scale.","wer: B
+
+Explanation: Data categorized but not ranked corresponds to a nominal scale, where values are assigned to categories or attributes without any specific order or ranking imposed on the data points."
+5,"Calculating from given probabilities, what is the closest conditional probability of event A given event B has occurred?
+
+A.","wer: C
+
+Explanation: To calculate conditional probability, divide the joint probability of events A and B by the probability of B. In this case, the result is"
+6,"0%, indicating the likelihood of event A given that B has occurred.","wer: B
+
+Explanation: When long-run average production costs rise faster than production increases, the firm is experiencing diseconomies of scale, leading to increased cost inefficiencies due to larger operations."
+7,"How would converting all convertible bonds affect the debt-capital ratio of a company?
+
+A.","wer: B
+
+Explanation: By converting all convertible bonds into equity, the company's debt-capital ratio would be recalculated based on the new debt outstanding, resulting in a ratio of"
+8,4%.,"wer: B
+
+Explanation: The issuance of mandatory redeemable preferred shares with a 7% dividend would increase fixed dividend obligations, leading to a deterioration in the interest coverage ratio of the company."
+9,"What is the cash conversion cycle for a company given the provided financial data?
+
+A.","wer: A
+
+Explanation: The cash conversion cycle is calculated as Days on Hand (DOH) + Days Sales Outstanding (DSO) - Days in Payables. Using the provided data, the cash conversion cycle is 23 days, indicating the efficiency of cash flow conversion in the company."
+10,"Calculate the cash conversion cycle for a company with the given inventory turnover, receivable turnover, and payables turnover data.
+
+A. 57 days.
+B. 85 days.
+C. 113 days.","wer: A
+
+Explanation: The cash conversion cycle is computed as the sum of inventory turnover days, receivable turnover days, minus payables turnover days. Thus, the cash conversion cycle for this company is 57 days, reflecting its operating efficiency in converting investments into cash.
+
+These questions cover a range of topics including ethics, ratios, finance concepts, and analysis, providing a comprehensive assessment of the candidate's understanding of financial analyst roles and responsibilities."
+11,"1. When valuing equity securities, analysts often use which of the following free cash flow models more frequently than others?
+   A. FCFF models
+   B. FCFE models
+   C. Residual income approach","wer: A. FCFF models
+
+Explanation: According to the provided knowledge base, when using discounted cash flow analysis, analysts use FCFF models roughly twice as frequently as FCFE models. FCFF models estimate the value of the firm by discounting future FCFF at the weighted average cost of capital, making them a common choice in equity valuation. FCFF provides an economically sound basis for valuation and is preferred by analysts in practice."
+12,"What conditions make analysts prefer to use free cash flows (FCFF or FCFE) over dividends for valuation purposes?
+   A. The company does not pay dividends
+   B. The company pays significantly different dividends from its capacity
+   C. Free cash flows align with profitability within a comfortable forecast period","wer: A. The company does not pay dividends
+
+Explanation: Analysts prefer to use free cash flows (either FCFF or FCFE) for valuation when the company does not pay dividends, among other conditions mentioned in the knowledge base. By not distributing dividends, the company's free cash flows provide a more direct measure of its financial health and potential for valuation."
+13,"Which model determines the value of equity by discounting FCFE at the required rate of return on equity?
+   A. Discounted Cash Flow model
+   B. FCFF model
+   C. FCFE model","wer: C. FCFE model
+
+Explanation: The FCFE model values equity by discounting future free cash flows to equity at the required rate of return on equity. This model focuses on cash flows available to common stockholders after considering reinvestment needs. By discounting FCFE appropriately, analysts can estimate the current value of equity in a company."
+14,"How are FCFF and FCFE calculations typically initiated from net income?
+   A. By adding non-cash charges and deducting capital expenditures and working capital investments
+   B. By adding interest expenses and deducting depreciation and taxes
+   C. By adding net borrowing and deducting operational expenses","wer: A. By adding non-cash charges and deducting capital expenditures and working capital investments
+
+Explanation: FCFF and FCFE calculations usually start with net income and then adjust for items like non-cash charges, capital expenditures, and working capital investments. These adjustments are necessary to convert net income, a non-cash measure, into a cash flow measure that reflects the firm's actual cash-generating capability."
+15,"In behavior associated with FCFF and FCFE valuation, when is a control perspective taken by investors?
+   A. When the company does not pay dividends
+   B. When dividends paid differ significantly from capacity
+   C. When an investor can influence uses of free cash flow","wer: C. When an investor can influence uses of free cash flow
+
+Explanation: A control perspective is taken in FCFF and FCFE valuation when an investor can influence the uses of free cash flow, such as changing dividend policies or allocating capital for strategic purposes. Investors taking control may focus on utilizing free cash flows based on the company's potential and long-term growth prospects."
+16,"How do FCFF and FCFE models differ in their approach to valuing a company?
+   A. FCFF takes a firm-wide perspective, while FCFE focuses on equity value
+   B. FCFE considers free cash flow availability, while FCFF focuses on debt obligations
+   C. FCFF adjusts for capital structure, while FCFE relies on cash flows to equity holders","wer: A. FCFF takes a firm-wide perspective, while FCFE focuses on equity value
+
+Explanation: FCFF valuates the entire firm by discounting free cash flows available to all investors (both debt and equity), providing a holistic view of the company's value. In contrast, FCFE models specifically assess the equity value by discounting cash flows available to common stockholders, concentrating on the valuation perspective relating to equity holders."
+17,"1. A financial analyst is asked to calculate residual income for Company X. If the net income for Company X is $1,000,000, the equity charge is $500,000, and the total capital used is $2,000,000, what is the residual income for Company X?
+A. $500,000
+B. $1,000,000
+C. $1,500,000","wer: A
+Explanation: Residual income is calculated as net income minus the equity charge. In this case, Residual Income = $1,000,000 - $500,000 = $500,"
+18,,"wer: C
+Explanation: Residual income explicitly recognizes the costs of all capital used in generating income by deducting the cost of equity capital from net income. This allows analysts to assess if a company is adding value for shareholders above the cost of equity capital."
+19,"In the context of residual income models, how does return on equity (ROE) relate to earnings growth rates?
+A. Higher ROE is directly correlated with higher earnings growth rates.
+B. Higher ROE indicates lower earnings growth potential.
+C. ROE is unrelated to earnings growth rates in the residual income model.","wer: A
+Explanation: In residual income models, higher ROE is usually correlated with higher earnings growth rates as it signifies the company's ability to generate profits above its cost of equity capital, resulting in increased value creation for shareholders."
+20,What is the implied growth rate in residual income if the market price-to-book ratio is,"wer: A
+Explanation: Implied growth rate in residual income = (Market Price-to-Book Ratio - 1) * Required Rate of Return on Equity. Therefore, ("
+21,2 - 1) * 10% = 8%.,"wer: A
+Explanation: Residual income models explicitly consider the cost of equity capital in assessing the value a company creates for shareholders, unlike dividend discount and free cash flow models."
+22,"What is the intrinsic value of a share of common stock in a two-stage residual income model with continuing residual income?
+A. Present value of book value per share
+B. Sum of book value per share and future residual income
+C. Market price per share at terminal time","wer: B
+Explanation: In a two-stage model with continuing residual income, the intrinsic value of a share of common stock is the sum of book value per share and the present value of expected future residual income."
+23,"Explain how residual income models can be used to measure internal corporate performance.
+A. By comparing net income to total capital employed
+B. By assessing whether a company's profits exceed the cost of all capital
+C. By estimating future cash flows to equity holders","wer: B
+Explanation: Residual income models evaluate if a company's net income exceeds the cost of equity capital, indicating value creation, which serves as a measure of internal performance."
+24,"Discuss the significance of forecasting per-share residual income in equity valuation.
+A. It determines current market share price.
+B. It reflects expected earnings per share adjusted for required rate of return on equity.
+C. It is used to calculate total profits of a company.","wer: B
+Explanation: Forecasting per-share residual income helps in estimating future earnings per share adjusted for the cost of equity capital, which is crucial for assessing the intrinsic value of common stock."
+25,"What are the criticisms of using the residual income model for equity valuation?
+A. It ignores accounting challenges.
+B. It is only applicable to stable growth companies.
+C. It relies on future projected earnings and ROE.","wer: C
+Explanation: The residual income model relies on forecasting future earnings and ROE, which can involve uncertainties and assumptions, leading to criticism about its reliance on projections."
+26,"How does residual income relate to economic profit within the context of equity valuation?
+A. Residual income is synonymous with economic profit.
+B. Economic profit is a broader concept than residual income.
+C. Residual income focuses solely on accounting profits.","wer: B
+Explanation: While residual income accounts for cost of equity capital in calculating profits, economic profit considers all costs of capital employed, including debt and equity, providing a broader measure of profitability."

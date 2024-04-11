@@ -34,6 +34,8 @@ import openai
 
 from tqdm import tqdm 
 
+from pinecone.grpc import PineconeGRPC
+
 openai.api_key = os.getenv("OPENAI_API_KEY")
 
 current_directory = os.getcwd()
@@ -192,33 +194,33 @@ def generate_set_a(openai_api_key, topic, context):
     conv['content'] = "Generate another set of 10 question and their detailed answers. Make sure that there are no duplicates and these questions are different than the previously generated questions. Also, number these questions starting from 11."
     history.append(conv)
 
-    response = generate_25_qna(openai_api_key, history)
-    print(response)
-    qna_set.extend(parse_response(response))
+    # response = generate_25_qna(openai_api_key, history)
+    # print(response)
+    # qna_set.extend(parse_response(response))
 
-    conv['role'] = "user"
-    conv['content'] = "Generate another set of 10 question and their detailed answers. Make sure that there are no duplicates and these questions are different than the previously generated questions. Also, number these questions starting from 11."
-    history.append(conv)
+    # conv['role'] = "user"
+    # conv['content'] = "Generate another set of 10 question and their detailed answers. Make sure that there are no duplicates and these questions are different than the previously generated questions. Also, number these questions starting from 11."
+    # history.append(conv)
 
-    response = generate_25_qna(openai_api_key, history)
-    print(response)
-    qna_set.extend(parse_response(response))
+    # response = generate_25_qna(openai_api_key, history)
+    # print(response)
+    # qna_set.extend(parse_response(response))
 
-    conv['role'] = "user"
-    conv['content'] = "Generate another set of 10 question and their detailed answers. Make sure that there are no duplicates and these questions are different than the previously generated questions. Also, number these questions starting from 11."
-    history.append(conv)
+    # conv['role'] = "user"
+    # conv['content'] = "Generate another set of 10 question and their detailed answers. Make sure that there are no duplicates and these questions are different than the previously generated questions. Also, number these questions starting from 11."
+    # history.append(conv)
 
-    response = generate_25_qna(openai_api_key, history)
-    print(response)
-    qna_set.extend(parse_response(response))
+    # response = generate_25_qna(openai_api_key, history)
+    # print(response)
+    # qna_set.extend(parse_response(response))
 
-    conv['role'] = "user"
-    conv['content'] = "Generate another set of 10 question and their detailed answers. Make sure that there are no duplicates and these questions are different than the previously generated questions. Also, number these questions starting from 11."
-    history.append(conv)
+    # conv['role'] = "user"
+    # conv['content'] = "Generate another set of 10 question and their detailed answers. Make sure that there are no duplicates and these questions are different than the previously generated questions. Also, number these questions starting from 11."
+    # history.append(conv)
 
-    response = generate_25_qna(openai_api_key, history)
-    print(response)
-    qna_set.extend(parse_response(response))
+    # response = generate_25_qna(openai_api_key, history)
+    # print(response)
+    # qna_set.extend(parse_response(response))
 
 
     return qna_set
@@ -235,27 +237,37 @@ def generate_25_qna(client, history):
     return (response.choices[0].message.content)
 
 def parse_response(response):
-    questions = response.split("Answer:")
-    res = []
-    ques = {}
-    ques["question"] = questions[0].strip()
-    next_ques = re.split(r"(?:\d+\.|Question(?:\s+\d+)?:)", questions[1])
-    ques["answer"] = next_ques[0].strip()
-    res.append(ques)
-    print("\n")
-    print(ques)
-    for i in range(2,len(questions)):
+    try:
+        # questions = response.split("Answer:")
+        questions = response.split("Ans")
+        res = []
         ques = {}
-        ques["question"] = next_ques[1].strip()
-        next_ques = re.split(r"(?:\d+\.|Question(?:\s+\d+)?:)", questions[i])
+        ques["question"] = questions[0].strip()
+        # next_ques = re.split(r"(?:\d+\.|Question(?:\s+\d+)?:)", questions[1])
+        next_ques = re.split(r"(?:\d+\.|Ques(?:\s+\d+)?:)", questions[1])
         ques["answer"] = next_ques[0].strip()
         res.append(ques)
         print("\n")
         print(ques)
-    print("Parsed ", len(res) ) 
-    return res
+        for i in range(2,len(questions)):
+            try:
+                ques = {}
+                ques["question"] = next_ques[1].strip()
+                # next_ques = re.split(r"(?:\d+\.|Question(?:\s+\d+)?:)", questions[i])
+                next_ques = re.split(r"(?:\d+\.|Ques(?:\s+\d+)?:)", questions[i])
+                ques["answer"] = next_ques[0].strip()
+                res.append(ques)
+                print("\n")
+                print(ques)
+            except Exception as e:
+                print("## The error while parsing response is: ", e ,"##")
+        print("Parsed ", len(res) ) 
+        return res
+    except Exception as e:
+        print("## The error while parsing response is: ", e ,"##")
+        return []
 
-def save_to_csv(data, file_path):
+def save_to_csv_qna(data, file_path):
     print("saving to csv")
     with open(file_path, 'w', newline='', encoding='utf-8') as file:
         fieldnames = ['id', 'question', 'answer']  # Added 'id' to the fieldnames
@@ -282,18 +294,19 @@ def qna_main_block():
         print("Processing Set A")
         ques_ans_set_a.extend(generate_set_a(client, topic, context))
         print(len(ques_ans_set_a))
-    save_to_csv(ques_ans_set_a, folder_path+"set_a.csv")
+    save_to_csv_qna(ques_ans_set_a, folder_path+"set_a.csv")
 
     ques_ans_set_b = []
     for topic in knowledge_base:
         print("Processing Set B")
         ques_ans_set_b.extend(generate_set_a(client, topic, context))
         print(len(ques_ans_set_b))
-    save_to_csv(ques_ans_set_b, folder_path+"set_b.csv")
+    save_to_csv_qna(ques_ans_set_b, folder_path+"set_b.csv")
 
 
 def create_pine_index(api_key, index_name, dimension):
-    pinecone = Pinecone(api_key=api_key)
+    # pinecone = Pinecone(api_key=api_key)
+    pinecone = PineconeGRPC(api_key=api_key)
     # Check whether the index with the same name already exists - if so, delete it
     if index_name in pinecone.list_indexes().names():
         pinecone.delete_index(index_name)
@@ -422,7 +435,7 @@ def strings_ranked_by_relatedness(
     relatedness_fn=lambda x, y: 1 - distance.cosine(x, y)
 ) -> Tuple[List[str], List[float]]:
     """Returns a list of strings and relatednesses, sorted from most related to least."""
-    client = OpenAI(api_key='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',)
+    client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"),)
     query1_embedding_response = client.embeddings.create(
         model=embedding_model,
         input=query1,
@@ -439,7 +452,7 @@ def strings_ranked_by_relatedness(
     
     return query1, query2, relatedness
 
-def save_to_csv(data, file_path):
+def save_to_csv_report(data, file_path):
     print("saving to csv")
     with open(file_path, 'w', newline='', encoding='utf-8') as file:
         fieldnames = ['id', 'question', 'true_ans', 'generated_ans', 'relativity']  # Added 'id' to the fieldnames
@@ -487,7 +500,8 @@ def use_case_3_main_block(part, file_name):
         print(len(ques_mapped), len(answer_mapped))
     
     print("Pinecone index = ", index_name)
-    pinecone = Pinecone(api_key=api_key)
+    # pinecone = Pinecone(api_key=api_key)
+    pinecone = PineconeGRPC(api_key=api_key)
     pine_index = pinecone.Index(name=index_name)
     final_df = []
 
@@ -515,7 +529,7 @@ def use_case_3_main_block(part, file_name):
         final_df.append(obj)
         # print(query1, query2, relatedness)
         # break
-    save_to_csv(final_df, folder_path + file_name +'.csv')
+    save_to_csv_report(final_df, folder_path + file_name +'.csv')
 
 def use_case_3_final_block():
     use_case_3_main_block("set_a", "report_part_3")
@@ -524,30 +538,80 @@ def use_case_3_final_block():
 
 def fetch_LO_data(topic_names):
     # Create a connection to Snowflake
-    with snowflake.connector.connect(
+    # with snowflake.connector.connect(
+    #     user=os.getenv('SNOWFLAKE_USER'),
+    #     password=os.getenv('SNOWFLAKE_PASSWORD'),
+    #     account=os.getenv('SNOWFLAKE_ACCOUNT'),
+    #     warehouse=os.getenv('SNOWFLAKE_WAREHOUSE'),
+    #     database=os.getenv('SNOWFLAKE_DATABASE'),
+    #     schema=os.getenv('SNOWFLAKE_SCHEMA')
+    # ) as conn:
+    #     with conn.cursor(DictCursor) as cur:
+    #         # Formulate the query string
+    #         formatted_topics = ', '.join(f"'{topic}'" for topic in topic_names)
+    #         query1 = "USE WAREHOUSE {}".format(os.getenv("SNOWFLAKE_WAREHOUSE"))
+    #         cur.execute(query1)
+    #         query = f"""
+    #             SELECT LEARNINGOUTCOME
+    #             FROM {os.getenv('SNOWFLAKE_DATABASE')}.{os.getenv('SNOWFLAKE_SCHEMA')}.URLDATA
+    #             WHERE TopicName IN ({formatted_topics});
+    #         """
+
+    #         # query = "CREATE OR REPLACE SCHEMA  {}.{};".format(os.getenv("SNOWFLAKE_DBT_DEV_DB"), os.getenv("SNOWFLAKE_DBT_SCHEMA"))
+    #         # query = """
+    #         #     SELECT LEARNINGOUTCOME
+    #         #     FROM {}.{}.{}.URLDATA
+    #         #     WHERE TopicName IN ({});
+    #         # """.format(os.getenv("SNOWFLAKE_WAREHOUSE"), os.getenv("SNOWFLAKE_DATABASE"), os.getenv("SNOWFLAKE_SCHEMA"), formatted_topics)
+            
+    #         # Execute the query
+    #         cur.execute(query)
+            
+    #         # Fetch all rows
+    #         rows = cur.fetchall()
+            
+    #         return rows
+
+    conn = snowflake.connector.connect(
         user=os.getenv('SNOWFLAKE_USER'),
         password=os.getenv('SNOWFLAKE_PASSWORD'),
         account=os.getenv('SNOWFLAKE_ACCOUNT'),
         warehouse=os.getenv('SNOWFLAKE_WAREHOUSE'),
         database=os.getenv('SNOWFLAKE_DATABASE'),
         schema=os.getenv('SNOWFLAKE_SCHEMA')
-    ) as conn:
-        with conn.cursor(DictCursor) as cur:
-            # Formulate the query string
-            formatted_topics = ', '.join(f"'{topic}'" for topic in topic_names)
-            query = f"""
-                SELECT LEARNINGOUTCOME
-                FROM {os.getenv('SNOWFLAKE_DATABASE')}.{os.getenv('SNOWFLAKE_SCHEMA')}.URLDATA
-                WHERE TopicName IN ({formatted_topics});
-            """
-            
-            # Execute the query
-            cur.execute(query)
-            
-            # Fetch all rows
-            rows = cur.fetchall()
-            
-            return rows
+    )
+    
+    try:
+        # Create cursor
+        # cur = conn.cursor(snowflake.connector.DictCursor)
+        cur = conn.cursor()
+        
+        # Set warehouse
+        print("###########################", os.getenv("SNOWFLAKE_WAREHOUSE"))
+        # cur.execute("USE WAREHOUSE {};".format(os.getenv("SNOWFLAKE_WAREHOUSE")))
+        # Formulate the query string
+        formatted_topics = ', '.join(f"'{topic}'" for topic in topic_names)
+        query = f"""
+            SELECT LEARNINGOUTCOME
+            FROM {os.getenv('SNOWFLAKE_DATABASE')}.{os.getenv('SNOWFLAKE_SCHEMA')}.URLDATA
+            WHERE TopicName IN ({formatted_topics});
+        """
+        
+        # Execute the query
+        cur.execute(query)
+        
+        # Fetch all rows
+        rows = cur.fetchall()
+        print("Hello My Rows###################", rows)
+        cur.close()
+        conn.close()
+        return rows
+    
+    finally:
+        # Close cursor and connection
+        cur.close()
+        conn.close()
+
 
 def summarize_los(los_text):
     try:
@@ -572,7 +636,8 @@ def summarize_los(los_text):
         return None
 
 def process_los_collection(los_collection):
-    los_statements1 = los_collection['LEARNINGOUTCOME']
+    # los_statements1 = los_collection['LEARNINGOUTCOME']
+    los_statements1 = los_collection[0]
     los_statements = los_statements1.split(';')
     summaries = []
     markdown_LOsummaries = []
@@ -588,7 +653,8 @@ def process_los_collection(los_collection):
 
 def create_pine_index(api_key, index_name, dimension):
     print(api_key)
-    pinecone = Pinecone(api_key=api_key)
+    # pinecone = Pinecone(api_key=api_key)
+    pinecone = PineconeGRPC(api_key=api_key)
     # Check whether the index with the same name already exists - if so, delete it
     if index_name in pinecone.list_indexes().names():
         pinecone.delete_index(index_name)
@@ -600,19 +666,19 @@ def create_pine_index(api_key, index_name, dimension):
     print(pinecone.list_indexes())
     return index
 
-# Define function to generate embeddings using OpenAI
-def generate_embeddings(texts, embed_model):
-    client = OpenAI()
-    embeddings = []
-    response = client.embeddings.create(input=texts, model=embed_model)
-    embeddings = [record.embedding for record in response.data]
-    return embeddings
+# # Define function to generate embeddings using OpenAI
+# def generate_embeddings(texts, embed_model):
+#     client = OpenAI()
+#     embeddings = []
+#     response = client.embeddings.create(input=texts, model=embed_model)
+#     embeddings = [record.embedding for record in response.data]
+#     return embeddings
 
 def save_markdown_document(consolidated_markdown, filename):
     with open(filename, 'w') as file:
         file.write(consolidated_markdown)
 
-def save_to_csv(data, file_path):
+def save_to_csv_los(data, file_path):
     print("saving to csv")
     with open(file_path, 'w', newline='', encoding='utf-8') as file:
         fieldnames = ['id', 'summary']
@@ -635,6 +701,9 @@ def create_los_embeddings_pinecone_main_block():
     # print(los_data)
     all_summaries = []
     for idx,los in enumerate(los_data):
+        print(los)
+        print("\n", type(los))
+        print("Hey Man ######################################")
         markdown_los_summaries, markdown_summaries_list = process_los_collection(los)
         print(len(markdown_summaries_list))
         all_summaries.extend(markdown_summaries_list)
@@ -642,8 +711,8 @@ def create_los_embeddings_pinecone_main_block():
 
     embed_model = os.getenv('EMBEDDING_MODEL')
     print(len(all_summaries))
-    save_to_csv(all_summaries, "./scripts/data/los_summary.csv")
-    los_embeddings = generate_embeddings(all_summaries, embed_model)
+    save_to_csv_los(all_summaries, "./scripts/data/los_summary.csv")
+    los_embeddings = generate_embeddings(all_summaries, embed_model, openai.api_key)
 
     vector_id = [str(i) for i in range(1, len(all_summaries)+1)]
     print( len(los_embeddings), len(los_embeddings[0]))
@@ -653,8 +722,9 @@ def create_los_embeddings_pinecone_main_block():
     # Create pinecone index
     pine_index = create_pine_index(pinecone_api_key, index_name, len(los_embeddings[0]))
 
-    # Upsert question vectors in questions namespace 
-    print("Uploading vectors to questions namespace..")
+    # Upsert question vectors in los namespace 
+    print("Uploading vectors to los namespace..")
+    print(pinecone_api_key, index_name)
     pine_index.upsert(vectors=zip(vector_id, los_embeddings), namespace='los')
 
 
@@ -676,17 +746,17 @@ dag = DAG(
     
 
 with dag:
-    hello_world = BashOperator(
-        task_id="hello_world",
-        bash_command='echo "Hello from airflow"'
+    start = BashOperator(
+        task_id="start",
+        bash_command='echo "Triggering airflow pipeline!!"'
     )
 
-    create_los_embeddings_pinecone_main_block = PythonOperator(
-        task_id='create_los_embeddings_pinecone_main_block',
-        python_callable=create_los_embeddings_pinecone_main_block,
-        provide_context=True,
-        dag=dag,
-    )
+    # create_los_embeddings_pinecone_main_block = PythonOperator(
+    #     task_id='create_los_embeddings_pinecone_main_block',
+    #     python_callable=create_los_embeddings_pinecone_main_block,
+    #     provide_context=True,
+    #     dag=dag,
+    # )
     
     parse_pdf = PythonOperator(
         task_id='parse_pdf',
@@ -718,4 +788,6 @@ with dag:
 
 
 # hello_world >> grobid_extraction >> push_extracted_files_to_s3 >> create_snowflake_schema
-hello_world >> create_los_embeddings_pinecone_main_block >> parse_pdf >> qna_main_block >> save_to_pinecone_main_block >> use_case_3_final_block
+# hello_world >> create_los_embeddings_pinecone_main_block >> parse_pdf >> qna_main_block >> save_to_pinecone_main_block >> use_case_3_final_block
+# start >> create_los_embeddings_pinecone_main_block >> parse_pdf >> qna_main_block >> save_to_pinecone_main_block >> use_case_3_final_block
+start >> parse_pdf >> qna_main_block >> save_to_pinecone_main_block >> use_case_3_final_block

@@ -1,0 +1,153 @@
+id,question,answer
+1,"1. A financial analyst is preparing a valuation report for a publicly traded company. Which of the following statements best aligns with the Standards of Practice Handbook regarding the inclusion of performance information in marketing materials?
+A. The financial analyst should disclose the use of back-tested data to represent performance accurately.
+B. The financial analyst should ensure all fees and expenses are deducted before showcasing the fund's track record.
+C. The marketing materials should include a weighted composite of similar portfolios alongside the Everglades Fund's performance.","wer: A
+Explanation: According to the Standard of Professional Conduct, it is crucial to disclose the use of back-tested data in marketing materials to ensure fairness, accuracy, and completeness in presenting the fund's performance."
+2,"As a supervisor in an investment firm's compliance program, which of the following duties is least likely required according to the Standards of Practice Handbook?
+A. Respond promptly to all violations detected.
+B. Disseminate the program's contents to all personnel in the firm.
+C. Incorporate a professional conduct evaluation in employee performance reviews.","wer: B
+Explanation: While supervisors are responsible for making reasonable efforts to detect and prevent violations, disseminating the compliance program to all personnel may not be a mandatory requirement as per the Standards."
+3,"Which statement is NOT required by the Global Investment Performance Standards regarding the definition of a firm?
+A. Firms must be defined as an investment firm.
+B. The organizational changes in a firm can alter historical composite results.
+C. Total firm assets must be the aggregate market value of all discretionary and nondiscretionary assets under management.","wer: B
+Explanation: The GIPS Standards do not permit the alteration of historical composite results due to organizational changes in a firm."
+4,"Data categorized but not ranked falls under which measurement scale?
+A. An ordinal scale.
+B. A nominal scale.
+C. An interval scale.","wer: B
+Explanation: In a nominal scale, data is categorized but not ranked, distinguishing it from ordinal and interval scales."
+5,"Given a joint probability of events A and B, with conditional probability calculations, what is the likelihood of event A given event B has occurred?
+A.","wer: C
+Explanation: The conditional probability of event A given that event B has occurred is calculated as the Joint probability of A and B divided by the probability of B, resulting in"
+6,0%.,"wer: B
+Explanation: When a firm's costs increase disproportionately with production, it indicates diseconomies of scale, usually due to difficulties in managing a larger enterprise."
+7,"Calculating the debt-capital ratio after all convertible bonds are converted, what is the closest debt-capital ratio based on the provided company information?
+A.","wer: B
+Explanation: By converting the convertible bonds to equity and recalculating the debt-capital ratio, it is closest to"
+8,4%.,"wer: A
+Explanation: Issuing redeemable preferred shares affects various financial metrics, but it may not necessarily improve the debt/total capital ratio."
+9,"Calculating the cash conversion cycle using financial statement data, what is the 2008 cash conversion cycle in days based on the provided information?
+A.","wer: A
+Explanation: The cash conversion cycle can be derived by calculating the Days Sales Outstanding plus Days on Hand minus Days in Payables, resulting in 23 days."
+10,"With given ratios for receivables, inventory, and payables days, what is the cash conversion cycle for the company?
+A. 57 days.
+B. 85 days.
+C. 113 days.","wer: A
+Explanation: By subtracting the days of payables from the sum of receivables and inventory days, the cash conversion cycle equals 57 days.
+
+These questions cover a range of topics related to financial analysis, valuation, compliance standards, probability, company metrics, and behavioral biases commonly encountered by financial analysts. Each answer is explained in detail to provide a comprehensive understanding of the concepts involved."
+11,"1. Which of the following is NOT a condition that makes analysts inclined to use free cash flow (FCF) models for valuation?
+
+A. The company consistently pays dividends to shareholders regularly.
+B. The company's dividend payments do not reflect its true capacity to pay dividends.
+C. The company is forecasted to align free cash flows with profitability within a reasonable forecast period.","wer: A
+Explanation: Analysts prefer to use free cash flow models over dividend models when companies do not pay dividends or when the company's dividend payments do not accurately represent its capacity to pay dividends. Therefore, if the company consistently pays dividends to shareholders regularly, there is no need to rely solely on free cash flow models for valuation."
+12,"When valuing common equity indirectly using the FCFF approach, what is the correct formula to determine the value of equity?
+
+A. Equity value = Firm value + Market value of debt
+B. Equity value = Firm value - Market value of debt
+C. Equity value = Value of the firm - Non-common stock capital","wer: B
+Explanation: The value of common equity using the FCFF approach is calculated by subtracting the value of the firm's debt from the firm value, not by adding the market value of debt to the firm value."
+13,"How are free cash flow to equity (FCFE) and free cash flow to the firm (FCFF) related to each other?
+
+A. FCFE = FCFF - Interest(1 - Tax rate) + Net borrowing
+B. FCFE = FCFF - Net borrowing
+C. FCFE = FCFF + Interest(1 - Tax rate)","wer: A
+Explanation: FCFE can be calculated from FCFF by subtracting interest (1 - Tax rate) and adding net borrowing. Therefore, the correct relationship is FCFE = FCFF - Interest(1 - Tax rate) + Net borrowing."
+14,"In a company where the long-run average cost of production increases more than the increase in production, what scale of economics is the company likely experiencing?
+
+A. Economies of scale
+B. Diseconomies of scale
+C. Constant returns to scale","wer: B
+Explanation: When a company's long-run average cost of production rises faster than the increase in production, it is experiencing diseconomies of scale, where costs increase disproportionately as the firm grows."
+15,"Why did Sammy Sneadle, CFA, violate the CFA Institute Standards of Professional Conduct in the given scenario?
+
+A. He did not disclose the use of back-tested data.
+B. He failed to deduct all fees and expenses before calculating the fund’s track record.
+C. The marketing materials only include the Everglades Fund’s performance and are not a weighted composite of similar portfolios.","wer: A
+Explanation: Sammy Sneadle violated the Standards of Professional Conduct by not disclosing the use of back-tested data in the marketing materials, which misrepresented the fund's performance, leading to a violation of ethical standards."
+16,"**Generated Questions:**
+
+1. **Question:** Residual income modeling is used to calculate net income after deducting common shareholders' opportunity cost. This approach explicitly recognizes the costs of all capital used for generating income. Residual income is measured as:
+  
+   A. Net income minus the cost of debt capital  
+   B. Net income minus the cost of equity capital  
+   C. Net income minus the total capital costs
+
+**","wer:** B. Net income minus the cost of equity capital  
+**Explanation:** Residual income is calculated as net income less a deduction for the cost of equity capital in generating that income. This ensures that all capital costs are included in the calculation, providing a clearer measure of true economic profit for shareholders."
+17,"**Question:** When applying residual income valuation, how does the intrinsic value of common stock relate to the present value of expected future per-share residual income?
+
+   A. Intrinsic value is solely based on historical performance  
+   B. Intrinsic value is the sum of book value per share and the expected future residual income  
+   C. Intrinsic value is determined by the company's current market price
+
+**","wer:** B. Intrinsic value is the sum of book value per share and the expected future per-share residual income  
+**Explanation:** The intrinsic value of common stock in residual income valuation is calculated as the summation of book value per share and the present value of expected future per-share residual income. This approach considers both historical performance and future income potential."
+18,"**Question:** When estimating the intrinsic value of a common stock using a two-stage residual income model with continuing residual income in stage two, the final value includes the projected future cash flows plus:
+
+   A. The present value of terminal price at Time T  
+   B. The discounted value of expected earnings at Time T  
+   C. The sum of book value per share and the expected future per-share residual income at Time T
+
+**","wer:** A. The present value of terminal price at Time T  
+**Explanation:** In a two-stage residual income model with continuing residual income, the intrinsic value of a common stock includes the present value of expected residual income in the second stage, plus the terminal price at Time T discounted back to present value."
+19,"**Question:** How does the calculation of continuing residual income at the forecast horizon differ from regular residual income?
+
+   A. Continuing residual income considers the impact of future growth rates  
+   B. Regular residual income is based on historical performance only  
+   C. Continuing residual income excludes the cost of equity capital
+
+**","wer:** A. Continuing residual income considers the impact of future growth rates  
+**Explanation:** Continuing residual income at the forecast horizon takes into account the impact of future growth rates on the company's residual income generation, providing a more forward-looking estimate of residual income beyond the forecast period."
+20,"**Question:** In residual income models, how is the intrinsic value of common stock calculated in the two-stage model with continuing residual income, as compared to a single-stage model without continuing residual income?
+
+   A. In the two-stage model, intrinsic value is based on historical earnings only  
+   B. The single-stage model values future growth higher than the two-stage model  
+   C. The two-stage model incorporates additional cash flow projections in the second stage
+
+**","wer:** C. The two-stage model incorporates additional cash flow projections in the second stage  
+**Explanation:** The two-stage residual income model with continuing residual income includes additional cash flow projections in the second stage beyond the forecast horizon, capturing the ongoing value creation potential of the company."
+21,"**Question:** When comparing residual income models to dividend discount and free cash flow models, what is a key advantage of residual income models?
+
+   A. Residual income models are based on accounting metrics, making them more reliable  
+   B. Residual income models consider the cost of all capital providers for a more accurate valuation  
+   C. Residual income models are less complex and easier to apply than other valuation methods
+
+**","wer:** B. Residual income models consider the cost of all capital providers for a more accurate valuation  
+**Explanation:** Residual income models excel in considering the costs of all capital providers, including both debt and equity, providing a more precise valuation that reflects the true economic profit available to shareholders."
+22,"**Question:** In residual income valuation, what determines the intrinsic value of a common stock beyond just historical book value calculations?
+
+   A. The company's market capitalization and industry performance  
+   B. Expected future per-share residual income and the required rate of return on equity  
+   C. Dividend payments and earnings per share growth rates
+
+**","wer:** B. Expected future per-share residual income and the required rate of return on equity  
+**Explanation:** In residual income valuation, the intrinsic value of common stock factors in expected future per-share residual income alongside the required rate of return on equity, providing a forward-looking perspective on stock value beyond book value calculations."
+23,"**Question:** How does residual income relate to the concept of economic profit and the true value creation potential of a company?
+
+   A. Residual income compensates equity shareholders for historical losses  
+   B. Residual income measures the net profit remaining after the cost of equity capital is deducted  
+   C. Residual income is a financial loss incurred by a company after all operating expenses
+
+**","wer:** B. Residual income measures the net profit remaining after the cost of equity capital is deducted  
+**Explanation:** Residual income represents the profit generated above the cost of equity capital, indicating the true value added by a company's operations. It focuses on economic profit after all costs of capital are considered."
+24,"**Question:** When calculating the intrinsic value of a common stock using residual income models, what fundamental determinant plays a key role in estimating future residual income?
+
+   A. Market price fluctuations and investor sentiment  
+   B. Expected earnings per share and the company's return on equity  
+   C. External economic factors and industry-specific challenges
+
+**","wer:** B. Expected earnings per share and the company's return on equity  
+**Explanation:** The expected earnings per share and the company's return on equity are key fundamental determinants used to forecast future residual income, influencing the intrinsic value estimate generated through the residual income model."
+25,"**Question:** Why is residual income valuation considered advantageous compared to traditional accounting measures in assessing the true value of a company's common stock?
+
+    A. Residual income valuation includes all capital costs for a more accurate assessment  
+    B. Residual income focuses solely on historical financial performance  
+    C. Residual income ignores the impact of equity investments on overall profitability
+
+**","wer:** A. Residual income valuation includes all capital costs for a more accurate assessment  
+**Explanation:** Residual income valuation is advantageous as it incorporates all capital costs, providing a comprehensive view of the economic profit generated by a company beyond traditional accounting measures that may overlook certain costs."

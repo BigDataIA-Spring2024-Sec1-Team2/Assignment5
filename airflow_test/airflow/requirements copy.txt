@@ -1,4 +1,0 @@
-pydantic
-sqlalchemy
-snowflake-connector-python
-requests

@@ -17,6 +17,7 @@ openai==1.16.2
 packaging==24.0
 pandas
 pinecone-client
+pinecone-client[grpc]
 platformdirs==3.11.0
 pycparser==2.22
 pydantic==2.6.4
