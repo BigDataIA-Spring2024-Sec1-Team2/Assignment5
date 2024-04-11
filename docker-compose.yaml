@@ -319,6 +319,8 @@ services:
     build:
         context: Frontend
         dockerfile: Dockerfile
+    volumes:
+    - ../airflow/scripts:/opt/streamlit/scripts
     restart: always
     ports:
         - "8501:8501"

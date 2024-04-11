@@ -740,11 +740,10 @@ def create_los_embeddings_pinecone_main_block():
     for idx,los in enumerate(los_data):
         print(los)
         print("\n", type(los))
-        print("Hey Man ######################################")
         markdown_los_summaries, markdown_summaries_list = process_los_collection(los)
         print(len(markdown_summaries_list))
         all_summaries.extend(markdown_summaries_list)
-        save_markdown_document(markdown_los_summaries, "./output_data/" + str(topic_names[idx] )+ 'LOS_Summary.md')
+        save_markdown_document(markdown_los_summaries, "./scripts/data/" + str(topic_names[idx] )+ 'LOS_Summary.md')
 
     embed_model = os.getenv('EMBEDDING_MODEL')
     print(len(all_summaries))

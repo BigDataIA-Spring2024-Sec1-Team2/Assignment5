@@ -8,7 +8,7 @@ if st.session_state["authentication_status"]:
     st.title("Knowledge Base (Q/A)")
     st.subheader("Question Set A")
 
-    file_path = "../scripts/use_case_2/data/set_a.csv"
+    file_path = "./scripts/data/set_a.csv"
     df = pd.read_csv(file_path)
     
     for idx, row in df.iterrows():

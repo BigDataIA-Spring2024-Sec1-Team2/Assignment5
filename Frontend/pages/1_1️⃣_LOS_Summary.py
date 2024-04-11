@@ -19,7 +19,7 @@ if st.session_state["authentication_status"]:
         with open(file_path, 'r') as file:
             return file.read()
         
-    markdown_text = load_markdown(f'../scripts/use_case_2/output/{option}LOS_Summary.md')
+    markdown_text = load_markdown(f'./scripts/data/{option}LOS_Summary.md')
     st.write("CFA Website [Link](%s): " % website[option])
     st.subheader("Markdown Summary generated using OpenAI:")
     st.markdown(markdown_text, unsafe_allow_html=True)

@@ -26,7 +26,7 @@ if st.session_state["authentication_status"]:
             res = "✅" if col1_val == col2_val else "❌"
         return res
 
-    file_path = "../scripts/use_case_2/data/report_part_4.csv"
+    file_path = "./scripts/data/report_part_4.csv"
     df = pd.read_csv(file_path)
     
     df['Result'] = df.apply(lambda row: create_column(row['true_ans'], row['generated_ans']), axis=1)
