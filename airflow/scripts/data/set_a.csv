@@ -1,161 +1,111 @@
 id,question,answer
-1,"1. Based on the description provided, what is the intrinsic value of an asset?  
+1,"1. Which aspect of valuation is critical for success in investing and at the heart of equity analysts' professional activities?
+A. Skill in valuation
+B. Forecasting company performance
+C. Selecting the appropriate valuation model","wer: A
+Explanation: Skill in valuation is crucial for success in investing and is specifically vital for equity analysts as it forms the core of their professional activities by determining the value of ownership stakes. Valuation involves estimating an asset's worth based on various factors related to future investment returns, comparisons with similar assets, or liquidation proceeds."
+2,"In equity valuation, what does intrinsic value represent with respect to a company's operation assumptions?
+A. The company's value if dissolved and assets sold individually
+B. The hypothetical value of an asset given an understanding of its investment characteristics
+C. The price at which an asset would change hands in an informed, non-compelled transaction","wer: B
+Explanation: Intrinsic value refers to the hypothetical value of an asset given a complete understanding of its investment characteristics and business operations assumptions. It incorporates the going concern assumption, which assumes the company will continue operating for the foreseeable future."
+3,"When conducting valuation, what is the purpose of sensitivity analysis and situational adjustments in converting forecasts to valuation?
+A. To determine the accuracy of the valuation model
+B. To evaluate potential changes in assumed inputs on the analysis outcome
+C. To apply discounts for lack of marketability on asset values","wer: B
+Explanation: Sensitivity analysis in valuation helps analysts understand how changes in assumed inputs would impact the analysis outcome. Situational adjustments, like control premiums and discounts, are made to reflect potential changes in the analysis output based on specific circumstances or factors."
+4,"Which valuation approach involves specifying an asset's intrinsic value to compare it with market price?
+A. Relative valuation models
+B. Sum-of-the-parts valuation
+C. Absolute valuation models","wer: C
+Explanation: Absolute valuation models involve specifying an asset's intrinsic value, providing a point estimate for comparison with market price. This approach aims to estimate the true or intrinsic worth of an asset based on underlying financial and operational factors."
+5,"In the valuation process, what is the primary step before forecasting company performance?
+A. Selecting the appropriate valuation model
+B. Understanding the business
+C. Converting forecasts to a valuation","wer: B
+Explanation: Understanding the business is the initial step in the valuation process, encompassing evaluations of industry prospects, competitive position, and corporate strategies. This step is crucial in accurately forecasting company performance by analyzing various business-related factors."
+6,"How does the going concern value contrast with the liquidation value of a company?
+A. Going concern value assumes continuous operation while liquidation value assesses asset dissolution.
+B. Going concern value is based on absolute valuation models, whereas liquidation value uses relative valuation.
+C. Going concern value is solely dependent on the company's market price, unlike liquidation value.","wer: A
+Explanation: The going concern value assumes the company will continue operating, considering future cash flows and business viability. In contrast, the liquidation value assesses the worth of a company's assets if it were dissolved, emphasizing the immediate asset realization instead of ongoing operations."
+7,"When choosing an appropriate valuation approach, what broad criteria should analysts consider?
+A. Consistency with the company's branding strategy
+B. Alignment with the analyst's personal investment goals
+C. Consistency with the company's characteristics, available data, and valuation purpose","wer: C
+Explanation: Analysts should consider criteria such as consistency with the company's characteristics, availability and quality of data, and alignment with the valuation purpose when selecting an appropriate valuation approach. This ensures that the chosen approach effectively captures the company's true value."
+8,"What is one key aspect that distinguishes absolute valuation models from relative valuation models?
+A. Absolute models use market multiples for comparison, while relative models rely on intrinsic value.
+B. Absolute models provide a point estimate of value, while relative models assess the asset's value relative to others.
+C. Absolute models are based on discounted cash flow, while relative models use earnings per share.","wer: B
+Explanation: One key distinction is that absolute valuation models, such as discounted cash flow models, provide a precise estimate of intrinsic value, while relative valuation models compare the asset's value relative to similar assets or benchmarks without pinpointing an intrinsic value."
+9,"1. Rob is analyzing the intrinsic value of a common stock using the residual income model. After forecasting the earnings per share and required rate of return on equity, he needs to calculate the per-share residual income. Which of the following formulas correctly represents the calculation of per-share residual income in the residual income model?
 
-A. The hypothetical complete understanding of the asset’s investment characteristics.  
-B. The asset's value based on its current market price.  
-C. The asset's value based on external market factors.","wer: A  
+A. Earnings per share multiplied by the required rate of return on equity.
+B. Expected return on equity minus the cost of debt capital.
+C. Earnings per share minus the product of required rate of return on equity and beginning book value per share.","wer: C 
 
-Explanation: Intrinsic value refers to the value of an asset based on a complete understanding of its investment characteristics. It incorporates the going concern assumption and is not solely based on market price fluctuations. Understanding the intrinsic value is essential for effective investing decisions."
-2,"How does the going concern value differ from the liquidation value of a company?  
+Explanation: Per-share residual income in the residual income model is calculated as the difference between earnings per share and the product of the required rate of return on equity and the beginning book value per share. This represents the excess income generated beyond the cost of equity capital. It indicates how much value a company has added for common shareholders."
+10,"Megan, a financial analyst, is using residual income to value a company's common stock. Which of the following statements is true about continuing residual income in the residual income model?
 
-A. Going concern value assumes continuous operations, while liquidation value assumes asset sale.  
-B. Going concern value is based on market factors, while liquidation value is based on book value.  
-C. Going concern value reflects the company's intangible worth, while liquidation value focuses on tangible assets.","wer: A  
+A. Continuing residual income estimates the future dividends of a company.
+B. It represents the residual income at the forecast horizon and beyond, assuming stable returns.
+C. Continuing residual income is calculated as total net income minus dividends distributed to common shareholders.","wer: B
 
-Explanation: The going concern value assumes the company will continue operating as normal, considering future cash flows and operations. In contrast, the liquidation value represents the company's worth if it were dissolved and its assets sold off individually, often at a disadvantageous price compared to ongoing operations."
-3,"When selecting a valuation model, what is a critical consideration for a financial analyst?  
+Explanation: Continuing residual income in the residual income model represents the residual income at the forecast horizon and beyond, assuming that the company will continue to generate a consistent economic profit. It reflects the ongoing value creation potential of the company for common shareholders."
+11,"Andrew is evaluating the intrinsic value of a common stock using a two-stage residual income model. In the second stage, what component is added to the basic residual income calculation to determine the total intrinsic value of the stock?
 
-A. Data availability and quality.  
-B. Historical performance of the company.  
-C. Industry average valuation multiples.","wer: A  
+A. Expected per-share earnings at the terminal time.
+B. The difference between the expected return on equity and the required rate of return on equity.
+C. The excess of the terminal price over the terminal book value per share.","wer: C
 
-Explanation: Selecting the appropriate valuation model requires evaluating the availability and reliability of data for the specific company being valued. The analyst needs accurate and relevant information to make informed decisions about the valuation approach to use."
-4,"Why is it essential for analysts to communicate valuation assumptions and calculations clearly?  
+Explanation: In the two-stage residual income model, the intrinsic value of a common stock includes the expected per-share earnings at the terminal time plus the difference between the terminal price and the terminal book value per share. This final stage accounts for the value beyond the forecast horizon."
+12,"Sarah, a financial analyst, is comparing residual income models to dividend discount models. Which of the following statements is a strength of residual income models over dividend discount models?
 
-A. To ensure transparency and accountability in the evaluation process.  
-B. To impress clients with technical expertise.  
-C. To align with industry standards without adding value to the analysis.","wer: A  
+A. Residual income models consider the timing and predictability of dividends.
+B. Residual income models do not require assumptions about future dividend growth rates.
+C. Residual income models explicitly account for the cost of equity capital.","wer: C
 
-Explanation: Clear communication of valuation assumptions and calculations is crucial to maintain transparency and accountability in the evaluation process. It helps build trust with clients, regulators, and stakeholders by demonstrating a thorough and objective analysis."
-5,"What role do control premiums and illiquidity discounts play in the valuation process?  
+Explanation: A strength of residual income models over dividend discount models is that residual income models explicitly account for the cost of equity capital, reflecting the true economic costs of equity financing. This makes the valuation more robust by considering the shareholders' required return."
+13,"Mark is calculating the implied growth rate in residual income for a company using the market price-to-book ratio and the required rate of return on equity. Which of the following factors influences the implied growth rate in residual income?
 
-A. Adjusting for the value of a controlling interest and lack of market liquidity.  
-B. Enhancing the company's perceived value based on management control.  
-C. Ignoring external market pressures for accurate assessment.","wer: A  
+A. The maturity structure of the company's debt.
+B. The company's asset turnover ratio.
+C. The discrepancy between the market's valuation and the book value of equity.","wer: C
 
-Explanation: Control premiums account for the additional value of a controlling interest in a company, while illiquidity discounts adjust for the lack of marketability in the company's shares. These factors are critical in refining valuation models to reflect real-world market conditions accurately."
-6,"In relative valuation models, why do analysts compare a stock's price multiple to a benchmark?  
+Explanation: The implied growth rate in residual income is influenced by the discrepancy between the market's valuation, reflected in the price-to-book ratio, and the book value of equity. This discrepancy indicates the market's expectations about the company's future growth and profitability."
+14,"Tina is assessing the financial performance of a company using economic value added (EVA). Which of the following components is subtracted from net operating profit after taxes (NOPAT) to calculate EVA?
 
-A. To assess the stock's valuation relative to similar assets or the market.  
-B. To determine the company's historical performance compared to industry peers.  
-C. To identify trends in the stock's price without external references.","wer: A  
+A. The total capital employed.
+B. The cost of equity capital.
+C. The net income attributable to common shareholders.","wer: B
 
-Explanation: Relative valuation involves comparing a stock's price multiple with a benchmark to assess its valuation relative to similar assets or the overall market. This comparison helps determine if the stock is undervalued or overvalued based on industry standards and market conditions."
-7,"How does sum-of-the-parts valuation differ from traditional valuation approaches?  
+Explanation: In calculating economic value added (EVA), the cost of equity capital is subtracted from the net operating profit after taxes (NOPAT). EVA represents the excess returns generated after considering both operating profits and the costs of equity funds."
+15,"Ryan is evaluating a company's performance using the residual income model. If the company's actual earnings per share exceed the required rate of return on equity, how would the per-share residual income be affected?
 
-A. It values a company based on the separate worth of its divisions or segments.  
-B. It relies solely on discounted cash flow for valuation.  
-C. It ignores the impact of industry factors on valuation.","wer: A  
+A. It would decrease, reflecting lower value addition for shareholders.
+B. It would increase, indicating superior performance in excess of equity costs.
+C. It would not change, as long as the net income remains constant.","wer: B
 
-Explanation: Sum-of-the-parts valuation values a company based on the individual worth of its distinct divisions or segments, considering each part's contribution to the overall value. This approach offers a more granular view of the company's worth compared to a unified valuation method."
-8,"When choosing a valuation approach, why is it crucial for analysts to consider the characteristics of the company being valued?  
+Explanation: If a company's actual earnings per share exceed the required rate of return on equity, the per-share residual income would increase. This reflects the company's ability to generate value above the cost of equity capital, leading to higher residual income for shareholders."
+16,"Laura is using the residual income model to estimate the intrinsic value of a common stock with a single-stage (constant-growth) model. Which of the following factors primarily determines the future residual income in a constant-growth model?
 
-A. To ensure the chosen approach aligns with the company's unique attributes.  
-B. To prioritize speed and efficiency over accuracy in valuation.  
-C. To follow industry trends regardless of company specifics.","wer: A  
+A. The dividend payout ratio of the company.
+B. The company's post-forecast return on equity.
+C. The stability and growth rate of future earnings.","wer: B
 
-Explanation: Analysts must consider the company's unique characteristics when selecting a valuation approach to ensure alignment with the business model, industry dynamics, and financial performance. Tailoring the valuation method to company specifics enhances the accuracy and relevance of the valuation results."
-9,"1. Which valuation approach estimates the value of the firm by discounting future free cash flows at the weighted average cost of capital (WACC)?
+Explanation: In a single-stage constant-growth residual income model, the future residual income is primarily determined by the company's post-forecast return on equity. This factor reflects the company's expected profitability and the sustainability of its value creation for shareholders."
+17,"David is comparing residual income models with free cash flow models. Which of the following statements best represents a key difference between residual income and free cash flow models?
 
-A. Dividend discount model (DDM)
-B. Residual income approach
-C. Free cash flow to firm (FCFF) model","wer: C 
+A. Residual income models focus on equity financing, while free cash flow models emphasize debt financing.
+B. Residual income models measure value creation directly, while free cash flow models focus on cash flow generation.
+C. Residual income models calculate intrinsic value based on future growth rates, while free cash flow models rely on historical cash flows.","wer: B
 
-Explanation: The FCFF valuation approach estimates the value of the firm by discounting future FCFF at the WACC. FCFF represents the cash flows available to all investors in the company and is a key component in DCF valuation models."
-10,"Why do analysts prefer to use free cash flow (FCFF or FCFE) as the return in certain situations?
+Explanation: A key difference between residual income and free cash flow models is that residual income models measure value creation directly by deducting the cost of equity capital, while free cash flow models focus on the generation and availability of cash flows for all capital providers, including debt and equity."
+18,"Sophia wants to assess whether a stock is overvalued, fairly valued, or undervalued using a residual income model. Which factor is crucial in determining the accuracy of this valuation assessment?
 
-A. If the company pays high dividends
-B. If the investor seeks capital appreciation
-C. If there is a control perspective or significant divergence in dividend capacity","wer: C
+A. The company's earnings volatility.
+B. The discount rate applied to future cash flows.
+C. The consistency of the company's returns on equity.","wer: B
 
-Explanation: Analysts prefer to use free cash flow as the return if the company does not pay dividends, dividends significantly differ from the company's capacity, profitability aligns with free cash flow, or if there is a control perspective for the investor."
-11,"How are FCFF and FCFE interrelated in terms of calculation and components?
-
-A. FCFE equals FCFF plus interest minus net borrowing
-B. FCFE equals FCFF minus interest minus net borrowing
-C. FCFE equals FCFF minus interest plus net borrowing","wer: B
-
-Explanation: FCFE is calculated as FCFF minus interest (1 - Tax rate) plus net borrowing. These formulas show the relationship between FCFF, FCFE, interest, and net borrowing in the context of cash flow analysis."
-12,"When using a two-stage free cash flow valuation model, what does the first stage typically assume?
-
-A. Constant growth in free cash flow
-B. Declining growth followed by stable growth
-C. Continuous fluctuations in cash flow from year to year","wer: B
-
-Explanation: A common two-stage model assumes declining growth in the initial stage followed by a stable growth rate in the second stage. This model allows for a more nuanced analysis of future cash flows."
-13,"How does the weighted average cost of capital (WACC) formula adjust for the firm's capital structure?
-
-A. It includes the market value of debt and equity in the denominator
-B. It multiplies the cost of debt by the tax rate
-C. It considers the market value of equity only","wer: A
-
-Explanation: The WACC formula incorporates the market value of debt and equity in the denominator, reflecting the firm's capital structure and the relative importance of debt and equity in determining the cost of capital."
-14,"What impact would a coding error in the factor weighting have on the client's investment when using a quantitative strategy?
-
-A. Increased returns due to dynamic allocation
-B. Reduced risk due to adjusted weightings
-C. Potential negative effect on performance","wer: C
-
-Explanation: A coding error in factor weightings can have a significant negative impact on the client's investment performance, potentially leading to undesired outcomes or unexpected results."
-15,"In which scenario should an analyst value a company directly using the present value of free cash flow to equity (FCFE)?
-
-A. When the company has stable dividend payments
-B. When there is a significant non-common-stock capital structure
-C. When the company's equity value needs to be estimated directly","wer: C
-
-Explanation: Valuing the company directly using the present value of FCFE involves estimating the equity value by subtracting non-common-stock capital. This method is useful when a direct estimate of equity value is required."
-16,"How do constant growth models differ from multistage models in free cash flow valuation?
-
-A. They assume changing growth rates over time
-B. They consider a single growth rate for all stages
-C. They involve dynamic weighting components","wer: B
-
-Explanation: Constant growth models assume a single growth rate for all stages, while multistage models allow for varying growth rates over different periods, reflecting the dynamic nature of a company's cash flows."
-17,"1. When valuing common stock using residual income models, which component explicitly accounts for the opportunity cost of common shareholders in generating net income?
-    
-A. Net income  
-B. Residual income  
-C. Equity charge","wer: C
-
-Explanation: The equity charge in residual income models explicitly represents the opportunity cost of common shareholders in generating net income. It deducts the cost of equity capital, ensuring that all capital costs are considered. Residual income is the net income less this equity charge, making option C the correct choice."
-18,"How does the concept of residual income relate to the fundamental measure of return on equity (ROE)?
-
-A. Residual income is equal to ROE  
-B. Residual income is a component of ROE  
-C. ROE is the cost of equity in residual income models","wer: B
-
-Explanation: Residual income is a measure that extends beyond ROE by deducting the cost of equity capital. While ROE represents the return generated on equity, residual income focuses on the surplus income beyond the cost of equity. This makes option B the accurate choice in understanding their relationship."
-19,"In residual income valuation, what is typically added to the current per-share book value to calculate the intrinsic value of common stock?
-
-A. Current earnings per share 
-B. Required rate of return on equity 
-C. Expected future per-share residual income","wer: C
-
-Explanation: The intrinsic value of common stock in the residual income model is computed by adding the current per-share book value to the present value of expected future per-share residual income. This residual income includes the surplus earnings after subtracting the cost of equity, making option C the suitable selection."
-20,"Within the two-stage residual income model, what element represents the additional value beyond the estimated per-share book value at the terminal time?
-
-A. Expected earnings growth rate 
-B. Terminal price 
-C. Continuing residual income","wer: C
-
-Explanation: Continuing residual income in the two-stage model reflects the additional value beyond the estimated per-share book value at the terminal time. This ongoing residual income captures the extended value creation potential, making option C the correct answer."
-21,"How are floating-rate bonds different in terms of spread duration compared to non-callable fixed-rate bonds?
-
-A. Similar 
-B. Higher 
-C. Lower","wer: A
-
-Explanation: For floating-rate bonds, the spread duration is usually very close to the modified duration, similar to non-callable fixed-rate bonds. Their sensitivity to interest rate changes is almost equivalent, making option A the accurate choice in differentiating spread durations."
-22,"If the current OAS for a bond is 120 bps, the expected OAS in 6 months is 130 bps, and the spread duration is","wer: B
-
-Explanation: Calculating the expected excess return using the provided data yields a value of"
-23,"25%. This calculation involves changes in spread and spread duration, resulting in the expected return, making option B the correct response.","wer: C
-
-Explanation: Market 3, with a high concentration of CCC-rated bonds and low expected supply of newly issued high-yield bonds, is expected to perform best in a bullish global environment. It indicates a potentially advantageous positioning, making option C the most suitable choice."
-24,"Which structured financial instrument best aligns with a client's preference for financial sector exposure and multiple credit protection sources?
-
-A. Covered bonds
-B. Asset-backed securities
-C. Collateralized debt obligations","wer: A
-
-Explanation: Covered bonds offer more than one source of credit protection and align with the client's preferences for financial sector exposure and safety measures. These bonds offer dual protection to creditors, making them suitable for the client's requirements, leading to option A being the correct selection."
+Explanation: The discount rate applied to future cash flows, which represents the required rate of return on equity, is crucial in determining the accuracy of the valuation assessment using a residual income model. A proper discount rate ensures that the intrinsic value estimation reflects the risk and return expectations of investors."
