@@ -123,7 +123,7 @@ def generate_25_qna(client, history):
     return (response.choices[0].message.content)
 
 def parse_response(response):
-    questions = response.split("Answer:")
+    questions = response.split("Answer")
     res = []
     ques = {}
     ques["question"] = questions[0].strip()

@@ -6,6 +6,7 @@ from openai import OpenAI
 from pinecone import Pinecone
 from scipy.spatial import distance
 import numpy as np
+import re
 
 load_dotenv("./config/.env", override=True)
 
@@ -64,7 +65,11 @@ def get_answer(openai_client, question, context):
         model="gpt-3.5-turbo",
         messages=history
     )
-    return (response.choices[0].message.content)
+    ans = response.choices[0].message.content
+    # print("GPT response")
+    # print(ans)
+    return ans
+
 
 def strings_ranked_by_relatedness(
     query1: str,
@@ -171,5 +176,5 @@ def main(part, file_name):
 
 if __name__ == "__main__":
     main("set_a", "report_part_3")
-    main("summary", "report_part_4")
+    # main("summary", "report_part_4")
 
