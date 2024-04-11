@@ -1,0 +1,176 @@
+id,question,answer
+1,"1. In equity valuation, what type of valuation model provides a point estimate of an asset’s intrinsic value that can be compared with market price?
+   A. Absolute valuation model
+   B. Relative valuation model
+   C. Sum-of-the-parts valuation","wer: A
+   
+   Explanation: Absolute valuation models provide a point estimate of an asset’s intrinsic value irrespective of market conditions. These models include discounted cash flow models that estimate the present value of future cash flows to determine intrinsic value. Relative valuation models, on the other hand, compare the asset’s value relative to another asset or benchmark, while sum-of-the-parts valuation breaks down a company's value into different business segments."
+2,"Why is it important for equity analysts to consider the implications of control premiums and discounts for lack of marketability in their valuation process?
+   A. To determine liquidation value
+   B. To estimate fair value in a going concern scenario
+   C. To assess the impact on minority shareholders","wer: C
+   
+   Explanation: Control premiums and discounts for lack of marketability affect the valuation of minority shareholdings. Understanding these factors is crucial for analysts to assess the impact on the value of minority shareholders' interests in a company, especially in scenarios involving mergers, acquisitions, or private transactions."
+3,"When selecting an appropriate valuation approach for a public company, what criteria should equity analysts consider?
+   A. Consistency with the market capitalization
+   B. Availability of historical stock prices
+   C. Analyst’s valuation purpose and perspective","wer: C
+   
+   Explanation: Equity analysts should consider the appropriateness of the valuation approach based on the characteristics of the company being valued, the availability and quality of data, and the analyst’s valuation purpose and perspective. The chosen approach should align with the specific needs of the valuation exercise and the context in which the valuation results will be used."
+4,"Which type of valuation model involves comparing a stock's price multiple to a benchmark price multiple?
+   A. Absolute valuation model
+   B. Relative valuation model
+   C. Sum-of-the-parts valuation","wer: B
+   
+   Explanation: Relative valuation models, also known as the method of comparables, involve comparing a stock's price multiple (e.g., P/E ratio) to a benchmark price multiple derived from similar stocks or a group of peers. This comparison helps assess the relative valuation of the stock in relation to its peers in the market."
+5,"How can analysts apply sensitivity analysis in the valuation process?
+   A. To adjust for illiquidity discounts
+   B. To assess the impact of changes in key assumptions
+   C. To estimate control premiums","wer: B
+   
+   Explanation: Analysts use sensitivity analysis to evaluate how changes in key assumptions or inputs affect the outcome of the valuation analysis. By varying these inputs within a range of scenarios, analysts can assess the sensitivity of the valuation model to changes in critical factors, helping to identify the key drivers of value and potential risks."
+6,"What is the main objective of conducting an industry and competitive analysis in equity valuation?
+   A. To estimate the company’s liquidation value
+   B. To identify potential synergies in a merger scenario
+   C. To understand the industry dynamics and competitive position","wer: C
+   
+   Explanation: Industry and competitive analysis provides valuable insights into the prevailing market conditions, industry trends, competitive landscape, and strategic positioning of the company being valued. Understanding these factors is essential for making informed forecasts, assessing risks, and determining the intrinsic value of the company."
+7,"When forecasting company performance, what forecasting approach involves aggregating individual company forecasts to industry forecasts?
+   A. Top-down forecasting
+   B. Bottom-up forecasting
+   C. Microeconomic forecasting","wer: B
+   
+   Explanation: Bottom-up forecasting involves aggregating individual company forecasts to industry forecasts. This approach starts with analyzing individual company data, which is then aggregated to derive industry-level forecasts, providing a detailed view of company-specific factors that may impact performance."
+8,"In the valuation process, what criteria should analysts consider when selecting an appropriate approach for valuing a given company?
+   A. Availability of historical trading volumes
+   B. Consistency with the analyst’s investment portfolio
+   C. Characteristics of the company being valued","wer: C
+   
+   Explanation: Analysts should consider the characteristics of the company being valued, such as its industry, size, growth prospects, and financial structure, when selecting an appropriate valuation approach. The chosen approach should be tailored to the unique attributes of the company to ensure a relevant and accurate valuation outcome."
+9,"1. A financial analyst is valuing a company's equity using the free cash flow to equity (FCFE) approach. Which of the following best describes the ownership perspective implicit in the FCFE approach?
+
+A. FCFE represents the cash available for distribution to common stockholders after considering all claims on the company's cash flows.
+B. FCFE includes cash flows available to all investors, both equity and debt holders, in the company.
+C. FCFE excludes any non-operating assets from the valuation of the company's equity.","wer: A
+
+Explanation: The FCFE approach focuses on the cash flow available for distribution to common stockholders after considering all claims on the company's cash flows. It represents the cash flow available to equity investors after accounting for debt and other obligations, reflecting an ownership perspective where common stockholders have a claim on the residual cash flows."
+10,"When evaluating the use of net income as a proxy for cash flow in valuation, what is the main issue that analysts need to consider?
+
+A. Net income includes non-cash items that may distort the true cash-generating capacity of a company.
+B. Net income is a reliable measure of a company's ability to pay dividends to shareholders.
+C. Net income reflects all operating cash flows without adjustments.","wer: A
+
+Explanation: Net income includes non-cash items such as depreciation and amortization that do not represent actual cash flows. Using net income as a proxy for cash flow may distort the true cash-generating capacity of a company, leading to inaccuracies in valuation models that rely on cash flow measures."
+11,"A financial analyst is forecasting future free cash flows for a company. Which approach is commonly used to model changes in free cash flows over multiple periods?
+
+A. Forecasting sales and deriving profitability, investments, and financing based on sales growth.
+B. Reliance on historical cash flow patterns without adjustments for future developments.
+C. Extrapolating current free cash flow figures without considering external factors.
+C. Adjusting net income figures directly for changes in operating efficiency.","wer: A
+
+Explanation: Analysts often forecast free cash flows by starting with sales projections and deriving future profitability, investments, and financing needs based on expected changes in sales growth. This approach considers how operational performance affects cash flow generation over multiple periods."
+12,"Which of the following scenarios is a situation where using the free cash flow to equity (FCFE) model would be preferred over the dividend discount model (DDM)?
+
+A. A company with stable dividend payments well-aligned with its free cash flows.
+B. An investor seeking control over the use of cash flows in a company not paying dividends.
+C. A company consistently issuing new shares to finance its growth.","wer: B
+
+Explanation: The FCFE model is preferred over the DDM when an investor takes a control perspective, seeking discretion over the uses of cash flows in a company. In situations where the company does not pay dividends or where dividends differ significantly from free cash flows, the FCFE model provides a more suitable approach for valuation."
+13,"When valuing equity using the free cash flow to the firm (FCFF) approach, how can non-common-stock capital, such as debt, be accounted for in the valuation process?
+
+A. Subtract the market value of debt from the value of the firm to estimate the equity value.
+B. Add the book value of debt to the market value of equity to determine the value of common stock.
+C. Disregard the impact of debt on equity valuation, focusing solely on free cash flows.","wer: A
+
+Explanation: To estimate the value of equity using the FCFF model, subtracting the market value of debt from the value of the firm provides an indirect method to arrive at the equity value. This approach accounts for the claims of non-common-stock capital holders and isolates the value attributable to common stockholders."
+14,"In a two-stage free cash flow valuation model, what does a constant growth rate in each stage imply for the future cash flows of the company?
+
+A. Cash flows will vary significantly from one period to another, leading to unstable valuations.
+B. There will be a consistent growth rate in free cash flows for each stage of the company's performance.
+C. The company's cash flows will decline steadily over the two stages, reflecting decreasing profitability.","wer: B
+
+Explanation: A constant growth rate in each stage of a two-stage free cash flow valuation model implies a consistent and predictable growth pattern for free cash flows over the specified periods. This assumption allows for simplified modeling of future cash flow projections based on stable and sustainable growth rates."
+15,"When valuing a company's equity, how does sensitivity analysis contribute to the evaluation of the free cash flow models?
+
+A. It helps assess the impact of changes in key assumptions on the resulting equity valuation.
+B. It determines the intrinsic value of equity based on historical performance metrics.
+C. It focuses on presenting multiple valuation models without considering variations in input variables.","wer: A
+
+Explanation: Sensitivity analysis is used to assess the sensitivity of equity valuations to changes in key assumptions or input variables within free cash flow models. By varying assumptions such as growth rates, discount rates, or terminal values, analysts can evaluate the robustness of the valuation outcomes and understand the potential impact of different scenarios on equity values."
+16,"In a multistage free cash flow valuation model, what role does the terminal value calculation play in estimating the total value of a company's equity?
+
+A. It represents the cumulative cash flows generated by a company before discounting for present value.
+B. It reflects the residual value of a company beyond the explicit forecast period, often using stable growth assumptions.
+C. It quantifies the immediate market value of a company's equity based on its current cash flows.","wer: B
+
+Explanation: The terminal value calculation in a multistage free cash flow valuation model estimates the residual value of a company's equity beyond the explicit forecast period. By applying stable growth assumptions to project cash flows indefinitely, the terminal value captures the ongoing value contribution of the company and plays a crucial role in determining the total equity value."
+17,"1. A financial analyst is calculating residual income for a company. Which of the following statements is true regarding residual income?
+
+A. It deducts the cost of equity capital from net income to determine value added.
+B. It includes only a charge for the cost of debt capital.
+C. It is equivalent to net income.","wer: A
+
+Explanation: Residual income is calculated by deducting the cost of equity capital from net income. This residual income measure helps determine the value added by a company after considering the costs of equity capital, reflecting the economic profit generated."
+18,"A financial analyst is using residual income in valuation. If a company consistently earns more than its cost of equity capital, how does residual income change over time?
+
+A. Increases
+B. Decreases
+C. Remains constant","wer: A
+
+Explanation: If a company consistently earns more than its cost of equity capital, its residual income will increase over time. This signifies that the company is generating economic value for shareholders."
+19,"A financial analyst is comparing residual income valuation with a price multiple approach. How does residual income differ from a price multiple approach in valuing common stock?
+
+A. Residual income explicitly accounts for the cost of equity capital.
+B. Price multiple approach uses multiples based on historical prices.
+C. Residual income is not influenced by market sentiment.","wer: A
+
+Explanation: Residual income explicitly accounts for the cost of equity capital in valuing common stock, which the price multiple approach does not consider. This makes residual income valuation more robust in reflecting the economic profitability of a company."
+20,"A financial analyst is applying the residual income model to estimate the intrinsic value of common stock. What fundamental determinants impact residual income?
+
+A. Return on equity and earnings growth rates
+B. Market sentiment and stock price volatility
+C. Economic indicators and industry trends","wer: A
+
+Explanation: In the residual income model, fundamental determinants such as return on equity and earnings growth rates play a crucial role in determining the value added by a company. These factors directly affect the calculation of residual income."
+21,"When using residual income to value a common stock, what does the intrinsic value of a share comprise of?
+
+A. Book value per share and present value of expected per-share residual income
+B. Future market price projections
+C. Historical dividend payouts","wer: A
+
+Explanation: The intrinsic value of a share in the residual income model consists of the book value per share and the present value of expected per-share residual income. This holistic approach factors in both current book value and future residual income projections."
+22,"A financial analyst is comparing residual income models to dividend discount models. What is a key strength of using residual income models for valuation?
+
+A. Explicitly considers the cost of equity capital
+B. Relies on absolute dividend payouts
+C. Requires constant forecasting of dividends","wer: A
+
+Explanation: A key strength of residual income models is their explicit consideration of the cost of equity capital. This ensures a comprehensive reflection of the total capital costs in determining the intrinsic value of a company's common stock."
+23,"A financial analyst is calculating the implied growth rate in residual income. If the market price-to-book ratio increases, what happens to the implied growth rate?
+
+A. Increases
+B. Decreases
+C. Remains unchanged","wer: A
+
+Explanation: An increase in the market price-to-book ratio implies a higher implied growth rate in residual income. This relationship indicates that market expectations for growth are reflected in the pricing multiples."
+24,"When justifying the estimate of continuing residual income at the forecast horizon, what factors should a financial analyst consider?
+
+A. Company and industry prospects
+B. Historical stock performance
+C. Economic policy changes","wer: A
+
+Explanation: In estimating continuing residual income, a financial analyst should consider factors such as company and industry prospects to justify the persistence of residual income beyond the forecast horizon. Market and industry conditions influence the sustainability of income streams."
+25,"A financial analyst is evaluating whether a stock is overvalued, fairly valued, or undervalued using a residual income model. How does the model compare to free cash flow models in assessing stock valuation?
+
+A. Residual income models explicitly account for the cost of equity capital.
+B. Free cash flow models focus on short-term profitability.
+C. Residual income models rely solely on future earnings projections.","wer: A
+
+Explanation: Residual income models explicitly account for the cost of equity capital, offering a more comprehensive approach to stock valuation compared to free cash flow models. By factoring in equity costs, residual income models provide a more robust assessment of intrinsic value."
+26,"A financial analyst is facing accounting challenges while applying the residual income valuation method. What specific accounting issues should the analyst be aware of in using residual income models?
+
+A. Recognition of all capital costs
+B. Treatment of goodwill impairment
+C. Capitalization of research and development expenses","wer: A
+
+Explanation: An important accounting issue in applying residual income valuation is the accurate recognition of all capital costs used in generating income. Ensuring that all relevant costs, including equity capital charges, are appropriately considered in the valuation process strengthens the reliability of the residual income model."

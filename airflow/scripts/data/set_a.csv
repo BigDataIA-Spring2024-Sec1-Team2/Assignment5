@@ -1,0 +1,161 @@
+id,question,answer
+1,"1. Based on the description provided, what is the intrinsic value of an asset?  
+
+A. The hypothetical complete understanding of the asset’s investment characteristics.  
+B. The asset's value based on its current market price.  
+C. The asset's value based on external market factors.","wer: A  
+
+Explanation: Intrinsic value refers to the value of an asset based on a complete understanding of its investment characteristics. It incorporates the going concern assumption and is not solely based on market price fluctuations. Understanding the intrinsic value is essential for effective investing decisions."
+2,"How does the going concern value differ from the liquidation value of a company?  
+
+A. Going concern value assumes continuous operations, while liquidation value assumes asset sale.  
+B. Going concern value is based on market factors, while liquidation value is based on book value.  
+C. Going concern value reflects the company's intangible worth, while liquidation value focuses on tangible assets.","wer: A  
+
+Explanation: The going concern value assumes the company will continue operating as normal, considering future cash flows and operations. In contrast, the liquidation value represents the company's worth if it were dissolved and its assets sold off individually, often at a disadvantageous price compared to ongoing operations."
+3,"When selecting a valuation model, what is a critical consideration for a financial analyst?  
+
+A. Data availability and quality.  
+B. Historical performance of the company.  
+C. Industry average valuation multiples.","wer: A  
+
+Explanation: Selecting the appropriate valuation model requires evaluating the availability and reliability of data for the specific company being valued. The analyst needs accurate and relevant information to make informed decisions about the valuation approach to use."
+4,"Why is it essential for analysts to communicate valuation assumptions and calculations clearly?  
+
+A. To ensure transparency and accountability in the evaluation process.  
+B. To impress clients with technical expertise.  
+C. To align with industry standards without adding value to the analysis.","wer: A  
+
+Explanation: Clear communication of valuation assumptions and calculations is crucial to maintain transparency and accountability in the evaluation process. It helps build trust with clients, regulators, and stakeholders by demonstrating a thorough and objective analysis."
+5,"What role do control premiums and illiquidity discounts play in the valuation process?  
+
+A. Adjusting for the value of a controlling interest and lack of market liquidity.  
+B. Enhancing the company's perceived value based on management control.  
+C. Ignoring external market pressures for accurate assessment.","wer: A  
+
+Explanation: Control premiums account for the additional value of a controlling interest in a company, while illiquidity discounts adjust for the lack of marketability in the company's shares. These factors are critical in refining valuation models to reflect real-world market conditions accurately."
+6,"In relative valuation models, why do analysts compare a stock's price multiple to a benchmark?  
+
+A. To assess the stock's valuation relative to similar assets or the market.  
+B. To determine the company's historical performance compared to industry peers.  
+C. To identify trends in the stock's price without external references.","wer: A  
+
+Explanation: Relative valuation involves comparing a stock's price multiple with a benchmark to assess its valuation relative to similar assets or the overall market. This comparison helps determine if the stock is undervalued or overvalued based on industry standards and market conditions."
+7,"How does sum-of-the-parts valuation differ from traditional valuation approaches?  
+
+A. It values a company based on the separate worth of its divisions or segments.  
+B. It relies solely on discounted cash flow for valuation.  
+C. It ignores the impact of industry factors on valuation.","wer: A  
+
+Explanation: Sum-of-the-parts valuation values a company based on the individual worth of its distinct divisions or segments, considering each part's contribution to the overall value. This approach offers a more granular view of the company's worth compared to a unified valuation method."
+8,"When choosing a valuation approach, why is it crucial for analysts to consider the characteristics of the company being valued?  
+
+A. To ensure the chosen approach aligns with the company's unique attributes.  
+B. To prioritize speed and efficiency over accuracy in valuation.  
+C. To follow industry trends regardless of company specifics.","wer: A  
+
+Explanation: Analysts must consider the company's unique characteristics when selecting a valuation approach to ensure alignment with the business model, industry dynamics, and financial performance. Tailoring the valuation method to company specifics enhances the accuracy and relevance of the valuation results."
+9,"1. Which valuation approach estimates the value of the firm by discounting future free cash flows at the weighted average cost of capital (WACC)?
+
+A. Dividend discount model (DDM)
+B. Residual income approach
+C. Free cash flow to firm (FCFF) model","wer: C 
+
+Explanation: The FCFF valuation approach estimates the value of the firm by discounting future FCFF at the WACC. FCFF represents the cash flows available to all investors in the company and is a key component in DCF valuation models."
+10,"Why do analysts prefer to use free cash flow (FCFF or FCFE) as the return in certain situations?
+
+A. If the company pays high dividends
+B. If the investor seeks capital appreciation
+C. If there is a control perspective or significant divergence in dividend capacity","wer: C
+
+Explanation: Analysts prefer to use free cash flow as the return if the company does not pay dividends, dividends significantly differ from the company's capacity, profitability aligns with free cash flow, or if there is a control perspective for the investor."
+11,"How are FCFF and FCFE interrelated in terms of calculation and components?
+
+A. FCFE equals FCFF plus interest minus net borrowing
+B. FCFE equals FCFF minus interest minus net borrowing
+C. FCFE equals FCFF minus interest plus net borrowing","wer: B
+
+Explanation: FCFE is calculated as FCFF minus interest (1 - Tax rate) plus net borrowing. These formulas show the relationship between FCFF, FCFE, interest, and net borrowing in the context of cash flow analysis."
+12,"When using a two-stage free cash flow valuation model, what does the first stage typically assume?
+
+A. Constant growth in free cash flow
+B. Declining growth followed by stable growth
+C. Continuous fluctuations in cash flow from year to year","wer: B
+
+Explanation: A common two-stage model assumes declining growth in the initial stage followed by a stable growth rate in the second stage. This model allows for a more nuanced analysis of future cash flows."
+13,"How does the weighted average cost of capital (WACC) formula adjust for the firm's capital structure?
+
+A. It includes the market value of debt and equity in the denominator
+B. It multiplies the cost of debt by the tax rate
+C. It considers the market value of equity only","wer: A
+
+Explanation: The WACC formula incorporates the market value of debt and equity in the denominator, reflecting the firm's capital structure and the relative importance of debt and equity in determining the cost of capital."
+14,"What impact would a coding error in the factor weighting have on the client's investment when using a quantitative strategy?
+
+A. Increased returns due to dynamic allocation
+B. Reduced risk due to adjusted weightings
+C. Potential negative effect on performance","wer: C
+
+Explanation: A coding error in factor weightings can have a significant negative impact on the client's investment performance, potentially leading to undesired outcomes or unexpected results."
+15,"In which scenario should an analyst value a company directly using the present value of free cash flow to equity (FCFE)?
+
+A. When the company has stable dividend payments
+B. When there is a significant non-common-stock capital structure
+C. When the company's equity value needs to be estimated directly","wer: C
+
+Explanation: Valuing the company directly using the present value of FCFE involves estimating the equity value by subtracting non-common-stock capital. This method is useful when a direct estimate of equity value is required."
+16,"How do constant growth models differ from multistage models in free cash flow valuation?
+
+A. They assume changing growth rates over time
+B. They consider a single growth rate for all stages
+C. They involve dynamic weighting components","wer: B
+
+Explanation: Constant growth models assume a single growth rate for all stages, while multistage models allow for varying growth rates over different periods, reflecting the dynamic nature of a company's cash flows."
+17,"1. When valuing common stock using residual income models, which component explicitly accounts for the opportunity cost of common shareholders in generating net income?
+    
+A. Net income  
+B. Residual income  
+C. Equity charge","wer: C
+
+Explanation: The equity charge in residual income models explicitly represents the opportunity cost of common shareholders in generating net income. It deducts the cost of equity capital, ensuring that all capital costs are considered. Residual income is the net income less this equity charge, making option C the correct choice."
+18,"How does the concept of residual income relate to the fundamental measure of return on equity (ROE)?
+
+A. Residual income is equal to ROE  
+B. Residual income is a component of ROE  
+C. ROE is the cost of equity in residual income models","wer: B
+
+Explanation: Residual income is a measure that extends beyond ROE by deducting the cost of equity capital. While ROE represents the return generated on equity, residual income focuses on the surplus income beyond the cost of equity. This makes option B the accurate choice in understanding their relationship."
+19,"In residual income valuation, what is typically added to the current per-share book value to calculate the intrinsic value of common stock?
+
+A. Current earnings per share 
+B. Required rate of return on equity 
+C. Expected future per-share residual income","wer: C
+
+Explanation: The intrinsic value of common stock in the residual income model is computed by adding the current per-share book value to the present value of expected future per-share residual income. This residual income includes the surplus earnings after subtracting the cost of equity, making option C the suitable selection."
+20,"Within the two-stage residual income model, what element represents the additional value beyond the estimated per-share book value at the terminal time?
+
+A. Expected earnings growth rate 
+B. Terminal price 
+C. Continuing residual income","wer: C
+
+Explanation: Continuing residual income in the two-stage model reflects the additional value beyond the estimated per-share book value at the terminal time. This ongoing residual income captures the extended value creation potential, making option C the correct answer."
+21,"How are floating-rate bonds different in terms of spread duration compared to non-callable fixed-rate bonds?
+
+A. Similar 
+B. Higher 
+C. Lower","wer: A
+
+Explanation: For floating-rate bonds, the spread duration is usually very close to the modified duration, similar to non-callable fixed-rate bonds. Their sensitivity to interest rate changes is almost equivalent, making option A the accurate choice in differentiating spread durations."
+22,"If the current OAS for a bond is 120 bps, the expected OAS in 6 months is 130 bps, and the spread duration is","wer: B
+
+Explanation: Calculating the expected excess return using the provided data yields a value of"
+23,"25%. This calculation involves changes in spread and spread duration, resulting in the expected return, making option B the correct response.","wer: C
+
+Explanation: Market 3, with a high concentration of CCC-rated bonds and low expected supply of newly issued high-yield bonds, is expected to perform best in a bullish global environment. It indicates a potentially advantageous positioning, making option C the most suitable choice."
+24,"Which structured financial instrument best aligns with a client's preference for financial sector exposure and multiple credit protection sources?
+
+A. Covered bonds
+B. Asset-backed securities
+C. Collateralized debt obligations","wer: A
+
+Explanation: Covered bonds offer more than one source of credit protection and align with the client's preferences for financial sector exposure and safety measures. These bonds offer dual protection to creditors, making them suitable for the client's requirements, leading to option A being the correct selection."

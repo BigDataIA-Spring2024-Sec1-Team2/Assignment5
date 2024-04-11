@@ -1,0 +1,232 @@
+id,summary
+1," **LOS**: The member should be able to: define valuation and intrinsic value and explain sources of perceived mispricing 
+ 
+ **Summary**: The learning outcomes of the reading are focused on defining valuation and intrinsic value, as well as explaining sources of perceived mispricing.  
+
+ _________ 
+"
+2," **LOS**:  explain the going concern assumption and contrast a going concern value to a liquidation value 
+ 
+ **Summary**: The learning outcomes of the reading are:
+1. Explain the going concern assumption
+2. Contrast a going concern value to a liquidation value.  
+
+ _________ 
+"
+3," **LOS**:  describe definitions of value and justify which definition of value is most relevant to public company valuation 
+ 
+ **Summary**: The reading focuses on defining value and discussing its relevance to the valuation of public companies. It explores different definitions of value and emphasizes the importance of determining the most relevant definition when valuing public companies.  
+
+ _________ 
+"
+4," **LOS**:  describe applications of equity valuation 
+ 
+ **Summary**: The learning outcomes of the reading are focused on describing the applications of equity valuation in the financial context.  
+
+ _________ 
+"
+5," **LOS**:  describe questions that should be addressed in conducting an industry and competitive analysis 
+ 
+ **Summary**: The learning outcome of the reading is to describe the questions that should be addressed when conducting an industry and competitive analysis.  
+
+ _________ 
+"
+6," **LOS**:  contrast absolute and relative valuation models and describe examples of each type of model 
+ 
+ **Summary**: The learning outcomes of the reading are to:
+
+1. Contrast absolute and relative valuation models.
+2. Describe examples of each type of model.  
+
+ _________ 
+"
+7," **LOS**:  describe sum-of-the-parts valuation and conglomerate discounts 
+ 
+ **Summary**: The reading covers the following learning outcomes:
+1. **Sum-of-the-parts valuation:** This method involves valuing a company by separately valuing its individual business segments or divisions and then summing these values to get the total value of the company.
+2. **Conglomerate discounts:** This refers to the situation where the total value of a diversified conglomerate company is less than the sum of the individual values of its parts due to factors such as complexity, lack of focus, and difficulty in valuing diverse businesses.  
+
+ _________ 
+"
+8," **LOS**:  explain broad criteria for choosing an appropriate approach for valuing a given company. 
+ 
+ **Summary**: The learning outcome is to understand the general criteria for selecting an appropriate approach to value a company.  
+
+ _________ 
+"
+9," **LOS**: The member should be able to: compare the free cash flow to the firm (FCFF) and free cash flow to equity (FCFE) approaches to valuation 
+ 
+ **Summary**: The learning outcomes of the reading are to compare the free cash flow to the firm (FCFF) and free cash flow to equity (FCFE) approaches to valuation.  
+
+ _________ 
+"
+10," **LOS**:  explain the ownership perspective implicit in the FCFE approach 
+ 
+ **Summary**: The Free Cash Flow to Equity (FCFE) approach is based on the perspective that the equity holders are the residual owners of a company's cash flows after all other claims have been satisfied. This approach focuses on the cash flows available to the equity shareholders after accounting for reinvestment needs and debt holders' claims. The FCFE is calculated as:
+
+\[
+FCFE = Net Income - Net Capital Expenditure - Change in Net Working Capital + Net Borrowing
+\]
+
+This perspective underscores the idea that equity holders are entitled to the cash flows remaining after all obligations have been met, reflecting their ownership stake in the company.  
+
+ _________ 
+"
+11," **LOS**:  explain the appropriate adjustments to net income, earnings before interest and taxes (EBIT), earnings before interest, taxes, depreciation, and amortization (EBITDA), and cash flow from operations (CFO) to calculate FCFF and FCFE 
+ 
+ **Summary**: The learning outcomes of the reading are to understand the adjustments needed to calculate Free Cash Flow to the Firm (FCFF) and Free Cash Flow to Equity (FCFE) from the following financial metrics:
+
+1. Net Income
+2. Earnings Before Interest and Taxes (EBIT)
+3. Earnings Before Interest, Taxes, Depreciation, and Amortization (EBITDA)
+4. Cash Flow from Operations (CFO)  
+
+ _________ 
+"
+12," **LOS**:  calculate FCFF and FCFE 
+ 
+ **Summary**: The learning outcomes of the reading are focused on calculating Free Cash Flow to Firm (FCFF) and Free Cash Flow to Equity (FCFE). These are important metrics in financial analysis to evaluate a company's financial performance and ability to generate cash for its investors. The formulas for FCFF and FCFE are typically as follows:
+
+- FCFF = EBIT(1-Tax Rate) + Depreciation & Amortization - Capital Expenditures - Change in Working Capital
+- FCFE = Net Income + Depreciation & Amortization - Capital Expenditures - Change in Working Capital + Net Borrowing
+
+These calculations help in understanding how much cash a company is generating after accounting for its operating expenses, investments, and changes  
+
+ _________ 
+"
+13," **LOS**:  describe approaches for forecasting FCFF and FCFE 
+ 
+ **Summary**: The learning outcomes of the reading are as follows:
+
+- Forecasting Free Cash Flow to the Firm (FCFF)
+- Forecasting Free Cash Flow to Equity (FCFE)  
+
+ _________ 
+"
+14," **LOS**:  compare the FCFE model and dividend discount models 
+ 
+ **Summary**: The learning outcomes of the reading are to compare the Free Cash Flow to Equity (FCFE) model with the Dividend Discount Model (DDM) in the context of valuation and investment analysis.  
+
+ _________ 
+"
+15," **LOS**:  explain how dividends, share repurchases, share issues, and changes in leverage may affect future FCFF and FCFE 
+ 
+ **Summary**: The learning outcomes of the reading are to understand how dividends, share repurchases, share issues, and changes in leverage can impact future Free Cash Flow to the Firm (FCFF) and Free Cash Flow to Equity (FCFE). These factors can influence the cash flows available to both debt and equity holders of a company.  
+
+ _________ 
+"
+16," **LOS**:  evaluate the use of net income and EBITDA as proxies for cash flow in valuation 
+ 
+ **Summary**: The learning outcomes of the reading are focused on evaluating the use of net income and EBITDA as proxies for cash flow in valuation.  
+
+ _________ 
+"
+17," **LOS**:  explain the single-stage (stable-growth), two-stage, and three-stage FCFF and FCFE models and select and justify the appropriate model given a company’s characteristics 
+ 
+ **Summary**: The learning outcomes of the reading include understanding and explaining the single-stage (stable-growth), two-stage, and three-stage Free Cash Flow to Firm (FCFF) and Free Cash Flow to Equity (FCFE) models. These models are used in valuation to estimate the value of a company based on its future cash flows. The appropriate model to use depends on the characteristics of the company being analyzed.  
+
+ _________ 
+"
+18," **LOS**:  estimate a company’s value using the appropriate free cash flow model(s) 
+ 
+ **Summary**: The learning outcome of the reading is to be able to estimate a company's value using the appropriate free cash flow model(s).  
+
+ _________ 
+"
+19," **LOS**:  explain the use of sensitivity analysis in FCFF and FCFE valuations 
+ 
+ **Summary**: The learning outcome of the reading is to understand the use of sensitivity analysis in Free Cash Flow to Firm (FCFF) and Free Cash Flow to Equity (FCFE) valuations. Sensitivity analysis helps in assessing how changes in key input variables impact the valuation results of a company. By varying one input at a time while keeping others constant, analysts can determine the sensitivity of the valuation model to changes in assumptions. This analysis provides insights into the key drivers of value and helps in understanding the potential risks and uncertainties involved in the valuation process.  
+
+ _________ 
+"
+20," **LOS**:  describe approaches for calculating the terminal value in a multistage valuation model 
+ 
+ **Summary**: The learning outcomes of the reading are focused on describing approaches for calculating the terminal value in a multistage valuation model.  
+
+ _________ 
+"
+21," **LOS**:  and evaluate whether a stock is overvalued, fairly valued, or undervalued based on a free cash flow valuation model. 
+ 
+ **Summary**: The main learning outcome from the reading is to understand how to evaluate whether a stock is overvalued, fairly valued, or undervalued using a free cash flow valuation model.  
+
+ _________ 
+"
+22," **LOS**: The member should be able to: calculate and interpret residual income, economic value added, and market value added 
+ 
+ **Summary**: The learning outcomes of the reading are focused on the ability to calculate and interpret three key performance measures: residual income, economic value added (EVA), and market value added.  
+
+ _________ 
+"
+23," **LOS**:  describe the uses of residual income models 
+ 
+ **Summary**: The learning outcome of the reading is to describe the uses of residual income models.  
+
+ _________ 
+"
+24," **LOS**:  calculate the intrinsic value of a common stock using the residual income model and compare value recognition in residual income and other present value models 
+ 
+ **Summary**: The learning outcomes of the reading material include:
+
+1. Calculating the intrinsic value of a common stock using the residual income model.
+2. Comparing value recognition in residual income model with other present value models.  
+
+ _________ 
+"
+25," **LOS**:  explain fundamental determinants of residual income 
+ 
+ **Summary**: The learning outcome of the reading is to understand and explain the fundamental determinants of residual income.  
+
+ _________ 
+"
+26," **LOS**:  explain the relation between residual income valuation and the justified price-to-book ratio based on forecasted fundamentals 
+ 
+ **Summary**: The reading discusses the relationship between residual income valuation and the justified price-to-book ratio based on forecasted fundamentals. It explores how residual income valuation can be used to determine the intrinsic value of a company's stock, which can then be compared to the price-to-book ratio to assess whether a stock is undervalued or overvalued. The analysis involves forecasting future fundamentals of a company and using the residual income model to calculate the present value of expected future residual income. This information can then be used to determine the appropriate price-to-book ratio for the stock.  
+
+ _________ 
+"
+27," **LOS**:  calculate and interpret the intrinsic value of a common stock using single-stage (constant-growth) and multistage residual income models 
+ 
+ **Summary**: The learning outcomes of the reading are as follows:
+1. Calculating the intrinsic value of a common stock using a single-stage (constant-growth) residual income model.
+2. Interpreting the intrinsic value of a common stock using a multistage residual income model.  
+
+ _________ 
+"
+28," **LOS**:  calculate the implied growth rate in residual income, given the market price-to-book ratio and an estimate of the required rate of return on equity 
+ 
+ **Summary**: The learning outcome from the reading material is to be able to calculate the implied growth rate in residual income using the market price-to-book ratio and an estimate of the required rate of return on equity.  
+
+ _________ 
+"
+29," **LOS**:  explain continuing residual income and justify an estimate of continuing residual income at the forecast horizon, given company and industry prospects 
+ 
+ **Summary**: The learning outcomes of the reading are to understand continuing residual income and be able to justify an estimate of continuing residual income at the forecast horizon based on company and industry prospects.  
+
+ _________ 
+"
+30," **LOS**:  compare residual income models to dividend discount and free cash flow models 
+ 
+ **Summary**: The learning outcomes of the reading are to compare residual income models with dividend discount models and free cash flow models.  
+
+ _________ 
+"
+31," **LOS**:  explain strengths and weaknesses of residual income models and justify the selection of a residual income model to value a company’s common stock 
+ 
+ **Summary**: The learning outcomes of the reading are as follows:
+- Explain the strengths and weaknesses of residual income models.
+- Justify the selection of a residual income model to value a company's common stock.  
+
+ _________ 
+"
+32," **LOS**:  describe accounting issues in applying residual income models 
+ 
+ **Summary**: The learning outcome of the reading is to be able to describe accounting issues that may arise when applying residual income models in finance.  
+
+ _________ 
+"
+33," **LOS**:  evaluate whether a stock is overvalued, fairly valued, or undervalued based on a residual income model. 
+ 
+ **Summary**: The reading focuses on using a residual income model to determine if a stock is overvalued, fairly valued, or undervalued. This model involves calculating the intrinsic value of a stock by considering the present value of future residual incomes. By comparing the calculated intrinsic value to the current market price of the stock, investors can make informed decisions about its valuation.  
+
+ _________ 
+"
