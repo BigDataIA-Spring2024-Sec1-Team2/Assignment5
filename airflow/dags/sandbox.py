@@ -208,33 +208,33 @@ def generate_set_a(openai_api_key, topic, context):
     conv['content'] = "Generate another set of 10 question and their detailed answers. Make sure that there are no duplicates and these questions are different than the previously generated questions. Also, number these questions starting from 11."
     history.append(conv)
 
-    # response = generate_25_qna(openai_api_key, history)
-    # print(response)
-    # qna_set.extend(parse_response(response))
+    response = generate_25_qna(openai_api_key, history)
+    print(response)
+    qna_set.extend(parse_response(response))
 
-    # conv['role'] = "user"
-    # conv['content'] = "Generate another set of 10 question and their detailed answers. Make sure that there are no duplicates and these questions are different than the previously generated questions. Also, number these questions starting from 11."
-    # history.append(conv)
+    conv['role'] = "user"
+    conv['content'] = "Generate another set of 10 question and their detailed answers. Make sure that there are no duplicates and these questions are different than the previously generated questions. Also, number these questions starting from 11."
+    history.append(conv)
 
-    # response = generate_25_qna(openai_api_key, history)
-    # print(response)
-    # qna_set.extend(parse_response(response))
+    response = generate_25_qna(openai_api_key, history)
+    print(response)
+    qna_set.extend(parse_response(response))
 
-    # conv['role'] = "user"
-    # conv['content'] = "Generate another set of 10 question and their detailed answers. Make sure that there are no duplicates and these questions are different than the previously generated questions. Also, number these questions starting from 11."
-    # history.append(conv)
+    conv['role'] = "user"
+    conv['content'] = "Generate another set of 10 question and their detailed answers. Make sure that there are no duplicates and these questions are different than the previously generated questions. Also, number these questions starting from 11."
+    history.append(conv)
 
-    # response = generate_25_qna(openai_api_key, history)
-    # print(response)
-    # qna_set.extend(parse_response(response))
+    response = generate_25_qna(openai_api_key, history)
+    print(response)
+    qna_set.extend(parse_response(response))
 
-    # conv['role'] = "user"
-    # conv['content'] = "Generate another set of 10 question and their detailed answers. Make sure that there are no duplicates and these questions are different than the previously generated questions. Also, number these questions starting from 11."
-    # history.append(conv)
+    conv['role'] = "user"
+    conv['content'] = "Generate another set of 10 question and their detailed answers. Make sure that there are no duplicates and these questions are different than the previously generated questions. Also, number these questions starting from 11."
+    history.append(conv)
 
-    # response = generate_25_qna(openai_api_key, history)
-    # print(response)
-    # qna_set.extend(parse_response(response))
+    response = generate_25_qna(openai_api_key, history)
+    print(response)
+    qna_set.extend(parse_response(response))
 
 
     return qna_set
@@ -253,7 +253,7 @@ def generate_25_qna(client, history):
 def parse_response(response):
     try:
         # questions = response.split("Answer:")
-        questions = response.split("Ans")
+        questions = response.split("Answer:")
         res = []
         ques = {}
         ques["question"] = questions[0].strip()
@@ -320,7 +320,6 @@ def qna_main_block():
 
 def create_pine_index(api_key, index_name, dimension):
     pinecone = Pinecone(api_key=api_key)
-    # pinecone = PineconeGRPC(api_key=api_key)
     # Check whether the index with the same name already exists - if so, delete it
     if index_name in pinecone.list_indexes().names():
         pinecone.delete_index(index_name)
@@ -369,7 +368,6 @@ def save_to_pinecone_main_block():
     # Generate embeddings for questions and answers
     question_embeddings = generate_embeddings(questions, embed_model, openai_api_key)
     answer_embeddings = generate_embeddings(answers, embed_model, openai_api_key)
-    # vector_id = [str(i) for i in range(len(question_embeddings))]
     print(len(question_embeddings), len(answer_embeddings), len(answer_embeddings[0]))
 
     # Create pinecone index
@@ -377,21 +375,14 @@ def save_to_pinecone_main_block():
     retryIndicator = True
     while retry>0 and retryIndicator :
         try :
-            print(' retry pine index ---------------yoloooooo')
             pine_index = create_pine_index(pinecone_api_key, index_name, len(answer_embeddings[0]))
             
-
-            print(' retry pine index---------------yoloooooo----------------holoooooo')
             retryIndicator = False
         except Exception as e: 
             print( 'error in create pine index retry for '+namespace + "   ---> " + str(e) )
             time.sleep(1)
             retry -=1
             print('error in' +  str(retry))
-
-
-
-    # pine_index = create_pine_index(pinecone_api_key, index_name, len(answer_embeddings[0]))
     # Upsert question vectors in questions namespace 
     print("Uploading vectors to questions namespace..")
     print(vector_id)
@@ -429,9 +420,6 @@ def query_article(ques, ques_mapped, answer_mapped, namespace, client,index, top
     query_result = index.query(vector=embedded_query, 
                                       namespace=namespace, 
                                       top_k=top_k)
-
-    # Print query results 
-    # print(f'\nMost similar results to {ques} in "{namespace}" namespace:\n')
     if not query_result.matches:
         print('no query result')
     
@@ -443,14 +431,6 @@ def query_article(ques, ques_mapped, answer_mapped, namespace, client,index, top
                        'question': [ques_mapped[_id] for _id in ids],
                        'answer': [answer_mapped[_id] for _id in ids],
                        })
-    
-    counter = 0
-    # for k,v in df.iterrows():
-    #     counter += 1
-    #     print(f'(score = {v.score}) \nquestion={v.question}\n answer={v.answer} ')
-    
-    # print('\n')
-
     return df
 
 def get_answer(openai_client, question, context):
@@ -539,22 +519,18 @@ def use_case_3_main_block(part, file_name):
     
     print("Pinecone index = ", index_name)
     pinecone = Pinecone(api_key=api_key)
-    # pinecone = PineconeGRPC(api_key=api_key)
     pine_index = pinecone.Index(name=index_name)
     final_df = []
 
     # 2. find 3 questions in Set A that are most similar
     for idx, row in set_b.iterrows():
         print("Processing question ", idx)
-        # print("question = ", row['question'])
         df = query_article(row['question'], ques_mapped, answer_mapped, namespace, openai_client, pine_index)
 
         # 3. pass the answers of these 3 questions to GPT-4 along with the question
         context = ''.join(df.answer.values)
-        # print("context = ", context)
         response = get_answer(openai_client,row['question'], context)
-        # print("response = ", response)
-
+       
         # 4. Compare the answer to the answer it correctly determined in step 3
         true_ans = row['answer']
         query1, query2, relatedness = strings_ranked_by_relatedness(response, true_ans, 'text-embedding-3-small') 
@@ -565,8 +541,6 @@ def use_case_3_main_block(part, file_name):
             "relativity" : relatedness
         }
         final_df.append(obj)
-        # print(query1, query2, relatedness)
-        # break
     save_to_csv_report(final_df, folder_path + file_name +'.csv')
 
 def use_case_3_final_block():
@@ -575,41 +549,6 @@ def use_case_3_final_block():
 
 
 def fetch_LO_data(topic_names):
-    # Create a connection to Snowflake
-    # with snowflake.connector.connect(
-    #     user=os.getenv('SNOWFLAKE_USER'),
-    #     password=os.getenv('SNOWFLAKE_PASSWORD'),
-    #     account=os.getenv('SNOWFLAKE_ACCOUNT'),
-    #     warehouse=os.getenv('SNOWFLAKE_WAREHOUSE'),
-    #     database=os.getenv('SNOWFLAKE_DATABASE'),
-    #     schema=os.getenv('SNOWFLAKE_SCHEMA')
-    # ) as conn:
-    #     with conn.cursor(DictCursor) as cur:
-    #         # Formulate the query string
-    #         formatted_topics = ', '.join(f"'{topic}'" for topic in topic_names)
-    #         query1 = "USE WAREHOUSE {}".format(os.getenv("SNOWFLAKE_WAREHOUSE"))
-    #         cur.execute(query1)
-    #         query = f"""
-    #             SELECT LEARNINGOUTCOME
-    #             FROM {os.getenv('SNOWFLAKE_DATABASE')}.{os.getenv('SNOWFLAKE_SCHEMA')}.URLDATA
-    #             WHERE TopicName IN ({formatted_topics});
-    #         """
-
-    #         # query = "CREATE OR REPLACE SCHEMA  {}.{};".format(os.getenv("SNOWFLAKE_DBT_DEV_DB"), os.getenv("SNOWFLAKE_DBT_SCHEMA"))
-    #         # query = """
-    #         #     SELECT LEARNINGOUTCOME
-    #         #     FROM {}.{}.{}.URLDATA
-    #         #     WHERE TopicName IN ({});
-    #         # """.format(os.getenv("SNOWFLAKE_WAREHOUSE"), os.getenv("SNOWFLAKE_DATABASE"), os.getenv("SNOWFLAKE_SCHEMA"), formatted_topics)
-            
-    #         # Execute the query
-    #         cur.execute(query)
-            
-    #         # Fetch all rows
-    #         rows = cur.fetchall()
-            
-    #         return rows
-
     conn = snowflake.connector.connect(
         user=os.getenv('SNOWFLAKE_USER'),
         password=os.getenv('SNOWFLAKE_PASSWORD'),
@@ -626,8 +565,6 @@ def fetch_LO_data(topic_names):
         
         # Set warehouse
         print("###########################", os.getenv("SNOWFLAKE_WAREHOUSE"))
-        # cur.execute("USE WAREHOUSE {};".format(os.getenv("SNOWFLAKE_WAREHOUSE")))
-        # Formulate the query string
         formatted_topics = ', '.join(f"'{topic}'" for topic in topic_names)
         query = f"""
             SELECT LEARNINGOUTCOME
@@ -640,7 +577,6 @@ def fetch_LO_data(topic_names):
         
         # Fetch all rows
         rows = cur.fetchall()
-        print("Hello My Rows###################", rows)
         cur.close()
         conn.close()
         return rows
@@ -688,28 +624,6 @@ def process_los_collection(los_collection):
                 markdown_LOsummaries.append(f" **LOS**: {los} \n \n **Summary**: {summary}  \n\n _________ \n")
     
     return "".join(markdown_LOsummaries),markdown_LOsummaries
-
-# def create_pine_index(api_key, index_name, dimension):
-#     # pinecone = Pinecone(api_key=api_key)
-#     pinecone = PineconeGRPC(api_key=api_key)
-#     # Check whether the index with the same name already exists - if so, delete it
-#     if index_name in pinecone.list_indexes().names():
-#         pinecone.delete_index(index_name)
-        
-#     pinecone.create_index(name=index_name, dimension=dimension, spec=PodSpec(environment="gcp-starter"))
-#     index = pinecone.Index(name=index_name)
-
-#     # Confirm our index was created
-#     print(pinecone.list_indexes())
-#     return index
-
-# # Define function to generate embeddings using OpenAI
-# def generate_embeddings(texts, embed_model):
-#     client = OpenAI()
-#     embeddings = []
-#     response = client.embeddings.create(input=texts, model=embed_model)
-#     embeddings = [record.embedding for record in response.data]
-#     return embeddings
 
 def save_markdown_document(consolidated_markdown, filename):
     with open(filename, 'w') as file:

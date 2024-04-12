@@ -1,17 +1,17 @@
 import streamlit as st
-from auth import authenticator
+# from auth import authenticator
 
-authenticator.login()
+# authenticator.login()
 if st.session_state["authentication_status"]:
     # Title
     st.title("View LOS Summary")
 
     # select topic
-    option = st.selectbox('Choose a CFA Topic:', ('Residual Income Valuation',  'Equity Valuation Applications and Processes',  'Free Cash Flow Valuation'))
+    option = st.selectbox('Choose a CFA Topic:', ('Residual Income Valuation',  'Equity Valuation: Applications and Processes',  'Free Cash Flow Valuation'))
 
     website = {}
     website['Residual Income Valuation'] = "https://www.cfainstitute.org/membership/professional-development/refresher-readings/residual-income-valuation"
-    website['Equity Valuation Applications and Processes'] = "https://www.cfainstitute.org/membership/professional-development/refresher-readings/equity-valuation-applications-processes"
+    website['Equity Valuation: Applications and Processes'] = "https://www.cfainstitute.org/membership/professional-development/refresher-readings/equity-valuation-applications-processes"
     website['Free Cash Flow Valuation'] = "https://www.cfainstitute.org/membership/professional-development/refresher-readings/equity-valuation-applications-processes"
 
     # Function to load markdown
