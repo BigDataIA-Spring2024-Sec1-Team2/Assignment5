@@ -68,7 +68,7 @@ Development of Knowledge Summaries
     * Deploy all services to a cloud platform ensuring they are accessible online.
 
 ## Live application links 
-* [Codelabs](https://codelabs-preview.appspot.com/?file_id=13UWgfF_JVTzwE2kEWWyr0eULCBK8SYV_W8wNYLnvs7w#11)
+* [Codelabs](https://codelabs-preview.appspot.com/?file_id=1xOGcMhYwCmjjOB1ChA7WBFG2N_Q2OKIhKTld12A6qSM#5)
 * [Streamlit](https://docs.getdbt.com/docs/introduction)
 
 ## Technology Used
