@@ -218,7 +218,18 @@ Development of Knowledge Summaries
 
 ## Architecture Diagram
 
-![Architecture Diagram ](images/architecture.png)
+![Architecture Diagram ](images/arch.png)
+
+
+![Architecture Diagram ](images/t1.png)
+
+
+![Architecture Diagram ](images/t2.png)
+
+![Architecture Diagram ](images/t3.png)
+
+
+![Architecture Diagram ](images/t4.png)
 
 ## Prerequisites
 Before setting up the project, please make sure you have the following prerequisites installed and configured:
