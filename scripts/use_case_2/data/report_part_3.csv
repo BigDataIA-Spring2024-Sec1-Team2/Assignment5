@@ -1,8 +1,0 @@
-id,question,true_ans,generated_ans,relativity
-1,"1. What is the definition of valuation as per the given knowledge base?
-
-   A. The estimation of an asset’s value based on variables related to future investment returns
-   B. The calculation of liquidation proceeds for an asset
-   C. The comparison of different assets based on their market prices","A
-
-   Explanation: Valuation, as per the knowledge base, is the estimation of an asset’s value based on variables perceived to be related to future investment returns. It involves assessing the worth of an asset through various factors influencing its potential returns in the future, rather than just the current market price.",A,0.20376761854344294

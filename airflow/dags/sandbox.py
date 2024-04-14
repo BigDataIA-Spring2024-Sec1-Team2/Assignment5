@@ -756,8 +756,5 @@ with dag:
         dag=dag,
     )
 
-
-# hello_world >> grobid_extraction >> push_extracted_files_to_s3 >> create_snowflake_schema
-# hello_world >> create_los_embeddings_pinecone_main_block >> parse_pdf >> qna_main_block >> save_to_pinecone_main_block >> use_case_3_final_block
 start >> create_los_embeddings_pinecone_main_block >> parse_pdf >> qna_main_block >> save_to_pinecone_main_block >> use_case_3_final_block
-# start >> parse_pdf >> qna_main_block >> save_to_pinecone_main_block >> use_case_3_final_block
+
