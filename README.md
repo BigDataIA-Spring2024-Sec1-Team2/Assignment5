@@ -69,7 +69,7 @@ Development of Knowledge Summaries
 
 ## Live application links 
 * [Codelabs](https://codelabs-preview.appspot.com/?file_id=1xOGcMhYwCmjjOB1ChA7WBFG2N_Q2OKIhKTld12A6qSM#5)
-* [Streamlit](https://docs.getdbt.com/docs/introduction)
+* [Streamlit](http://35.237.26.187:8501/)
 
 ## Technology Used
 
