@@ -71,7 +71,6 @@ Development of Knowledge Summaries
 * [Codelabs](https://codelabs-preview.appspot.com/?file_id=1xOGcMhYwCmjjOB1ChA7WBFG2N_Q2OKIhKTld12A6qSM#5)
 * [Streamlit](http://35.237.26.187:8501/)
 
-## Technology Used
 
 ## Technologies Used
 
