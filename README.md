@@ -8,6 +8,11 @@
 | Soeb Hussain | hussain.soe@northeastern.edu | 2747200 |
 
 # Assignment 5 
+## Live application links 
+* [Demo](https://youtu.be/N1_MXZ3kPRY)
+* [Codelabs](https://codelabs-preview.appspot.com/?file_id=1xOGcMhYwCmjjOB1ChA7WBFG2N_Q2OKIhKTld12A6qSM#5)
+* [Streamlit](http://35.237.26.187:8501/)
+
 
 ## Problem Statement
 
@@ -66,10 +71,6 @@ Development of Knowledge Summaries
 
     * Containerize the Streamlit app and all services using Docker.
     * Deploy all services to a cloud platform ensuring they are accessible online.
-
-## Live application links 
-* [Codelabs](https://codelabs-preview.appspot.com/?file_id=1xOGcMhYwCmjjOB1ChA7WBFG2N_Q2OKIhKTld12A6qSM#5)
-* [Streamlit](http://35.237.26.187:8501/)
 
 
 ## Technologies Used
